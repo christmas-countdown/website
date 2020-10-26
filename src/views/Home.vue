@@ -1,18 +1,26 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div class='content'>
+    <Navbar view='Home' />
+
+	<mdb-container fluid>
+
+	</mdb-container>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import Navbar from '@/components/Navbar.vue';
+
+import {
+	mdbContainer
+} from 'mdbvue';
 
 export default {
-  name: "Home",
+  name: 'Home',
   components: {
-    HelloWorld
+	Navbar,
+	mdbContainer
   }
 };
 </script>

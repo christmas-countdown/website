@@ -18,7 +18,7 @@
 		background: url('/assets/img/bg/default.jpg') no-repeat center center fixed;
 		background-size: cover;
 		color: white;
-		text-align: center;
+		/* text-align: center; */
 		/* font-family: 'Montserrat', sans-serif;
 		text-shadow: 3px 3px 3px #02020F; */
 		overflow: hidden;

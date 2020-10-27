@@ -5,7 +5,7 @@
 	<mdb-container> <!-- fluid -->
 		<mdb-row>
 			<mdb-col col='sm'>
-				<h1>Christmas Countdown</h1>
+				<h1 class='noselect'>Christmas Countdown</h1>
 			</mdb-col>
 		</mdb-row>
 
@@ -20,7 +20,7 @@
 			</mdb-col>
 		</mdb-row>
 
-		<mdb-row>
+		<mdb-row class='noselect'>
 			
 				<mdb-col col='md' class='box hoverable z-depth-5 hvr-grow'>
 				<mdb-row>
@@ -56,7 +56,7 @@
 
 		</mdb-row>
 
-		<mdb-row>	
+		<mdb-row class='noselect'>	
 				<mdb-col col='md' class='box hoverable z-depth-5 hvr-grow' id='discord'>
 					<mdb-row>
 						<mdb-col>
@@ -74,7 +74,7 @@
 				</mdb-col>
 		</mdb-row>
 
-		<mdb-row>	
+		<mdb-row class='noselect'>	
 				<mdb-col col='md' class='box hoverable z-depth-5 hvr-grow' id='customise'>
 					<mdb-row>
 						<mdb-col>

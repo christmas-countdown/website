@@ -35,7 +35,8 @@ const routes = [{
 		path: '/customise',
 		name: 'Customise',
 		component: () =>
-			import('../views/Customise.vue')
+			import('../views/Customise.vue'),
+		alias: '/customize'
 	},
 	{
 		path: '/live',

@@ -1,9 +1,8 @@
 <template>
   <div class='content'>
-    <Navbar view='About' />
 
 	<mdb-container> <!-- fluid -->
-		About
+		Live
 	</mdb-container>
 
 	<Footer />
@@ -12,7 +11,6 @@
 
 <script>
 // @ is an alias to /src
-import Navbar from '@/components/Navbar.vue';
 import Footer from '@/components/Footer.vue';
 
 import {
@@ -21,9 +19,8 @@ import {
 } from 'mdbvue';
 
 export default {
-  name: 'About',
+  name: 'Live',
   components: {
-	Navbar,
 	Footer,
 	mdbContainer,
   }

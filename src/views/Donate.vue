@@ -1,9 +1,9 @@
 <template>
   <div class='content'>
-    <Navbar view='About' />
+    <Navbar view='Donate' />
 
 	<mdb-container> <!-- fluid -->
-		About
+		Donate
 	</mdb-container>
 
 	<Footer />
@@ -21,7 +21,7 @@ import {
 } from 'mdbvue';
 
 export default {
-  name: 'About',
+  name: 'Donate',
   components: {
 	Navbar,
 	Footer,

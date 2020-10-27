@@ -6,7 +6,8 @@ import router from "./router";
 
 Vue.config.productionTip = false;
 
-new Vue({
+// eslint-disable-next-line no-unused-vars
+const app = new Vue({
 	router,
 	render: t => t(App)
 }).$mount("#root");

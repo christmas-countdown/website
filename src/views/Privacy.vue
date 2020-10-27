@@ -1,9 +1,9 @@
 <template>
   <div class='content'>
-    <Navbar view='About' />
+    <Navbar view='Privacy' />
 
 	<mdb-container> <!-- fluid -->
-		About
+		Privacy
 	</mdb-container>
 
 	<Footer />
@@ -21,7 +21,7 @@ import {
 } from 'mdbvue';
 
 export default {
-  name: 'About',
+  name: 'Privacy',
   components: {
 	Navbar,
 	Footer,

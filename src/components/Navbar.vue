@@ -1,87 +1,105 @@
 <template>
-  <mdb-navbar dark>
-	
-    <mdb-navbar-brand href='/'>
-      <img src='/assets/img/logo/logo.png' height='30' alt=''>
-    </mdb-navbar-brand>
+	<mdb-navbar dark>
 
-    <mdb-navbar-toggler>	
-      <mdb-navbar-nav>
+		<mdb-navbar-brand href='/'>
+			<img src='/assets/img/logo/logo.png' height='30' alt=''>
+		</mdb-navbar-brand>
 
-		<router-link to='/'>
-			<mdb-nav-item v-bind:active='view === "Home"'> <!-- href='/' -->
-				Home
-			</mdb-nav-item>
-		</router-link>
+		<mdb-navbar-toggler>
+			<mdb-navbar-nav>
 
-		<router-link to='/live'>
-			<mdb-nav-item v-bind:active='view === "Live"'>
-				Live Countdown
-			</mdb-nav-item>
-		</router-link>
+				<router-link to='/'>
+					<mdb-nav-item v-bind:active='view === "Home"'>
+						<!-- href='/' -->
+						Home
+					</mdb-nav-item>
+				</router-link>
 
-		<router-link to='/total'>
-			<mdb-nav-item v-bind:active='view === "Total"'>
-				Total
-			</mdb-nav-item>
-		</router-link>
+				<router-link to='/live'>
+					<mdb-nav-item v-bind:active='view === "Live"'>
+						Live Countdown
+					</mdb-nav-item>
+				</router-link>
 
-		<router-link to='/discord'>
-			<mdb-nav-item v-bind:active='view === "Discord"'>
-				Discord Bot
-			</mdb-nav-item>
-		</router-link>
-        
+				<router-link to='/total'>
+					<mdb-nav-item v-bind:active='view === "Total"'>
+						Total
+					</mdb-nav-item>
+				</router-link>
 
-        <mdb-dropdown tag='li' class='nav-item'>
-          <mdb-dropdown-toggle tag='a' navLink slot='toggle' waves-fixed>More</mdb-dropdown-toggle>
-          <mdb-dropdown-menu>
-            
-			<router-link to='/about'>
-				<mdb-dropdown-item>About</mdb-dropdown-item>
-			</router-link>
+				<router-link to='/discord'>
+					<mdb-nav-item v-bind:active='view === "Discord"'>
+						Discord Bot
+					</mdb-nav-item>
+				</router-link>
 
-			<router-link to='/donate'>
-				<mdb-dropdown-item>Donate</mdb-dropdown-item>
-			</router-link>
 
-			<a href='https://docs.christmascountdown.live'>
-				<mdb-dropdown-item>Documentation</mdb-dropdown-item>
-			</a>
+				<mdb-dropdown tag='li' class='nav-item'>
+					<mdb-dropdown-toggle tag='a' navLink slot='toggle' waves-fixed>More</mdb-dropdown-toggle>
+					<mdb-dropdown-menu>
 
-			<a href='https://docs.christmascountdown.live/days-vs-sleeps'>
-				<mdb-dropdown-item>Days vs sleeps</mdb-dropdown-item>
-			</a>
+						<router-link to='/about'>
+							<mdb-dropdown-item>About</mdb-dropdown-item>
+						</router-link>
 
-			<a href='https://go.eartharoid.me/discord'>
-				<mdb-dropdown-item>Discord server</mdb-dropdown-item>
-			</a>
+						<router-link to='/donate'>
+							<mdb-dropdown-item>Donate</mdb-dropdown-item>
+						</router-link>
 
-          </mdb-dropdown-menu>
-        </mdb-dropdown>
+						<a href='https://docs.christmascountdown.live'>
+							<mdb-dropdown-item>Documentation</mdb-dropdown-item>
+						</a>
 
-		</mdb-navbar-nav>
+						<a href='https://docs.christmascountdown.live/days-vs-sleeps'>
+							<mdb-dropdown-item>Days vs sleeps</mdb-dropdown-item>
+						</a>
 
-		<mdb-navbar-nav right>
-			<ul class='navbar-nav ml-auto nav-flex-icons'>
-				<a href='https://go.eartharoid.me/discord'>
-					<li class='nav-item'>
-						<a class='nav-link waves-effect waves-light'><i class='fab fa-discord'></i></a>
-					</li>
-				</a>
-				<a href='https://twitter.com/eartharoid'>
-					<li class='nav-item'>
-						<a class='nav-link waves-effect waves-light'><i class='fab fa-twitter'></i></a>
-					</li>
-				</a>
-			</ul>
-		</mdb-navbar-nav>
-    </mdb-navbar-toggler>
-  </mdb-navbar>
+						<a href='https://go.eartharoid.me/discord'>
+							<mdb-dropdown-item>Discord server</mdb-dropdown-item>
+						</a>
+
+						<a href='/legacy'>
+							<mdb-dropdown-item>Legacy version</mdb-dropdown-item>
+						</a>
+					</mdb-dropdown-menu>
+				</mdb-dropdown>
+
+				<mdb-dropdown tag='li' class='nav-item'>
+					<mdb-dropdown-toggle tag='a' navLink slot='toggle' waves-fixed>Boring stuff</mdb-dropdown-toggle>
+					<mdb-dropdown-menu>
+
+						<router-link to='/privacy'>
+							<mdb-dropdown-item>Privacy policy</mdb-dropdown-item>
+						</router-link>
+
+						<router-link to='/terms'>
+							<mdb-dropdown-item>Terms</mdb-dropdown-item>
+						</router-link>
+
+						<a href='https://github.com/eartharoid/ChristmasCountdown'>
+							<mdb-dropdown-item>GitHub</mdb-dropdown-item>
+						</a>
+						
+					</mdb-dropdown-menu>
+				</mdb-dropdown>
+
+			</mdb-navbar-nav>
+
+			<mdb-navbar-nav right>
+				<ul class='navbar-nav ml-auto nav-flex-icons'>
+					<a href='https://go.eartharoid.me/discord'>
+						<li class='nav-item'>
+							<a class='nav-link waves-effect waves-light'><i class='fab fa-discord'></i></a>
+						</li>
+					</a>
+				</ul>
+			</mdb-navbar-nav>
+		</mdb-navbar-toggler>
+	</mdb-navbar>
 </template>
 
 <script>
-  import {
+	import {
 	mdbNavbar,
 	mdbNavbarBrand,
 	mdbNavbarToggler,
@@ -91,9 +109,9 @@
 	mdbDropdownMenu,
 	mdbDropdownToggle,
 	mdbDropdownItem
-  } from 'mdbvue';
+	} from 'mdbvue';
 
-  export default {
+	export default {
 	name: 'Navbar',
 	props: {
 		view: String
@@ -109,7 +127,7 @@
 		mdbDropdownToggle,
 		mdbDropdownItem
 	}
-  }
+	}
 </script>
 
 <style scoped>

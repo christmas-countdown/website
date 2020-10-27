@@ -24,7 +24,7 @@
 			
 				<mdb-col col='md' class='box hoverable z-depth-5 hvr-grow'>
 				<mdb-row>
-					<mdb-col>
+					<mdb-col> <!-- <mdb-col col='9'> -->
 						<router-link to='/live'>
 							<h2>Live</h2>
 							<h4>countdown</h4>
@@ -57,7 +57,7 @@
 		</mdb-row>
 
 		<mdb-row>	
-				<mdb-col col='md' class='sm-box hoverable z-depth-5 py-3 px-md-5 hvr-grow' id='discord'>
+				<mdb-col col='md' class='box hoverable z-depth-5 hvr-grow' id='discord'>
 					<mdb-row>
 						<mdb-col>
 							<router-link to='/discord'>
@@ -75,7 +75,7 @@
 		</mdb-row>
 
 		<mdb-row>	
-				<mdb-col col='md' class='sm-box hoverable z-depth-5 py-3 px-md-5 hvr-grow' id='customise'>
+				<mdb-col col='md' class='box hoverable z-depth-5 hvr-grow' id='customise'>
 					<mdb-row>
 						<mdb-col>
 							<router-link to='/customise'>
@@ -91,14 +91,16 @@
 					</mdb-row>
 				</mdb-col>
 		</mdb-row>
-
 	</mdb-container>
+
+	<Footer />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import Navbar from '@/components/Navbar.vue';
+import Footer from '@/components/Footer.vue';
 
 import {
 	mdbContainer,
@@ -111,6 +113,7 @@ export default {
   name: 'Home',
   components: {
 	Navbar,
+	Footer,
 	mdbContainer,
 	mdbRow,
 	mdbCol,
@@ -127,13 +130,20 @@ export default {
 		text-shadow: 3px 3px 3px black;
 		/* margin: 1rem; */
 		text-align: center;
+		margin: 0.5rem;
 	}
 
 	.box {
 		background: rgba(0, 0, 0, 0.8);
-		padding: 5%;
+		/* padding: 5%; */
+		padding: 3%;
 		/* border-radius: 15px; */
-		margin: 1rem;
+		margin: 0.7rem;
+	}
+	
+	.sm-box {
+		margin: 0.8rem;
+		padding: 1rem 1rem;
 	}
 
 	.number {
@@ -145,8 +155,9 @@ export default {
 	.outer-filter {
 		position: relative;
 		padding: 5%;
-		margin: 1rem;
+		margin: 0.7rem;
 	}
+
 	.outer-filter::before {
 		content: '';
 		position: absolute;
@@ -166,19 +177,14 @@ export default {
 		text-align: center;
 	}
 
-	.sm-box {
-		margin: 1rem;
-		padding: 1rem 1rem;
-	}
-
 	#discord {
 		/* #7289DA */
-		background: rgba(114, 137, 218, 0.7)
+		background: rgba(114, 137, 218, 0.8)
 	}
 
 	#customise {
 		/* #D5002C */
-		background: rgba(213, 0, 44, 0.7)
+		background: rgba(213, 0, 44, 0.8)
 	}
 
 	.arrow {
@@ -192,6 +198,7 @@ export default {
 	.arrow-right {
 		transform: rotate(45deg);
 		margin: 2rem 0 2rem 75%;
+		/* margin: 2rem 0; */
 	}
 
 	a, a:hover, a:active, a:visited {

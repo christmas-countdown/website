@@ -9,48 +9,87 @@
 			</mdb-col>
 		</mdb-row>
 
-		<!--{{ sleeps }} or v-bind:-->
+		
 		<mdb-row>
-			<mdb-col col='sm' class='outer-filter hoverable z-depth-3'>
+			<mdb-col col='sm' class='outer-filter hoverable z-depth-5'>
 				<div class='inner-filter'>
 					<h3>Christmas is in</h3>
-					<h2 id='sleeps' class='number'>59</h2> 
-					<h3>sleeps</h3>
+					<h2 id='sleeps' class='number'>1</h2> <!--{{ countdown.num.sleeps }} or v-bind:-->
+					<h3>sleeps</h3> <!--{{ countdown.text.sleeps }} or v-bind:-->
 				</div>
 			</mdb-col>
 		</mdb-row>
 
 		<mdb-row>
-			<mdb-col col='md' class='box hoverable z-depth-3'>
-				<div>
-					<h2>Live</h2>
-					<h4>countdown</h4>
-				</div>
+			
+				<mdb-col col='md' class='box hoverable z-depth-5 hvr-grow'>
+				<mdb-row>
+					<mdb-col>
+						<router-link to='/live'>
+							<h2>Live</h2>
+							<h4>countdown</h4>
+						</router-link>
+					</mdb-col>
+					<mdb-col>
+						<router-link to='/live'>
+							<span class='arrow arrow-right align-middle'></span>
+						</router-link>
+					</mdb-col>
+				</mdb-row>
 			</mdb-col>
-			<mdb-col col='md' class='box hoverable z-depth-3'>
-				<div>
-					<h2>Total</h2>
-					<h4>time left</h4>
-				</div>
+			
+			<mdb-col col='md' class='box hoverable z-depth-5 hvr-grow'>
+				<mdb-row>
+					<mdb-col>
+						<router-link to='/total'>
+							<h2>Total</h2>
+							<h4>time left</h4>
+						</router-link>
+					</mdb-col>
+					<mdb-col>
+						<router-link to='/total'>
+							<span class='arrow arrow-right align-middle'></span>
+						</router-link>
+					</mdb-col>
+				</mdb-row>
 			</mdb-col>
+
 		</mdb-row>
 
-		<mdb-row>
-			<mdb-col col='md' class='sm-box hoverable z-depth-3 py-3 px-md-5 bordered' id='discord'>
-				<div>
-					<h2>Discord</h2>
-					<h4>bot</h4>
-				</div>
-			</mdb-col>
+		<mdb-row>	
+				<mdb-col col='md' class='sm-box hoverable z-depth-5 py-3 px-md-5 hvr-grow' id='discord'>
+					<mdb-row>
+						<mdb-col>
+							<router-link to='/discord'>
+								<h2>Discord</h2>
+								<h4>bot</h4>
+							</router-link>
+						</mdb-col>
+						<mdb-col>
+							<router-link to='/discord'>
+								<span class='arrow arrow-right align-middle'></span>
+							</router-link>
+						</mdb-col>
+					</mdb-row>
+				</mdb-col>
 		</mdb-row>
 
-		<mdb-row>
-			<mdb-col col='md' class='sm-box hoverable z-depth-3 py-3 px-md-5 bordered' id='customise'>
-				<div>
-					<h2>Customise</h2>
-					<h4>your countdown</h4>
-				</div>
-			</mdb-col>
+		<mdb-row>	
+				<mdb-col col='md' class='sm-box hoverable z-depth-5 py-3 px-md-5 hvr-grow' id='customise'>
+					<mdb-row>
+						<mdb-col>
+							<router-link to='/customise'>
+								<h2>Customise</h2>
+								<h4>your countdown</h4>
+							</router-link>
+						</mdb-col>
+						<mdb-col>
+							<router-link to='/customise'>
+								<span class='arrow arrow-right align-middle'></span>
+							</router-link>
+						</mdb-col>
+					</mdb-row>
+				</mdb-col>
 		</mdb-row>
 
 	</mdb-container>
@@ -65,6 +104,7 @@ import {
 	mdbContainer,
 	mdbRow,
 	mdbCol,
+	// mdbIcon,
 } from 'mdbvue';
 
 export default {
@@ -74,6 +114,7 @@ export default {
 	mdbContainer,
 	mdbRow,
 	mdbCol,
+	// mdbIcon,
   }
 };
 </script>
@@ -97,6 +138,8 @@ export default {
 
 	.number {
 		font-family: 'Pacifico', cursive;
+		font-size: 3rem;
+		line-height: 3rem;
 	}
 
 	.outer-filter {
@@ -137,4 +180,23 @@ export default {
 		/* #D5002C */
 		background: rgba(213, 0, 44, 0.7)
 	}
+
+	.arrow {
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		border-top: 3px solid white;
+		border-right: 3px solid white;
+	}
+
+	.arrow-right {
+		transform: rotate(45deg);
+		margin: 2rem 0 2rem 75%;
+	}
+
+	a, a:hover, a:active, a:visited {
+		text-decoration: none;
+		color: white;
+	}
+
 </style>

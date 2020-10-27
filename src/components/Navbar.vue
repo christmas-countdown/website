@@ -49,6 +49,10 @@
 				<mdb-dropdown-item>Documentation</mdb-dropdown-item>
 			</a>
 
+			<a href='https://docs.christmascountdown.live/days-vs-sleeps'>
+				<mdb-dropdown-item>Days vs sleeps</mdb-dropdown-item>
+			</a>
+
 			<a href='https://go.eartharoid.me/discord'>
 				<mdb-dropdown-item>Discord server</mdb-dropdown-item>
 			</a>
@@ -56,7 +60,22 @@
           </mdb-dropdown-menu>
         </mdb-dropdown>
 
-      </mdb-navbar-nav>
+		</mdb-navbar-nav>
+
+		<mdb-navbar-nav right>
+			<ul class='navbar-nav ml-auto nav-flex-icons'>
+				<a href='https://go.eartharoid.me/discord'>
+					<li class='nav-item'>
+						<a class='nav-link waves-effect waves-light'><i class='fab fa-discord'></i></a>
+					</li>
+				</a>
+				<a href='https://twitter.com/eartharoid'>
+					<li class='nav-item'>
+						<a class='nav-link waves-effect waves-light'><i class='fab fa-twitter'></i></a>
+					</li>
+				</a>
+			</ul>
+		</mdb-navbar-nav>
     </mdb-navbar-toggler>
   </mdb-navbar>
 </template>

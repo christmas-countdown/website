@@ -11,7 +11,9 @@
 					v-bind:type='type'
 				/>
 			</mdb-row>
+
 			<h1>until Christmas!</h1>
+
 		</mdb-container>
 		<Footer class='footer' />
 	</div>
@@ -51,7 +53,7 @@ export default {
 		font-family: 'MerryChristmas';
 		font-size: 5rem;
 		text-shadow: 3px 3px 10px black;
-		margin-top: 7vh;
+		margin-top: 5vh;
 	}
 
 	h1 {
@@ -59,7 +61,7 @@ export default {
 		font-size: 5rem;
 		text-shadow: 3px 3px 10px black;
 		text-align: center;
-		margin: 0.5rem;
+		margin: 7.5vh;
 	}
 
 </style>

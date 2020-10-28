@@ -1,6 +1,6 @@
 <template>
   <div class='content'>
-    <Navbar view='Donate' />
+    <Navbar />
 
 	<mdb-container> <!-- fluid -->
 		Donate

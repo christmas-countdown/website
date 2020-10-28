@@ -1,21 +1,19 @@
 <template>
 	<div class='content'>
 		<!-- <BackArrow /> -->
-		<Navbar view='Live' />
+		<Navbar />
 		<mdb-container class='noselect countdown'>
 			<!-- <h1>Christmas is in</h1> -->
 			<mdb-row>
-
 				<CountdownElement
 					v-for='type in this.$store.state.countdown.live.text'
 					v-bind:key='type'
 					v-bind:type='type'
 				/>
-
 			</mdb-row>
 			<h1>until Christmas!</h1>
 		</mdb-container>
-		<Footer />
+		<Footer class='footer' />
 	</div>
 </template>
 
@@ -53,6 +51,7 @@ export default {
 		font-family: 'MerryChristmas';
 		font-size: 5rem;
 		text-shadow: 3px 3px 10px black;
+		margin-top: 7vh;
 	}
 
 	h1 {

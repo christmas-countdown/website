@@ -1,6 +1,6 @@
 <template>
   <div class='content'>
-    <Navbar view='Customise' />
+    <Navbar />
 
 	<mdb-container> <!-- fluid -->
 		Customise

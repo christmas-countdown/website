@@ -1,6 +1,6 @@
 <template>
   <div class='content'>
-    <Navbar view='Total' />
+    <Navbar />
 
 	<mdb-container> <!-- fluid -->
 		Total

@@ -1,6 +1,6 @@
 <template>
   <div class='content'>
-    <Navbar view='Privacy' />
+    <Navbar />
 
 	<mdb-container> <!-- fluid -->
 		<h1>Privacy</h1>

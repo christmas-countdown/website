@@ -1,6 +1,6 @@
 <template>
   <div class='content'>
-    <Navbar view='About' />
+    <Navbar />
 
 	<mdb-container> <!-- fluid -->
 		About

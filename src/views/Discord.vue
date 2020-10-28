@@ -1,6 +1,6 @@
 <template>
   <div class='content'>
-    <Navbar view='Discord' />
+    <Navbar />
 
 	<mdb-container> <!-- fluid -->
 		Discord

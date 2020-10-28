@@ -1,6 +1,6 @@
 <template>
   <div class='content'>
-    <Navbar view='Home' />
+    <Navbar />
 
 	<mdb-container class='noselect'> <!-- fluid -->
 		<mdb-row>

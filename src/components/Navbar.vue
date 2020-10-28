@@ -118,8 +118,13 @@
 
 	export default {
 	name: 'Navbar',
-	props: {
-		view: String
+	// props: {
+	// 	view: String
+	// },
+	computed: {
+		view () {
+			return this.$route.name;
+		}
 	},
 	components: {
 		mdbNavbar,

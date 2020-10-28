@@ -25,7 +25,7 @@ export default {
 		}
 	},
 	mounted() {
-		// this.show = true    
+		this.show = this.$store.state.options.snow.enabled;
 	}
 }
 </script>

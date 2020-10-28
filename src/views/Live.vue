@@ -2,26 +2,18 @@
 	<div class='content'>
 		<!-- <BackArrow /> -->
 		<Navbar view='Live' />
-		<mdb-container>
-			<h1>Christmas is in</h1>
-			<mdb-row class='noselect countdown'>
-				<!-- <mdb-col col='sm'> -->
-					<CountdownElement text='days' />
-					<!-- <CountdownSpacer /> -->
-					<CountdownElement text='hours' />
-				<!-- </mdb-col> -->
+		<mdb-container class='noselect countdown'>
+			<!-- <h1>Christmas is in</h1> -->
+			<mdb-row>
 
-				<!-- <mdb-col col='sm'> -->
-					<!-- <CountdownSpacer /> -->
-				<!-- </mdb-col> -->
-
-				<!-- <mdb-col col='sm'> -->
-					<CountdownElement text='minutes' />
-					<!-- <CountdownSpacer /> -->
-					<CountdownElement text='seconds' />
-				<!-- </mdb-col> -->
+				<CountdownElement
+					v-for='type in this.$store.state.countdown.live.text'
+					v-bind:key='type'
+					v-bind:type='type'
+				/>
 
 			</mdb-row>
+			<h1>until Christmas!</h1>
 		</mdb-container>
 		<Footer />
 	</div>
@@ -51,7 +43,7 @@ export default {
 		mdbContainer,
 		// mdbCol,
 		mdbRow,
-	}
+	},
 };
 </script>
 

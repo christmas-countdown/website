@@ -15,8 +15,8 @@
 				<router-link to='/total#sleeps'>
 					<div class='inner-filter'>
 						<h3>Christmas is in</h3>
-						<!-- <h2 id='sleeps' class='number'>{{ countdown.sleeps.num }}</h2> -->
-						<!-- <h3>countdown.sleeps.text</h3> -->
+						<h2 id='sleeps' class='number'>{{ sleeps.num }}</h2>
+						<h3>{{ sleeps.text }}</h3>
 					</div>
 				</router-link>
 			</mdb-col>
@@ -112,15 +112,20 @@ import {
 } from 'mdbvue';
 
 export default {
-  name: 'Home',
-  components: {
-	Navbar,
-	Footer,
-	mdbContainer,
-	mdbRow,
-	mdbCol,
-	// mdbIcon,
-  }
+	name: 'Home',
+	components: {
+		Navbar,
+		Footer,
+		mdbContainer,
+		mdbRow,
+		mdbCol,
+		// mdbIcon,
+	},
+	computed: {
+		sleeps () {
+			return this.$store.state.countdown.sleeps
+		}
+	},
 };
 </script>
 

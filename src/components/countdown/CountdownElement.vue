@@ -2,12 +2,12 @@
 	<mdb-col col='sm' class='numberContainer'>
 		<mdb-row>
 			<mdb-col class='num'>
-				0
+				{{ countdown.num[type] }}
 			</mdb-col>
 		</mdb-row>
 		<mdb-row>
 			<mdb-col class='text'>
-				{{ text }}
+				{{ countdown.text[type] }}
 			</mdb-col>
 		</mdb-row>
 	</mdb-col>
@@ -22,12 +22,17 @@
 	export default {
 		name: 'CountdownElement',
 		props: {
-			text: String
+			type: String
 		},
 		components: {
 			mdbCol,
 			mdbRow,
+		},
+		computed: {
+		countdown () {
+			return this.$store.state.countdown.live;
 		}
+	},
 	}
 </script>
 

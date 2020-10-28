@@ -34,7 +34,7 @@
 				</router-link>
 
 
-				<mdb-dropdown tag='li' class='nav-item'>
+				<mdb-dropdown tag='li' class='nav-item' multiLevel>
 					<mdb-dropdown-toggle tag='a' navLink slot='toggle' waves-fixed>More</mdb-dropdown-toggle>
 					<mdb-dropdown-menu>
 
@@ -58,28 +58,33 @@
 							<mdb-dropdown-item>Discord server</mdb-dropdown-item>
 						</a>
 
+						<div class='dropdown-divider'></div>
+
 						<a href='/legacy'>
 							<mdb-dropdown-item>Legacy version</mdb-dropdown-item>
 						</a>
-					</mdb-dropdown-menu>
-				</mdb-dropdown>
 
-				<mdb-dropdown tag='li' class='nav-item'>
-					<mdb-dropdown-toggle tag='a' navLink slot='toggle' waves-fixed>Boring stuff</mdb-dropdown-toggle>
-					<mdb-dropdown-menu>
+						<div class='dropdown-divider'></div>
 
-						<router-link to='/privacy'>
-							<mdb-dropdown-item>Privacy policy</mdb-dropdown-item>
-						</router-link>
+						<mdb-dropdown-item tag='div' class='p-0' submenu>
+							<mdb-dropdown class='w-100'>
+								<mdb-dropdown-item slot='toggle' submenuIcon='caret-right'>Boring stuff</mdb-dropdown-item>
+								<mdb-dropdown-menu class='ml-2 rounded-0 border-0 z-depth-1'>
+									<router-link to='/privacy'>
+										<mdb-dropdown-item>Privacy policy</mdb-dropdown-item>
+									</router-link>
 
-						<router-link to='/terms'>
-							<mdb-dropdown-item>Terms</mdb-dropdown-item>
-						</router-link>
+									<router-link to='/terms'>
+										<mdb-dropdown-item>Terms</mdb-dropdown-item>
+									</router-link>
 
-						<a href='https://github.com/eartharoid/ChristmasCountdown'>
-							<mdb-dropdown-item>GitHub</mdb-dropdown-item>
-						</a>
-						
+									<a href='https://github.com/eartharoid/ChristmasCountdown'>
+										<mdb-dropdown-item>GitHub</mdb-dropdown-item>
+									</a>
+								</mdb-dropdown-menu>
+							</mdb-dropdown>
+						</mdb-dropdown-item>
+
 					</mdb-dropdown-menu>
 				</mdb-dropdown>
 
@@ -108,7 +113,7 @@
 	mdbDropdown,
 	mdbDropdownMenu,
 	mdbDropdownToggle,
-	mdbDropdownItem
+	mdbDropdownItem,
 	} from 'mdbvue';
 
 	export default {
@@ -125,7 +130,7 @@
 		mdbDropdown,
 		mdbDropdownMenu,
 		mdbDropdownToggle,
-		mdbDropdownItem
+		mdbDropdownItem,
 	}
 	}
 </script>

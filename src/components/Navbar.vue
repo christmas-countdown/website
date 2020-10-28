@@ -17,7 +17,7 @@
 
 				<router-link to='/live'>
 					<mdb-nav-item v-bind:active='view === "Live"'>
-						Live Countdown
+						Live countdown
 					</mdb-nav-item>
 				</router-link>
 
@@ -29,7 +29,7 @@
 
 				<router-link to='/discord'>
 					<mdb-nav-item v-bind:active='view === "Discord"'>
-						Discord Bot
+						Discord bot
 					</mdb-nav-item>
 				</router-link>
 

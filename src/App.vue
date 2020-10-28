@@ -11,10 +11,10 @@
 import Snow from '@/components/Snow.vue';
 
 export default {
-  name: 'App',
-  components: {
-	Snow,
-  }
+	name: 'App',
+	components: {
+		Snow,
+	},
 };
 </script>
 

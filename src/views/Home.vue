@@ -15,10 +15,8 @@
 				<router-link to='/total#sleeps'>
 					<div class='inner-filter'>
 						<h3>Christmas is in</h3>
-						<h2 id='sleeps' class='number'>0</h2>
-						<!--{{ countdown.num.sleeps }} or v-bind:-->
-						<h3>sleeps</h3>
-						<!--{{ countdown.text.sleeps }} or v-bind:-->
+						<h2 id='sleeps' class='number'>{{ countdown.sleeps.num }}</h2>
+						<h3>countdown.sleeps.text</h3>
 					</div>
 				</router-link>
 			</mdb-col>
@@ -143,11 +141,13 @@ export default {
 		padding: 3%;
 		/* border-radius: 15px; */
 		margin: 0.7rem;
+		box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.8);
 	}
 	
 	.sm-box {
 		margin: 0.8rem;
 		padding: 1rem 1rem;
+		box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.8);
 	}
 
 	.number {
@@ -160,6 +160,7 @@ export default {
 		position: relative;
 		padding: 5%;
 		margin: 0.7rem;
+		box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.8);
 	}
 
 	.outer-filter::before {

@@ -11,12 +11,16 @@
 
 		
 		<mdb-row>
-			<mdb-col col='sm' class='outer-filter hoverable z-depth-5'>
-				<div class='inner-filter'>
-					<h3>Christmas is in</h3>
-					<h2 id='sleeps' class='number'>0</h2> <!--{{ countdown.num.sleeps }} or v-bind:-->
-					<h3>sleeps</h3> <!--{{ countdown.text.sleeps }} or v-bind:-->
-				</div>
+			<mdb-col col='sm' class='outer-filter hoverable z-depth-5 hvr-grow'>
+				<router-link to='/total#sleeps'>
+					<div class='inner-filter'>
+						<h3>Christmas is in</h3>
+						<h2 id='sleeps' class='number'>0</h2>
+						<!--{{ countdown.num.sleeps }} or v-bind:-->
+						<h3>sleeps</h3>
+						<!--{{ countdown.text.sleeps }} or v-bind:-->
+					</div>
+				</router-link>
 			</mdb-col>
 		</mdb-row>
 

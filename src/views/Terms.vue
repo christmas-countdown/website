@@ -3,7 +3,10 @@
     <Navbar view='Terms' />
 
 	<mdb-container> <!-- fluid -->
-		Terms
+		<h1>Terms</h1>
+		<p>
+			The countdown might be wrong, but it <i>probably</i> isn't.
+		</p>
 	</mdb-container>
 
 	<Footer />

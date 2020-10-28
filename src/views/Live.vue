@@ -2,73 +2,23 @@
 	<div class='content'>
 		<BackArrow />
 		<mdb-container>
-			<!-- fluid -->
-			<mdb-row>
+			<h1>Christmas is in</h1>
+			<mdb-row class='noselect countdown'>
+				<!-- <mdb-col col='sm'> -->
+					<CountdownElement text='days' />
+					<!-- <CountdownSpacer /> -->
+					<CountdownElement text='hours' />
+				<!-- </mdb-col> -->
 
-				<mdb-col class='numberContainer'>
-					<mdb-row>
-						<mdb-col>
-							num
-						</mdb-col>
-					</mdb-row>
-					<mdb-row>
-						<mdb-col>
-							days
-						</mdb-col>
-					</mdb-row>
-				</mdb-col>
+				<!-- <mdb-col col='sm'> -->
+					<!-- <CountdownSpacer /> -->
+				<!-- </mdb-col> -->
 
-				<mdb-col class='numberContainer'>
-					<mdb-row>
-						<mdb-col>
-							num
-						</mdb-col>
-					</mdb-row>
-					<mdb-row>
-						<mdb-col>
-							hours
-						</mdb-col>
-					</mdb-row>
-				</mdb-col>
-
-				<mdb-col class='numberContainer'>
-					<mdb-row>
-						<mdb-col>
-							num
-						</mdb-col>
-					</mdb-row>
-					<mdb-row>
-						<mdb-col>
-							hours
-						</mdb-col>
-					</mdb-row>
-				</mdb-col>
-
-				<mdb-col class='numberContainer'>
-					<mdb-row>
-						<mdb-col>
-							num
-						</mdb-col>
-					</mdb-row>
-					<mdb-row>
-						<mdb-col>
-							minutes
-						</mdb-col>
-					</mdb-row>
-				</mdb-col>
-
-				<mdb-col class='numberContainer'>
-					<mdb-row>
-						<mdb-col>
-							num
-						</mdb-col>
-					</mdb-row>
-					<mdb-row>
-						<mdb-col>
-							seconds
-						</mdb-col>
-					</mdb-row>
-				</mdb-col>
+				<!-- <mdb-col col='sm'> -->
+					<CountdownElement text='minutes' />
+					<!-- <CountdownSpacer /> -->
+					<CountdownElement text='seconds' />
+				<!-- </mdb-col> -->
 
 			</mdb-row>
 		</mdb-container>
@@ -79,11 +29,13 @@
 <script>
 // @ is an alias to /src
 import BackArrow from '@/components/BackArrow.vue';
+import CountdownElement from '@/components/countdown/CountdownElement.vue';
+// import CountdownSpacer from '@/components/countdown/CountdownSpacer.vue';
 import Footer from '@/components/Footer.vue';
 
 import {
 	mdbContainer,
-	mdbCol,
+	// mdbCol,
 	mdbRow,
 } from 'mdbvue';
 
@@ -91,17 +43,30 @@ export default {
 	name: 'Live',
 	components: {
 		BackArrow,
+		CountdownElement,
+		// CountdownSpacer,
 		Footer,
 		mdbContainer,
-		mdbCol,
+		// mdbCol,
 		mdbRow,
 	}
 };
 </script>
 
 <style scoped>
-	.numberContainer {
-		text-align: center;
-		/* float: middle; */
+
+	.countdown {
+		font-family: 'MerryChristmas';
+		font-size: 5rem;
+		text-shadow: 3px 3px 10px black;
 	}
+
+	h1 {
+		font-family: 'MerryChristmas';
+		font-size: 5rem;
+		text-shadow: 3px 3px 10px black;
+		text-align: center;
+		margin: 0.5rem;
+	}
+
 </style>

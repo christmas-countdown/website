@@ -3,7 +3,10 @@
     <Navbar view='Privacy' />
 
 	<mdb-container> <!-- fluid -->
-		Privacy
+		<h1>Privacy</h1>
+		<p>
+			Yes.
+		</p>
 	</mdb-container>
 
 	<Footer />

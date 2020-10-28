@@ -1,10 +1,22 @@
 <template>
 	<div id='app'>
 		<div id='afterblur'>
+			<Snow />
 			<router-view />
 		</div>
 	</div>
 </template>
+
+<script>
+import Snow from '@/components/Snow.vue';
+
+export default {
+  name: 'App',
+  components: {
+	Snow,
+  }
+};
+</script>
 
 <style>
 	html {

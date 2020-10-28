@@ -2,10 +2,10 @@
   <div class='content'>
     <Navbar view='Home' />
 
-	<mdb-container> <!-- fluid -->
+	<mdb-container class='noselect'> <!-- fluid -->
 		<mdb-row>
 			<mdb-col col='sm'>
-				<h1 class='noselect'>Christmas Countdown</h1>
+				<h1>Christmas Countdown</h1>
 			</mdb-col>
 		</mdb-row>
 
@@ -14,15 +14,15 @@
 			<mdb-col col='sm' class='outer-filter hoverable z-depth-5'>
 				<div class='inner-filter'>
 					<h3>Christmas is in</h3>
-					<h2 id='sleeps' class='number'>1</h2> <!--{{ countdown.num.sleeps }} or v-bind:-->
+					<h2 id='sleeps' class='number'>0</h2> <!--{{ countdown.num.sleeps }} or v-bind:-->
 					<h3>sleeps</h3> <!--{{ countdown.text.sleeps }} or v-bind:-->
 				</div>
 			</mdb-col>
 		</mdb-row>
 
-		<mdb-row class='noselect'>
+		<mdb-row>
 			
-				<mdb-col col='md' class='box hoverable z-depth-5 hvr-grow'>
+				<mdb-col col='md' class='box z-depth-5 hvr-grow'>
 				<mdb-row>
 					<mdb-col> <!-- <mdb-col col='9'> -->
 						<router-link to='/live'>
@@ -38,7 +38,7 @@
 				</mdb-row>
 			</mdb-col>
 			
-			<mdb-col col='md' class='box hoverable z-depth-5 hvr-grow'>
+			<mdb-col col='md' class='box z-depth-5 hvr-grow'>
 				<mdb-row>
 					<mdb-col>
 						<router-link to='/total'>
@@ -56,8 +56,8 @@
 
 		</mdb-row>
 
-		<mdb-row class='noselect'>	
-				<mdb-col col='md' class='box hoverable z-depth-5 hvr-grow' id='discord'>
+		<mdb-row>	
+				<mdb-col col='md' class='box z-depth-5 hvr-grow' id='discord'>
 					<mdb-row>
 						<mdb-col>
 							<router-link to='/discord'>
@@ -74,8 +74,8 @@
 				</mdb-col>
 		</mdb-row>
 
-		<mdb-row class='noselect'>	
-				<mdb-col col='md' class='box hoverable z-depth-5 hvr-grow' id='customise'>
+		<mdb-row>	
+				<mdb-col col='md' class='box z-depth-5 hvr-grow' id='customise'>
 					<mdb-row>
 						<mdb-col>
 							<router-link to='/customise'>
@@ -127,7 +127,7 @@ export default {
 	h1 {
 		font-family: 'MerryChristmas';
 		font-size: 5rem;
-		text-shadow: 3px 3px 3px black;
+		text-shadow: 5px 5px 10px black;
 		/* margin: 1rem; */
 		text-align: center;
 		margin: 0.5rem;
@@ -175,6 +175,7 @@ export default {
 	.inner-filter {
 		position: relative;
 		text-align: center;
+		text-shadow: 3px 3px 10px black;
 	}
 
 	#discord {

@@ -4,6 +4,7 @@
 
 	<mdb-container> <!-- fluid -->
 		Customise
+		<h2>Snow</h2>
 	</mdb-container>
 
 	<Footer />

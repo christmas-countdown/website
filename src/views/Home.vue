@@ -15,8 +15,8 @@
 				<router-link to='/total#sleeps'>
 					<div class='inner-filter'>
 						<h3>Christmas is in</h3>
-						<h2 id='sleeps' class='number'>{{ countdown.sleeps.num }}</h2>
-						<h3>countdown.sleeps.text</h3>
+						<!-- <h2 id='sleeps' class='number'>{{ countdown.sleeps.num }}</h2> -->
+						<!-- <h3>countdown.sleeps.text</h3> -->
 					</div>
 				</router-link>
 			</mdb-col>
@@ -168,7 +168,7 @@ export default {
 		position: absolute;
 		top: 0; left: 0;
 		width: 100%; height: 100%;
-		background-image: url('/assets/img/bg/legacy.jpg');
+		background-image: url('/img/bg/legacy.jpg');
 		background-position: 50%;
 		background-size: cover;
 		filter: /* blur(1px) */ brightness(50%);

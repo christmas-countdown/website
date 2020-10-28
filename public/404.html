@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Eartharoid : Error 404</title>
+  <meta charset="utf-8">
+  <meta name="title" content="Eartharoid : Error 404">
+  <meta name="description" content="Error">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Styles -->
+  <link rel="stylesheet" href="https://eartharoid.me/error/error.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <link rel="icon" href="https://eartharoid.me/img/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+  <div class="custom-navbar">
+    <!--<div class="brand-logo">
+    <img src="https://eartharoid.me/me/myassets/earth.png" width="40px">
+    </div>-->
+    <div class="navbar-links" style="float:left;">
+      <ul>
+        <li><a href="https://eartharoid.me/">Eartharoid</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <div class="canvas">
+      <span id="stars"></span>
+      <span id="stars2"></span>
+      <span id="stars3"></span>
+
+
+
+      <span class="e eleft">4</span>
+      <div class="earth">
+        <div class="land-big na">
+          <div class="land l-1"></div>
+          <div class="land-join"></div>
+          <div class="land l-2"></div>
+        </div>
+        <div class="land-big sa">
+          <div class="land l-1"></div>
+          <div class="land-join"></div>
+          <div class="land l-2"></div>
+        </div>
+        <div class="land-big ce">
+          <div class="land l-1"></div>
+          <div class="land-join"></div>
+          <div class="land-join j-2"></div>
+          <div class="land l-2"></div>
+          <div class="land l-3"></div>
+        </div>
+        <div class="land-big a">
+          <div class="land l-1"></div>
+          <div class="land-join"></div>
+          <div class="land l-2"></div>
+        </div>
+        <div class="land ne"></div>
+        <div class="land au"></div>
+        <div class="land np"></div>
+        <div class="land sp"></div>
+        <div class="cloud-wrapper">
+          <div class="cloud c1"></div>
+          <div class="cloud c2"></div>
+          <div class="cloud c3"></div>
+          <div class="cloud c4"></div>
+          <div class="cloud c5"></div>
+          <div class="cloud c6"></div>
+          <div class="cloud c7"></div>
+          <div class="cloud c8"></div>
+        </div>
+      </div>
+      <span class="e eright">4</span>
+      <div class="shine"></div>
+      <div class="ellipsis">
+      </div>
+
+
+
+
+
+
+      <!--<div class="rotate-moon">
+      <div class="counter-rotate-moon">
+        <div class="moon">
+          <div class="crater c1"></div>
+          <div class="crater c2"></div>
+          <div class="crater c3"></div>
+          <div class="crater c4"></div>
+        </div>
+      </div>
+    </div>-->
+
+    </div>
+  </div>
+
+
+
+
+  <div id="content">
+    <!-- <div class="errorCode">
+      <p><b>ERROR 404</b></p>
+    </div> -->
+
+    We searched every planet and asteroid in the universe,<br>
+    <!--the file you are looking for--><span id="errLocation">the file you are looking for</span> is nowhere to be
+    found!
+    <br>
+    <a class="btn" onClick="window.history.back()"><i class="fas fa-angle-left"></i> back</a>
+  </div>
+
+
+  <div class="box_astronaut">
+    <img class="object_astronaut" src="https://eartharoid.me/error/astronaut.svg" width="100px">
+  </div>
+
+  <script>
+    document.getElementById("errLocation").innerHTML = window.location.pathname;
+  </script>
+
+</body>
+
+</html>

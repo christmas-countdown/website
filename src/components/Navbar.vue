@@ -2,7 +2,7 @@
 	<mdb-navbar dark>
 
 		<mdb-navbar-brand href='/'>
-			<img src='/assets/img/logo/logo.png' height='30' alt=''>
+			<img src='/img/logo/logo.png' height='30' alt=''>
 		</mdb-navbar-brand>
 
 		<mdb-navbar-toggler>
@@ -60,7 +60,7 @@
 
 						<div class='dropdown-divider'></div>
 
-						<a href='/legacy'>
+						<a href='https://legacy.christmascountdown.live'>
 							<mdb-dropdown-item>Legacy version</mdb-dropdown-item>
 						</a>
 

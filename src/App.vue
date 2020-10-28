@@ -27,7 +27,7 @@ export default {
 
 	body {
 		background-color: var(--background-colour);
-		background: url('/assets/img/bg/default.jpg') no-repeat center center fixed;
+		background: url('/img/bg/default.jpg') no-repeat center center fixed;
 		background-size: cover;
 		color: white;
 		/* text-align: center; */
@@ -43,7 +43,7 @@ export default {
 		height: 150%;
 		top: 0;
 		left: 0;
-		background: url('/assets/img/bg/default.jpg') no-repeat center center fixed;
+		background: url('/img/bg/default.jpg') no-repeat center center fixed;
 		background-size: cover;
 		z-index: -1;
 

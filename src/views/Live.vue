@@ -57,9 +57,7 @@ export default {
 	}
 
 	h1 {
-		font-family: 'MerryChristmas';
 		font-size: 5rem;
-		text-shadow: 3px 3px 10px black;
 		text-align: center;
 		margin: 7.5vh;
 	}

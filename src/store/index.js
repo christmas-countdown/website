@@ -1,20 +1,25 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
-import defaults from './defaults';
+import states from './defaults';
 
 Vue.use(Vuex);
 
 export default new Vuex.Store({
 	state: {
-		...defaults
+		...states
 	},
 	mutations: {
-
+		count() {
+			setTimeout(() => {
+				this.countdown.sleeps.num ++;
+			}, 1000);
+		},
 	},
-	getters: {
-
+	getters: {	
 	},
 	actions: {
+		startCountdown() {
 
+		},
 	}
 });

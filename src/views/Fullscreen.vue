@@ -3,11 +3,7 @@
     <Navbar />
 
 	<mdb-container> <!-- fluid -->
-		<div id='title'>
-			<h4>The original</h4>
-			<h1>Christmas Countdown</h1>
-			<h3>bot for Discord</h3>
-		</div>
+		Fullscreen
 	</mdb-container>
 
 	<Footer />
@@ -25,7 +21,7 @@ import {
 } from 'mdbvue';
 
 export default {
-  name: 'Discord',
+  name: 'Fullscreen',
   components: {
 	Navbar,
 	Footer,
@@ -35,18 +31,4 @@ export default {
 </script>
 
 <style scoped>
-	#title {
-		text-shadow: 5px 5px 10px black;
-		text-align: center;
-		margin: 0.3rem;
-	}
-
-	#title h1 {
-		font-family: 'MerryChristmas';
-		font-size: 5rem;
-	}
-
-	#title h3, h4 {
-		text-transform: uppercase;		
-	}
 </style>

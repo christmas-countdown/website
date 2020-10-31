@@ -29,10 +29,10 @@
 			mdbRow,
 		},
 		computed: {
-		countdown () {
-			return this.$store.state.countdown.live;
-		}
-	},
+			countdown() {
+				return this.$store.state.countdown.live;
+			}
+		},
 	}
 </script>
 

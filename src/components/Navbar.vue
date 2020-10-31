@@ -38,6 +38,10 @@
 					<mdb-dropdown-toggle tag='a' navLink slot='toggle' waves-fixed>More</mdb-dropdown-toggle>
 					<mdb-dropdown-menu>
 
+						<router-link to='/fullscreen'>
+							<mdb-dropdown-item>Full-screen countdown</mdb-dropdown-item>
+						</router-link>
+
 						<router-link to='/about'>
 							<mdb-dropdown-item>About</mdb-dropdown-item>
 						</router-link>

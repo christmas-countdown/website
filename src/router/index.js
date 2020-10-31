@@ -39,6 +39,12 @@ const routes = [{
 		alias: '/customize'
 	},
 	{
+		path: '/fullscreen',
+		name: 'Fullscreen',
+		component: () =>
+			import('../views/Fullscreen.vue')
+	},
+	{
 		path: '/live',
 		name: 'Live',
 		component: () =>

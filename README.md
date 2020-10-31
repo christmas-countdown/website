@@ -1,5 +1,7 @@
 # Christmas Countdown Website
 
+![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feartharoid%2Fupptime%2Fmaster%2Fapi%2Fgo-eartharoid-me%2Fuptime.json&style=flat-square)
+
 One of my [Christmas Countdown](https://github.com/eartharoid/ChristmasCountdown) projects. This is my first Vue project.
 
 See it at [christmascountdown.live](https://christmascountdown.live)

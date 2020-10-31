@@ -36,3 +36,7 @@
         -ms-user-select: none;
             user-select: none;
 }
+
+.hl {
+	color: var(--main-colour);
+}

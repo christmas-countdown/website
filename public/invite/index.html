@@ -8,10 +8,15 @@
 	<meta charset='utf-8' />
 	<meta http-equiv='X-UA-Compatible' content='IE=edge' />
 	<meta name='viewport' content='width=device-width,initial-scale=1.0' />
+
+	<meta http-equiv='refresh'
+		content='1; url = https://discord.com/api/oauth2/authorize?client_id=509851616216875019&permissions=52224&scope=bot' />
+
+
 	<meta name='theme-color' content='#D5002C' />
 
 	<meta name='title' content='Christmas Countdown' />
-    <meta name='description' content='Get the time left to Christmas with the decorative live online countdown or with the original Christmas countdown bot for Discord.' />
+    <meta name='description' content='Invite the original Christmas countdown bot for Discord to your server.' />
     <meta name='keywords' content='eartharoid, christmas, countdown, discord, bot' />
     <meta name='author' content='eartharoid, contact@eartharoid.me' />
 	<meta name='copyright' content='eartharoid' />
@@ -25,7 +30,7 @@
     <meta name='url' content='https://www.christmascountdown.live' />
 
     <meta name='og:title' content='Christmas Countdown' />
-    <meta name='og:description' content='Get the time left to Christmas with the decorative live online countdown or with the original Christmas countdown bot for Discord.' />
+    <meta name='og:description' content='Invite the original Christmas countdown bot for Discord to your server.' />
     <meta name='og:type' content='website' />
     <meta name='og:url' content='https://www.christmascountdown.live' />
     <!-- <meta name='og:image' content='/img/banner.png' /> -->
@@ -33,7 +38,7 @@
     <meta name='og:site_name' content='Christmas Countdown by eartharoid' />
 
     <meta name='twitter:title' content='Christmas Countdown' />
-    <meta name='twitter:description' content='Get the time left to Christmas with the decorative live online countdown or with the original Christmas countdown bot for Discord.' />
+    <meta name='twitter:description' content='Invite the original Christmas countdown bot for Discord to your server.' />
     <meta name='twitter:image' content='/img/logo/red/santa-outline.png' />
     <meta name='twitter:image:src' content='/img/logo/red/santa-outline.png' />
     <!-- <meta name='twitter:image' content='/img/banner.png' />
@@ -42,16 +47,7 @@
     <meta name='twitter:site' content='@eartharoid' />
 
 	<link rel='icon' href='/favicon.ico' />
-	<link href='/css/index.css' rel='stylesheet'>
-	<link href='https://fonts.googleapis.com/css2?family=Pacifico&display=swap' rel='stylesheet'>
-
-	<script src='/js/countdown.js'></script>
-	<script src='https://kit.fontawesome.com/d40f9ad946.js' crossorigin='anonymous'></script>
-</head>
-
-<body>
-	<noscript>
-		<style>
+	<style>
 			body {
 				font-family: Arial, Helvetica, sans-serif;
 				background: #D5002C !important;
@@ -59,17 +55,24 @@
 				font-weight: bold;
 				text-align: center;
 			}
-			.noscript {
+			#root {
 				margin-top: 15%
 			}
+			a, a:visited, a:hover, a:active {
+				color: white;
+				text-decoration: underline;
+			}
 		</style>
+</head>
 
-		<div class='noscript'>
-			<h1>Santa won't be happy about this...</h1>
-			<h3>You need to have JavaScript enabled in your browser to use the Christmas Countdown!</h3>
-		</div>
-	</noscript>
-	<div id='root'></div>
+<body>
+	<div id='root'>
+		<h1>Redirecting you to</h1>
+		<h3>discord.com</h3>
+		<a href='https://discord.com/api/oauth2/authorize?client_id=509851616216875019&permissions=52224&scope=bot'>
+			Click here if you are not redirected automatically.
+		</a>
+	</div>
 </body>
 
 </html>

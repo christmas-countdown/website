@@ -3,7 +3,7 @@
     <Navbar />
 
 	<mdb-container> <!-- fluid -->
-		<div id='title'>
+		<div id='title' class='noselect'>
 			<div>
 				<h4>The original</h4>
 				<h1>Christmas Countdown</h1>
@@ -15,7 +15,7 @@
 			<div>
 				<!-- <h2>Features</h2> -->
 				<p>
-					Get the number of sleeps left until Christmas sent to a selected channel every morning - in <span class='hl'>your language</span> and <span class='hl'>your timezone</span>.
+					Get the number of sleeps left until Christmas sent to a selected channel every morning - in <b>your language</b> and <b>your timezone</b>.
 					<!-- The Christmas Countdown bot for Discord has some cool features... -->
 				</p>
 			
@@ -90,8 +90,8 @@
 				<mdb-row>
 					<mdb-col>
 						<div class='header'>
-							<h4>Logical</h4>
-							<h6>commands</h6>
+							<h6>Logical</h6>
+							<h4>commands</h4>
 						</div>
 						<p>
 							The bot is easy to use and has a useful help command, with many links to the <a href='https://docs.christmascountdown.live'>documentation</a> where everything is explained in more detail.

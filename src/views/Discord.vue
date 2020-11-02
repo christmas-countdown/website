@@ -3,8 +3,8 @@
     <Navbar />
 
 	<mdb-container> <!-- fluid -->
-		<div id='title' class='noselect'>
-			<div>
+		<div id='title'>
+			<div class='noselect'>
 				<h4>The original</h4>
 				<h1>Christmas Countdown</h1>
 				<h3>bot for Discord</h3>
@@ -17,12 +17,17 @@
 				<p>
 					Get the number of sleeps left until Christmas sent to a selected channel every morning - in <b>your language</b> and <b>your timezone</b>.
 					<!-- The Christmas Countdown bot for Discord has some cool features... -->
+					<br />
+					Go to the <a href='https://docs.christmascountdown.live/discord/settings/server/'>docs</a> to find out how to set up the bot using <code>x!server setup</code> after adding it.
 				</p>
 			
-				<a href='/invite'>
-					<mdb-btn style='background-color:#7289DA;color:white;'>Add to Discord</mdb-btn> <!-- color='primary' -->
-				</a>
+				<br />
 
+				<p>
+					<a href='/invite'>
+						<mdb-btn style='background-color:#7289DA;color:white;'>Add to Discord</mdb-btn> <!-- color='primary' -->
+					</a>
+				</p>
 			</div>
 		</div>
 
@@ -122,6 +127,10 @@
 		</mdb-row>
 
 		<div id='title' style='margin-top:3rem;'>
+			<!-- <p>
+				The default prefix is <code>x!</code>, but it can be changed, and the bot also responds to being mentioned.
+			</p> -->
+			<br /> <br />
 			<p>
 				Why haven't you added it yet?
 			</p>

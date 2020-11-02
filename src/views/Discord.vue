@@ -27,7 +27,7 @@
 		</div>
 
 		<mdb-row>
-			<mdb-col lg='8' class='box z-depth-5 hvr-grow left'>
+			<mdb-col lg='8' class='box z-depth-5 left'>
 				<mdb-row>
 					<mdb-col>
 						<div class='header'>
@@ -48,7 +48,7 @@
 		<mdb-row>
 			<mdb-col lg='4'>
 			</mdb-col>
-			<mdb-col class='box z-depth-5 hvr-grow right'>
+			<mdb-col class='box z-depth-5 right'>
 				<mdb-row>
 					<mdb-col>
 						<div class='header'>
@@ -67,7 +67,7 @@
 		</mdb-row>
 
 		<mdb-row>
-			<mdb-col lg='8' class='box z-depth-5 hvr-grow left'>
+			<mdb-col lg='8' class='box z-depth-5 left'>
 				<mdb-row>
 					<mdb-col>
 					<div class='header'>
@@ -86,7 +86,7 @@
 			<mdb-col lg='4'>
 				
 			</mdb-col>
-			<mdb-col class='box z-depth-5 hvr-grow right'>
+			<mdb-col class='box z-depth-5 right'>
 				<mdb-row>
 					<mdb-col>
 						<div class='header'>

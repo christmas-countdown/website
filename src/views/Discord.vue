@@ -64,7 +64,7 @@
 							Similarly to the timezones, users can set their own language, and administrators can set the server's default.
 						</p>
 						<p>
-							If the bot hasn't been translated to your language yet, you can contribute on <a href='https://github.com/eartharoid/ChristmasCountdownBot'>GitHub</a>.
+							If the bot hasn't been translated to your language yet, you can contribute on <a href='https://github.com/christmas-countdown/bot'>GitHub</a>.
 						</p>
 					</mdb-col>
 				</mdb-row>
@@ -100,6 +100,42 @@
 						</div>
 						<p>
 							The bot is easy to use and has a useful help command, with many links to the <a href='https://docs.christmascountdown.live'>documentation</a> where everything is explained in more detail.
+						</p>
+					</mdb-col>
+				</mdb-row>
+			</mdb-col>
+		</mdb-row>
+
+		<mdb-row>
+			<mdb-col lg='8' class='box z-depth-5 left'>
+				<mdb-row>
+					<mdb-col>
+					<div class='header'>
+						<h6>Excellent</h6>
+						<h4>support</h4>
+					</div>
+						<p>
+							Need help setting up the bot? Join the <a href='https://go.eartharoid.me/discord'>support server on Discord</a> for fast and helpful support.
+						</p>
+					</mdb-col>
+				</mdb-row>
+			</mdb-col>
+		</mdb-row>
+		
+		<mdb-row>
+			<mdb-col lg='4'>
+				
+			</mdb-col>
+			<mdb-col class='box z-depth-5 right'>
+				<mdb-row>
+					<mdb-col>
+						<div class='header'>
+							<h6>Recommended:</h6>
+							<h4>Christmas Radio</h4>
+						</div>
+						<p>
+							Play Christmas music 24/7 in your Discord server with the <a href='https://top.gg/bot/648134637654114309'>Christmas Radio bot.</a>
+							<img src='https://images.discordapp.net/avatars/648134637654114309/6d6986c735dec65ba5e2e731db15909c.png?size=128' style='border-radius:50%;height:75px;width:auto;margin:1rem;' />
 						</p>
 					</mdb-col>
 				</mdb-row>

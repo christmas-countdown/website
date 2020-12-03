@@ -82,7 +82,7 @@
 										<mdb-dropdown-item>Terms</mdb-dropdown-item>
 									</router-link>
 
-									<a href='https://github.com/eartharoid/ChristmasCountdown'>
+									<a href='https://github.com/christmas-countdown/docs'>
 										<mdb-dropdown-item>GitHub</mdb-dropdown-item>
 									</a>
 								</mdb-dropdown-menu>

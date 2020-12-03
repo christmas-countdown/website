@@ -1,6 +1,6 @@
 <template>
   <div class='content'>
-    <Navbar />
+    <BackArrow />
 
 	<mdb-container> <!-- fluid -->
 		Fullscreen
@@ -12,7 +12,7 @@
 
 <script>
 // @ is an alias to /src
-import Navbar from '@/components/Navbar.vue';
+import BackArrow from '@/components/BackArrow.vue';
 import Footer from '@/components/Footer.vue';
 
 import {
@@ -23,7 +23,7 @@ import {
 export default {
   name: 'Fullscreen',
   components: {
-	Navbar,
+	BackArrow,
 	Footer,
 	mdbContainer,
   }

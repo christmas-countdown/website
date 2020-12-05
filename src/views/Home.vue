@@ -15,8 +15,8 @@
 				<router-link to='/total#sleeps'>
 					<div class='inner-filter'>
 						<h3>Christmas is in</h3>
-						<h2 id='sleeps' class='number'>{{ sleeps.num }}</h2>
-						<h3>{{ sleeps.text }}</h3>
+						<h2 id='sleeps' class='number'>{{ this.$root.$data.countdown.sleeps.num }}</h2>
+						<h3>{{ this.$root.$data.countdown.sleeps.text }}</h3>
 					</div>
 				</router-link>
 			</mdb-col>
@@ -121,11 +121,11 @@ export default {
 		mdbCol,
 		// mdbIcon,
 	},
-	computed: {
+	/* computed: {
 		sleeps () {
 			return this.$store.state.countdown.sleeps
 		}
-	},
+	}, */
 };
 </script>
 

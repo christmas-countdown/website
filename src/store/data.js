@@ -1,4 +1,8 @@
 export default {
+	christmas: {
+		isToday: false,
+		isTomorrow: false,
+	},
 	countdown: {
 		live: {
 			days: {

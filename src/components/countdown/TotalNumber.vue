@@ -1,7 +1,7 @@
 <template>
 	<mdb-col col='md' class='numberContainer box z-depth-5' :id='text'>
 		<mdb-col class='num'>
-			{{ num }}
+			{{ this.$root.comafy(num) }}
 		</mdb-col>
 		<mdb-col class='text'>
 			{{ text }}

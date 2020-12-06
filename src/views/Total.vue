@@ -2,7 +2,7 @@
   <div class='content'>
     <Navbar />
 
-	<mdb-container class='noselect'> <!-- fluid -->
+	<mdb-container> <!-- fluid -->
 
 		<mdb-row>
 			<TotalNumber 

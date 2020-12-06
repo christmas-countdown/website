@@ -56,9 +56,39 @@ export default {
 
 	#afterblur {
 		scroll-behavior: smooth;
+		/* Hide scrollbar for IE, Edge and Firefox */
+		/* -ms-overflow-style: none; */
+		scrollbar-width: none; /* only hide it on firefox */
+
 		position: relative;
 		overflow-y: scroll;
 		width: 100vw;
 		height: 100vh;
+	}
+	/* Hide scrollbar for Chrome, Safari and Opera */
+	/* #afterblur::-webkit-scrollbar {
+		display: none;
+	} */
+
+	/* width */
+	::-webkit-scrollbar {
+		width: 10px;
+	}
+
+	/* Track */
+	::-webkit-scrollbar-track:hover {
+		background: rgba(0, 0, 0, 0.3);
+		cursor: pointer !important;
+	}
+
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		background: rgba(0, 0, 0, 0.5);
+	}
+
+	/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+		background: rgba(0, 0, 0, 0.8);
+		cursor: pointer;
 	}
 </style>

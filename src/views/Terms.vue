@@ -5,7 +5,10 @@
 	<mdb-container> <!-- fluid -->
 		<h1>Terms</h1>
 		<p>
-			The countdown might be wrong, but it <i>probably</i> isn't.
+			By using any of the Christmas Countdown projects/services, you agree with terms and the privacy policy.
+			The countdown may not be correct, but it's probably your fault, not mine.
+			
+			
 		</p>
 	</mdb-container>
 
@@ -24,12 +27,12 @@ import {
 } from 'mdbvue';
 
 export default {
-  name: 'Terms',
-  components: {
-	Navbar,
-	Footer,
-	mdbContainer,
-  }
+	name: 'Terms',
+	components: {
+		Navbar,
+		Footer,
+		mdbContainer,
+	}
 };
 </script>
 

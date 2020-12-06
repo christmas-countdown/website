@@ -126,6 +126,9 @@ export default {
 			return this.$root.$data.countdown.total.sleeps;
 		}
 	},
+	mounted () {
+		window.scrollTo(0, 0);
+	},
 };
 </script>
 

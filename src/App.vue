@@ -57,8 +57,8 @@ export default {
 	#afterblur {
 		scroll-behavior: smooth;
 		/* Hide scrollbar for IE, Edge and Firefox */
-		/* -ms-overflow-style: none; */
-		scrollbar-width: none; /* only hide it on firefox */
+		/* -ms-overflow-style: none;
+		scrollbar-width: none; */
 
 		position: relative;
 		overflow-y: scroll;

@@ -192,15 +192,18 @@ import {
 } from 'mdbvue';
 
 export default {
-  name: 'Discord',
-  components: {
-	Navbar,
-	Footer,
-	mdbBtn,
-	mdbContainer,
-	mdbCol,
-	mdbRow,
-  }
+	name: 'Discord',
+	components: {
+		Navbar,
+		Footer,
+		mdbBtn,
+		mdbContainer,
+		mdbCol,
+		mdbRow,
+	},
+	mounted () {
+		window.scrollTo(0, 0);
+	},
 };
 </script>
 

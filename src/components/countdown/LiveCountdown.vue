@@ -53,7 +53,7 @@ export default {
 		font-size: 5rem;
 		text-shadow: 3px 3px 10px black;
 		height: 100%;
-		margin-top: 5vh;
+		margin-top: 4vh;
 	}
 
 	h1 {

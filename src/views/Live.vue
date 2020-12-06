@@ -3,6 +3,11 @@
 		<!-- <BackArrow /> -->
 		<Navbar />
 		
+		<router-link to='/fullscreen' class='col' title='Open fullscreen countdown'>
+			<i class='fas fa-expand'></i>
+			<!-- <span class='space'>Fullscreen</span> -->
+		</router-link>
+
 		<LiveCountdown />
 
 		<Footer class='footer' />
@@ -27,4 +32,11 @@ export default {
 </script>
 
 <style scoped>
+	.col {
+		padding: 1rem 2rem;
+	}
+
+	.space {
+		padding-left: 0.3rem;
+	}
 </style>

@@ -12,20 +12,20 @@
 </template>
 
 <script>
-	import {
+import {
+	mdbContainer,
+	mdbCol,
+	mdbRow,
+} from 'mdbvue';
+
+export default {
+	name: 'BackArrow',
+	components: {
 		mdbContainer,
 		mdbCol,
 		mdbRow,
-	} from 'mdbvue';
-
-	export default {
-		name: 'BackArrow',
-		components: {
-			mdbContainer,
-			mdbCol,
-			mdbRow,
-		}
 	}
+};
 </script>
 
 <style scoped>

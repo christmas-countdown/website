@@ -70,7 +70,7 @@
 
 						<div class='dropdown-divider'></div>
 
-						<mdb-dropdown-item tag='div' class='p-0' submenu>
+						<mdb-dropdown-item tag='div' class='p-0' submenu id='boring'>
 							<mdb-dropdown class='w-100'>
 								<mdb-dropdown-item slot='toggle' submenuIcon='caret-right'>Boring stuff</mdb-dropdown-item>
 								<mdb-dropdown-menu class='ml-2 rounded-0 border-0 z-depth-1'>
@@ -82,7 +82,7 @@
 										<mdb-dropdown-item>Terms</mdb-dropdown-item>
 									</router-link>
 
-									<a href='https://github.com/christmas-countdown/docs'>
+									<a href='https://github.com/christmas-countdown'>
 										<mdb-dropdown-item>GitHub</mdb-dropdown-item>
 									</a>
 								</mdb-dropdown-menu>
@@ -166,6 +166,10 @@ export default {
 </script>
 
 <style scoped>
+	#boring:hover {
+		cursor: pointer;
+	}
+
 	#snowflake:hover {
 		cursor: pointer;
 	}

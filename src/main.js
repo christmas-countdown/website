@@ -12,6 +12,8 @@ Vue.use(snow);
 Vue.config.productionTip = false;
 Vue.prototype.$countly = 'countly stuff';
 
+let countdown = new Countdown;
+
 // eslint-disable-next-line no-unused-vars
 const app = new Vue({
 	router,
@@ -20,22 +22,17 @@ const app = new Vue({
 	methods: {
 		startCountdown () {
 			let data = this;
-			setInterval(() => {
-				let countdown = new Countdown;
-
+			setInterval(() => {	
 				for (let i in data.countdown.total) {
 					data.countdown.total[i] = countdown[i];
 				}					
-
 				for (let i in data.countdown.live) {
 					let num = countdown.total.days_based[i];
 					data.countdown.live[i].num = num,
 					data.countdown.live[i].text = num === 1 ? i.slice(0, -1) : i;
 				}
-
 				data.christmas.isToday = countdown.isToday;
-				data.christmas.isTomorrow = countdown.isTomorrow;
-					
+				data.christmas.isTomorrow = countdown.isTomorrow;		
 			}, 1000);
 		},
 		comafy (num) {

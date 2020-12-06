@@ -1,20 +1,17 @@
 import spacetime from 'spacetime';
 
 export default class ChristmasCountdown {
-	constructor() {
+	constructor() {}
 
-		this.now = spacetime.now();
+	get now() {
+		return spacetime.now();
+	}
 
-		///////////////////////////////// FOR TESTING //
-		// this.now = spacetime('December 24, 2020'); //  FOR TESTING
-		/////////////////////////////////			  //
-
+	get christmas() {
 		let year = this.now.year();
-
 		if (this.now.month() === 11 && this.now.date() > 24) // months are 0 based, because why not?
-			year++; // if it's already Christmas, set date to next Christmas
-
-		this.christmas = spacetime(`December 25, ${year} 0:00:00`); // midnight on Christmas day
+			year++; // if it's already Christmas, set date to next Christmas	
+		return spacetime(`December 25, ${year} 0:00:00`); // midnight on Christmas day
 	}
 
 	get months() {

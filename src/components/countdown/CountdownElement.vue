@@ -2,38 +2,41 @@
 	<mdb-col col='sm' class='numberContainer'>
 		<mdb-row>
 			<mdb-col class='num'>
-				{{ countdown.num[type] }}
+				<!-- {{ countdown[type].num }} -->
+				{{ num }}
 			</mdb-col>
 		</mdb-row>
 		<mdb-row>
 			<mdb-col class='text'>
-				{{ countdown.text[type] }}
+				<!-- {{ countdown[type].text }} -->
+				{{ text }}
 			</mdb-col>
 		</mdb-row>
 	</mdb-col>
 </template>
 
 <script>
-	import {
+import {
+	mdbCol,
+	mdbRow,
+} from 'mdbvue';
+
+export default {
+	name: 'CountdownElement',
+	props: {
+		num: Number,
+		text: String,
+	},
+	components: {
 		mdbCol,
 		mdbRow,
-	} from 'mdbvue';
-
-	export default {
-		name: 'CountdownElement',
-		props: {
-			type: String
-		},
-		components: {
-			mdbCol,
-			mdbRow,
-		},
-		computed: {
-			countdown() {
-				return this.$store.state.countdown.live;
-			}
-		},
-	}
+	},
+	computed: {
+		countdown() {
+			return this.$root.$data.countdown.live;
+		}
+	},
+};
 </script>
 
 <style scoped>

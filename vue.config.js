@@ -3,4 +3,4 @@ module.exports = {
 	// 	? '/' + process.env.CI_PROJECT_NAME + '/'
 	// 	: '/',
 	publicPath: '/',
-}
+};

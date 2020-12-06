@@ -6,9 +6,10 @@
 			<!-- <h1>Christmas is in</h1> -->
 			<mdb-row>
 				<CountdownElement
-					v-for='type in this.$store.state.countdown.live.text'
-					v-bind:key='type'
-					v-bind:type='type'
+					v-for='i in this.$root.$data.countdown.live'
+					v-bind:key='i.text'
+					v-bind:num='i.num'
+					v-bind:text='i.text'
 				/>
 			</mdb-row>
 
@@ -53,6 +54,7 @@ export default {
 		font-family: 'MerryChristmas';
 		font-size: 5rem;
 		text-shadow: 3px 3px 10px black;
+		height: 100%;
 		margin-top: 5vh;
 	}
 

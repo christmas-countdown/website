@@ -13,6 +13,7 @@
 		"bootstrap-css-only": "^4.4.1",
 		"core-js": "^3.8.0",
 		"mdbvue": "^6.7.2",
+		"spacetime": "^6.12.1",
 		"vue": "^2.6.11",
 		"vue-let-it-snow": "^1.0.0",
 		"vue-router": "^3.4.9"

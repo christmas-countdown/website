@@ -22,11 +22,11 @@ export default {
 				// ]
 			},
 			show: false
-		}
+		};
 	},
 	mounted() {
 		// this.show = this.$store.state.options.snow.enabled;
 		this.show = this.$root.$data.options.snow.enabled;
 	}
-}
+};
 </script>

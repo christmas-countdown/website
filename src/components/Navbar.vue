@@ -96,6 +96,16 @@
 
 			<mdb-navbar-nav right>
 				<ul class='navbar-nav ml-auto nav-flex-icons'>
+					<li class='nav-item'>
+						<a class='nav-link waves-effect waves-light' id='snowflake'>
+							<i class='far fa-snowflake'
+								:style='{ color: snowflakeColour }'
+								v-on:click='toggleSnow()'
+							></i>
+						</a>
+
+					</li>
+
 					<a href='https://go.eartharoid.me/discord'>
 						<li class='nav-item'>
 							<a class='nav-link waves-effect waves-light'><i class='fab fa-discord'></i></a>
@@ -108,7 +118,7 @@
 </template>
 
 <script>
-	import {
+import {
 	mdbNavbar,
 	mdbNavbarBrand,
 	mdbNavbarToggler,
@@ -118,9 +128,9 @@
 	mdbDropdownMenu,
 	mdbDropdownToggle,
 	mdbDropdownItem,
-	} from 'mdbvue';
+} from 'mdbvue';
 
-	export default {
+export default {
 	name: 'Navbar',
 	// props: {
 	// 	view: String
@@ -128,6 +138,17 @@
 	computed: {
 		view () {
 			return this.$route.name;
+		},
+		snowflakeColour () {
+			return this.$root.$data.options.snow.enabled ? 'green!imporant' : 'red!important';
+		},
+		snowEnabled () {
+			return this.$root.$data.options.snow.enabled;
+		}
+	},
+	methods: {
+		toggleSnow () {
+			this.$root.$data.options.snow.enabled = !! this.$root.$data.options.snow.enabled;
 		}
 	},
 	components: {
@@ -141,9 +162,11 @@
 		mdbDropdownToggle,
 		mdbDropdownItem,
 	}
-	}
+};
 </script>
 
 <style scoped>
-
+	#snowflake:hover {
+		cursor: pointer;
+	}
 </style>

@@ -1,20 +1,20 @@
 <template>
-	<mdb-footer class='font-small pt-4 mt-4' dark>
-	<div class='footer-copyright text-center py-3'>
-		<mdb-container fluid>
-		&copy; {{ year }} <a href='https://eartharoid.me'>eartharoid</a>
-		</mdb-container>
-	</div>
+	<mdb-footer id='footer' class='font-small pt-4 mt-4' dark>
+		<div class='footer-copyright text-center py-3'>
+			<mdb-container fluid>
+				&copy; 2017 - {{ year }} <a href='https://eartharoid.me'>eartharoid</a>
+			</mdb-container>
+		</div>
 	</mdb-footer>
 </template>
 
 <script>
-	import {
+import {
 	mdbFooter,
 	mdbContainer,
-	} from 'mdbvue';
+} from 'mdbvue';
 
-	export default {
+export default {
 	name: 'Footer',
 	data: () => ({
 		year: new Date().getFullYear(),
@@ -23,9 +23,11 @@
 		mdbFooter,
 		mdbContainer,
 	}
-	}
+};
 </script>
 
 <style scoped>
-
+	#footer {
+		/* margin-top: 12vh !important; */
+	}
 </style>

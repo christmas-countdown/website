@@ -4,8 +4,8 @@ import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
 import snow from 'vue-let-it-snow';
-import data from './store/data'
-// import countdown from './assets/js/countdown'
+import data from './store/data';
+import Countdown from './assets/js/countdown';
 
 Vue.use(snow);
 
@@ -21,7 +21,18 @@ const app = new Vue({
 		startCountdown () {
 			let data = this;
 			setInterval(() => {
-				data.countdown.sleeps.num ++;
+				let countdown = new Countdown;
+
+				for (let i in data.countdown.total) {
+					data.countdown.total[i] = countdown[i];
+				}					
+
+				for (let i in data.countdown.live) {
+					let num = countdown.total.days_based[i];
+					data.countdown.live[i].num = num,
+					data.countdown.live[i].text = num === 1 ? i.slice(0, -1) : i;
+				}
+					
 			}, 1000);
 		}
 	},

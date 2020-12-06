@@ -1,40 +1,52 @@
 export default {
 	countdown: {
-		sleeps: {
-			num: 0,
-			text: 'sleeps'
-		},
 		live: {
-			num: {
-				days: 0,
-				hours: 0,
-				minutes: 0,
-				seconds: 0,
+			days: {
+				num: 0,
+				text: 'days'
 			},
-			text: {
-				days: 'days',
-				hours: 'hours',
-				minutes: 'minutes',
-				seconds: 'seconds',
-			}
+			hours: {
+				num: 0,
+				text: 'hours'
+			},
+			minutes: {
+				num: 0,
+				text: 'minutes'
+			},
+			seconds: {
+				num: 0,
+				text: 'seconds'
+			},
 		},
 		total: {
-			num: {
-				months: 0,
-				weeks: 0,
-				days: 0,
-				hours: 0,
-				minutes: 0,
-				seconds: 0,
+			months: {
+				num: 0,
+				text: 'months'
 			},
-			text: {
-				months: 'months',
-				weeks: 'weeks',
-				days: 'days',
-				hours: 'hours',
-				minutes: 'minutes',
-				seconds: 'seconds',
-			}
+			weeks: {
+				num: 0,
+				text: 'weeks'
+			},
+			sleeps: {
+				num: 0,
+				text: 'sleeps'
+			},
+			days: {
+				num: 0,
+				text: 'days'
+			},
+			hours: {
+				num: 0,
+				text: 'hours'
+			},
+			minutes: {
+				num: 0,
+				text: 'minutes'
+			},
+			seconds: {
+				num: 0,
+				text: 'seconds'
+			},
 		},
 	},
 	options: {
@@ -43,4 +55,4 @@ export default {
 			enabled: false,
 		}
 	}
-}
+};

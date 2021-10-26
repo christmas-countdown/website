@@ -18,7 +18,7 @@
 					Get the number of sleeps left until Christmas sent to a selected channel every morning - in <b>your language</b> and <b>your timezone</b>.
 					<!-- The Christmas Countdown bot for Discord has some cool features... -->
 					<br />
-					Go to the <a href='https://docs.christmascountdown.live/discord/settings/server/'>docs</a> to find out how to set up the bot using <code>x!server setup</code> after adding it.
+					Go to the <a href='https://docs.christmascountdown.live/discord/enable-the-countdown/'>docs</a> to find out how to set up the bot using <code>/countdown</code> after adding it.
 				</p>
 			
 				<br />
@@ -32,6 +32,7 @@
 		</div>
 
 		<mdb-row>
+			<mdb-col lg='1'></mdb-col>
 			<mdb-col lg='8' class='box z-depth-5 left'>
 				<mdb-row>
 					<mdb-col>
@@ -51,8 +52,7 @@
 		</mdb-row>
 
 		<mdb-row>
-			<mdb-col lg='4'>
-			</mdb-col>
+			<mdb-col lg='3'></mdb-col>
 			<mdb-col class='box z-depth-5 right'>
 				<mdb-row>
 					<mdb-col>
@@ -69,9 +69,11 @@
 					</mdb-col>
 				</mdb-row>
 			</mdb-col>
+			<mdb-col lg='1'></mdb-col>
 		</mdb-row>
 
 		<mdb-row>
+			<mdb-col lg='1'></mdb-col>
 			<mdb-col lg='8' class='box z-depth-5 left'>
 				<mdb-row>
 					<mdb-col>
@@ -80,7 +82,7 @@
 						<h4>sleeps? days? hours?</h4>
 					</div>
 						<p>
-							Get the number of weeks, sleeps, days, hours, minutes, seconds, or the total time left until Christmas.
+							Get the number of months, weeks, sleeps, days, hours, minutes, seconds, or the total time left until Christmas.
 						</p>
 					</mdb-col>
 				</mdb-row>
@@ -88,9 +90,7 @@
 		</mdb-row>
 		
 		<mdb-row>
-			<mdb-col lg='4'>
-				
-			</mdb-col>
+			<mdb-col lg='3'></mdb-col>
 			<mdb-col class='box z-depth-5 right'>
 				<mdb-row>
 					<mdb-col>
@@ -104,9 +104,11 @@
 					</mdb-col>
 				</mdb-row>
 			</mdb-col>
+			<mdb-col lg='1'></mdb-col>
 		</mdb-row>
 
 		<mdb-row>
+			<mdb-col lg='1'></mdb-col>
 			<mdb-col lg='8' class='box z-depth-5 left'>
 				<mdb-row>
 					<mdb-col>
@@ -123,9 +125,7 @@
 		</mdb-row>
 		
 		<mdb-row>
-			<mdb-col lg='4'>
-				
-			</mdb-col>
+			<mdb-col lg='3'></mdb-col>
 			<mdb-col class='box z-depth-5 right'>
 				<mdb-row>
 					<mdb-col>
@@ -140,25 +140,38 @@
 					</mdb-col>
 				</mdb-row>
 			</mdb-col>
+			<mdb-col lg='1'></mdb-col>
 		</mdb-row>
 	</mdb-container>
 
-	<mdb-container>
+	<mdb-container style='text-align:center;'>
 		<mdb-row>
 			<mdb-col col='md'>
-				<img src='https://i.imgur.com/hfF9C3k.png' class='rounded img-fluid zoom' />
-			</mdb-col>
-			<mdb-col col='md'>
-				<img src='https://i.imgur.com/oIXzBfV.png' class='rounded img-fluid zoom' />
+				<img src='https://static.eartharoid.me/sharex/21/10/bot-help-cmd.png' class='rounded img-fluid zoom' />
 			</mdb-col>
 		</mdb-row>
 
 		<mdb-row>
 			<mdb-col col='md'>
-				<img src='https://i.imgur.com/TK9SW2u.png' class='rounded img-fluid zoom' />
+				<img src='https://static.eartharoid.me/sharex/21/10/bot-countdown.png' class='rounded img-fluid zoom' />
 			</mdb-col>
+		</mdb-row>
+
+		<mdb-row>
 			<mdb-col col='md'>
-				<img src='https://i.imgur.com/CVDy45B.png' class='rounded img-fluid zoom' />
+				<img src='https://static.eartharoid.me/sharex/21/10/bot-total-cmd.png' class='rounded img-fluid zoom' />
+			</mdb-col>
+		</mdb-row>
+
+		<mdb-row>
+			<mdb-col col='md'>
+				<img src='https://static.eartharoid.me/sharex/21/10/bot-hours-cmd.png' class='rounded img-fluid zoom' />
+			</mdb-col>
+		</mdb-row>
+
+		<mdb-row>
+			<mdb-col col='md'>
+				<img src='https://static.eartharoid.me/sharex/21/10/bot-joke-cmd.png' class='rounded img-fluid zoom' />
 			</mdb-col>
 		</mdb-row>
 

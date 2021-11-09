@@ -1,5 +1,6 @@
 <script>
 	import '../app.css';
+	import Navbar from '../components/Navbar.svelte';
 </script>
 
 <svelte:head>
@@ -23,7 +24,10 @@
 	<meta name="og:url" content="https://www.christmascountdown.live" />
 </svelte:head>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<Navbar />
+
+<div class="backdrop-filter backdrop-blur-lg backdrop-saturate-150 bg-blurple bg-opacity-40 border-blurple border-2 rounded-lg p-10">
+	<h2></h2>
+</div>
 
 <!-- backdrop-filter backdrop-blur-lg  -->

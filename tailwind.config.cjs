@@ -5,6 +5,14 @@ module.exports = {
 		'./src/**/*.html',
 		'./src/**/*.svelte'
 	],
-	theme: { extend: {} },
+	theme: {
+		extend: {
+			colors: {
+				blurple: '#5865F2',
+				original: '#090B44',
+				primary: '#D5002C'
+			}
+		}
+	},
 	variants: { extend: {} }
 };

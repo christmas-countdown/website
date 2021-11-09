@@ -1,17 +1,20 @@
 module.exports = {
-	root: true,
-	extends: ['eslint:recommended', 'prettier'],
-	plugins: ['svelte3'],
-	overrides: [{ files: ['*.svelte'], processor: 'svelte3/svelte3' }],
-	parserOptions: {
-		sourceType: 'module',
-		ecmaVersion: 2021
-	},
 	env: {
 		browser: true,
 		es2017: true,
 		node: true
 	},
+	extends: ['eslint:recommended', 'prettier'],
+	overrides: [{
+		files: ['*.svelte'],
+		processor: 'svelte3/svelte3'
+	}],
+	parserOptions: {
+		ecmaVersion: 2021,
+		sourceType: 'module'
+	},
+	plugins: ['svelte3'],
+	root: true,
 	rules: {
 		'array-bracket-newline': [
 			'error',
@@ -113,7 +116,7 @@ module.exports = {
 			'error'
 		],
 		'multiline-comment-style': [
-			'warn'
+			'off'
 		],
 		'no-console': [
 			'warn'

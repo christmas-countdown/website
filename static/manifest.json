@@ -1,0 +1,15 @@
+{
+	"name": "Christmas Countdown by eartharoid",
+	"short_name": "Christmas Countdown",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#D5002C",
+	"description": "Get the time left to Christmas with the decorative live online countdown or with the original Christmas countdown bot for Discord.",
+	"icons": [
+		{
+			"src": "/logo.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}

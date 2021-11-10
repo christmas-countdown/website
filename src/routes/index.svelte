@@ -12,6 +12,7 @@
 		};
 	};
 </script>
+
 <script>
 	export let sleeps;
 
@@ -46,33 +47,41 @@
 
 <h1 class="select-none font-christmas text-7xl m-10 text-center">Christmas Countdown</h1>
 
-<div class="grid grid-rows-3 grid-cols-1 sm:grid-cols-2 gap-4">
-	<div
-		class="col-span-2 card-bg bg-fixed rounded-lg p-16 shadow-xl text-center"
-		style="--url: url('https://img.eartharoid.me/insecure/pr:1080p/plain/s3://eartharoid/christmas-countdown/bg/legacy.jpg@webp');"
-	>
-		<div class="inner">
-			<p class="text-3xl mb-4">Christmas is in</p>
-			<p class="font-number text-6xl font-bold mb-4">{sleeps}</p>
-			<p class="text-3xl">sleeps</p>
-		</div>
-	</div>
-	<div class="mx-2">
-		<Card background="bg-blurple" border="border-blurple">
-			<div class="p-6">
-				<h2>Get the Discord bot -&gt;</h2>
-			</div>
-		</Card>
-	</div>
-	<div class="mx-2">
-		<Card background="bg-primary" border="border-primary">
-			<div class="p-6">
-				<h2>Customise your countdown -&gt;</h2>
-			</div>
-		</Card>
+<div
+	class="card-bg select-none bg-fixed rounded-lgshadow-xl text-center"
+	style="--url: url('https://img.eartharoid.me/insecure/pr:1080p/plain/s3://eartharoid/christmas-countdown/bg/legacy.jpg@webp');"
+>
+	<div class="inner p-2 sm:p-0">
+		<p class="text-3xl mb-4">Christmas is in</p>
+		<p class="font-number text-6xl font-bold mb-4">{sleeps}</p>
+		<p class="text-3xl">sleeps</p>
 	</div>
 </div>
 
-<!-- <div class="grid grid-cols-1 sm:grid-cols-2 gap-4" /> -->
-
-<!-- backdrop-filter backdrop-blur-lg  -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
+	<a href="/discord" class="mx-2 transform hover:-translate-y-2 hover:scale-105 duration-300 flex">
+		<Card background="bg-blurple" border="border-blurple">
+			<div class="p-6">
+				<h2 class="font-bold text-xl">Get the Discord bot <i class="fas fa-arrow-right" /></h2>
+				<p>
+					Add the Christmas Countdown bot for Discord to your server to get the number of sleeps
+					left until Christmas sent to the text channel of your choice every morning.
+					<a href="/discord" class="font-bold hover:underline"
+						>Learn more <i class="fas fa-arrow-right" /></a
+					>
+				</p>
+			</div>
+		</Card>
+	</a>
+	<a href="/options" class="mx-2 transform hover:-translate-y-2 hover:scale-105 duration-300 flex">
+		<Card background="bg-primary" border="border-primary">
+			<div class="p-6">
+				<h2 class="font-bold text-xl">Customise your countdown <i class="fas fa-arrow-right" /></h2>
+				<p>
+					Manage your website preferences and configure options for snow, custom backgrounds, and
+					more.
+				</p>
+			</div>
+		</Card>
+	</a>
+</div>

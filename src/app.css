@@ -78,3 +78,21 @@ body:before {
 	text-align: center;
 	text-shadow: 3px 3px 10px black;
 }
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track:hover {
+	background: rgba(0, 0, 0, 0.3);
+	cursor: pointer !important;
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: rgba(0, 0, 0, 0.8);
+	cursor: pointer;
+}

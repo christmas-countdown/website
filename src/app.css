@@ -1,7 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+	font-family: 'MerryChristmas';
+	src: url('/fonts/MerryChristmasFlake.woff2');
+	font-weight: bold;
+}
 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 :root {
 	--background-color: #0E1518;
 	--background-image: url('https://img.eartharoid.me/insecure/pr:1080p/plain/s3://eartharoid/christmas-countdown/bg/default.jpg@webp');
@@ -13,7 +19,7 @@ body {
 
 body:before {
 	content: "";
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	height: 100%;
 	top: 0;
@@ -25,3 +31,50 @@ body:before {
 	opacity: 0.9;
 }
 
+.font-christmas {
+	font-family: 'MerryChristmas';
+}
+
+.font-number {
+	font-family: 'Pacifico', cursive;
+}
+
+/* .card-bg {
+	background: var(--url) no-repeat;
+	background-position: 50%;
+	background-size: cover;
+} */
+
+.card-bg {
+	position: relative;
+	padding: 5%;
+	margin: 0.7rem;
+	box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.8);
+}
+
+.card-bg::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: var(--url);
+	background-position: 50%;
+	background-size: cover;
+	filter: /* blur(1px) */
+	brightness(50%);
+	-moz-filter: /* blur(1px) */
+	brightness(50%);
+	-webkit-filter: /* blur(1px) */
+	brightness(50%);
+	-o-filter: /* blur(1px) */
+	brightness(50%);
+	/* opacity: 0.9; */
+}
+
+.card-bg .inner {
+	position: relative;
+	text-align: center;
+	text-shadow: 3px 3px 10px black;
+}

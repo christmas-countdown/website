@@ -22,7 +22,7 @@
 </script>
 
 <nav
-	class="mb-5 backdrop-filter backdrop-blur-lg backdrop-saturate-150 bg-black bg-opacity-40 rounded-lg"
+	class="mb-5 backdrop-filter backdrop-blur-lg backdrop-saturate-150 bg-black bg-opacity-40 rounded-lg shadow-xl"
 >
 	<div class="max-w-6xl mx-auto px-4">
 		<div class="flex justify-between">
@@ -49,7 +49,7 @@
 						{:else}
 							<a
 								href={page.url}
-								class="py-4 px-2 text-gray-400 font-semibold hover:text-primary transition duration-300"
+								class="py-4 px-2 text-gray-400 border-b-4 font-semibold hover:text-primary transition duration-300 border-transparent"
 								title={page.name}
 								>{page.name}</a
 							>

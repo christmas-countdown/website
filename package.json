@@ -10,7 +10,6 @@
 	},
 	"dependencies": {
 		"@eartharoid/christmas": "^1.2.1",
-		"@eartharoid/i18n": "^1.0.2",
 		"spacetime": "^6.16.3"
 	},
 	"devDependencies": {

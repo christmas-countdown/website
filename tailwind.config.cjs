@@ -11,7 +11,8 @@ module.exports = {
 				blurple: '#5865F2',
 				original: '#090B44',
 				primary: '#D5002C'
-			}
+			},
+			fontFamily: { christmas: '"/fonts/MerryChristmasFlake.ttf"' }
 		}
 	},
 	variants: { extend: {} }

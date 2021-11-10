@@ -1,6 +1,6 @@
 <script>
 	import '../app.css';
-	import Navbar from '../components/Navbar.svelte';
+	import Card from '../components/Card.svelte';
 </script>
 
 <svelte:head>
@@ -24,10 +24,8 @@
 	<meta name="og:url" content="https://www.christmascountdown.live" />
 </svelte:head>
 
-<Navbar />
-
-<div class="backdrop-filter backdrop-blur-lg backdrop-saturate-150 bg-blurple bg-opacity-40 border-blurple border-2 rounded-lg p-10">
-	<h2></h2>
-</div>
+<Card background="bg-blurple" border="border-blurple">
+	<h2>Get the Discord bot -&gt;</h2>
+</Card>
 
 <!-- backdrop-filter backdrop-blur-lg  -->

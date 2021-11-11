@@ -6,7 +6,7 @@
 <footer
 	class="mt-16 p-8 backdrop-filter backdrop-blur-lg backdrop-saturate-150 bg-black bg-opacity-40 rounded-lg shadow-xl"
 >
-	<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-4">
+	<div class="grid text-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-4">
 		<div>
 			<h5 class="font-bold text-gray-400">Information</h5>
 			<ul>

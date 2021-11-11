@@ -62,15 +62,12 @@ body:before {
 	background-image: var(--url);
 	background-position: 50%;
 	background-size: cover;
-	filter: /* blur(1px) */
-	brightness(50%);
-	-moz-filter: /* blur(1px) */
-	brightness(50%);
-	-webkit-filter: /* blur(1px) */
-	brightness(50%);
-	-o-filter: /* blur(1px) */
-	brightness(50%);
-	/* opacity: 0.9; */
+	background-clip: border-box !important;
+	border-radius: 0.5rem;
+	filter: brightness(50%);
+	-moz-filter: brightness(50%);
+	-webkit-filter: brightness(50%);
+	-o-filter: brightness(50%);
 }
 
 .card-bg .inner {

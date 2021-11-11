@@ -49,10 +49,10 @@
 	<h1 class="select-none font-christmas text-7xl m-10 text-center">Christmas Countdown</h1>
 
 	<div
-		class="card-bg select-none bg-fixed rounded-lg shadow-xl text-center"
+		class="card-bg select-none bg-fixed rounded-lg bg-clip-border shadow-xl text-center"
 		style="--url: url('https://img.eartharoid.me/insecure/pr:1080p/plain/s3://eartharoid/christmas-countdown/bg/legacy.jpg@webp');"
 	>
-		<div class="inner p-2 sm:p-0 rounded-lg">
+		<div class="inner p-2 sm:p-0">
 			<p class="text-3xl mb-4">Christmas is in</p>
 			<p class="font-number text-6xl font-bold mb-4">{sleeps}</p>
 			<p class="text-3xl">sleeps</p>

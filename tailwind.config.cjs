@@ -10,7 +10,9 @@ module.exports = {
 			colors: {
 				blurple: '#5865F2',
 				original: '#090B44',
-				primary: '#D5002C'
+				primary: '#D5002C',
+				'primary-dark': '#8F001D',
+				'primary-light': '#D6A7B0'
 			}
 		}
 	},

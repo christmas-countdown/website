@@ -16,7 +16,7 @@
 
 <div class="container w-full h-full mt-8">
 	<h2 class="text-xl font-bold text-center mb-4">History</h2>
-	<div class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50">
+	<div class="flex flex-col md:grid grid-cols-9 mx-auto p-2">
 		<Left>
 			<h3 class="font-semibold text-lg mb-1">2017</h3>
 			<p class="leading-tight">

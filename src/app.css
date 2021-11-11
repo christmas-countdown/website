@@ -32,7 +32,7 @@ body:before {
 }
 
 .font-christmas {
-	font-family: 'MerryChristmas';
+	font-family: 'MerryChristmas', sans-serif;
 }
 
 .font-number {

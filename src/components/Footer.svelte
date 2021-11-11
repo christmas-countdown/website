@@ -12,14 +12,14 @@
 			<ul>
 				<li><a href="/about" class="hover:underline">About</a></li>
 				<li><a href="https://docs.christmascountdown.live/other/days-vs-sleeps" class="hover:underline">Days vs sleeps</a></li>
-				<li><a href="/donate" class="hover:underline">Donate</a></li>
+				<li><a href="https://docs.christmascountdown.live" class="hover:underline">Documentation</a></li>
 			</ul>
 		</div>
 		<div>
 			<h5 class="font-bold text-gray-400">Useful links</h5>
 			<ul>
 				<li><a href="https://go.eartharoid.me/discord" class="hover:underline">Discord server</a></li>
-				<li><a href="https://docs.christmascountdown.live" class="hover:underline">Documentation</a></li>
+				<li><a href="/donate" class="hover:underline">Donate</a></li>
 				<li><a href="https://github.com/christmas-countdown" class="hover:underline">GitHub</a></li>
 			</ul>
 		</div>

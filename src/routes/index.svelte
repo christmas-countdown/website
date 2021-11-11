@@ -49,7 +49,7 @@
 	<h1 class="select-none font-christmas text-7xl m-10 text-center">Christmas Countdown</h1>
 
 	<div
-		class="card-bg select-none bg-fixed rounded-lg bg-clip-border shadow-xl text-center"
+		class="card-bg select-none bg-original bg-fixed rounded-lg bg-clip-border shadow-xl text-center"
 		style="--url: url('https://img.eartharoid.me/insecure/pr:1080p/plain/s3://eartharoid/christmas-countdown/bg/legacy.jpg@webp');"
 	>
 		<div class="inner p-2 sm:p-0">
@@ -67,7 +67,7 @@
 					<p>
 						Add the Christmas Countdown bot for Discord to your server to get the number of sleeps
 						left until Christmas sent to the text channel of your choice every morning.
-						<a href="/discord" class="font-bold hover:underline"
+						<a href="/discord" class="font-semibold hover:underline"
 							>Learn more <i class="fas fa-arrow-right" /></a
 						>
 					</p>

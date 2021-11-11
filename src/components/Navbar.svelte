@@ -15,8 +15,12 @@
 			url: '/discord'
 		},
 		{
-			name: 'Documentation',
-			url: 'https://docs.christmascountdown.live'
+			name: 'Fullscreen countdown',
+			url: '/fullscreen'
+		},
+		{
+			name: 'Jokes',
+			url: '/joke'
 		}
 	];
 </script>

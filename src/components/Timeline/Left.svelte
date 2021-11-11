@@ -1,6 +1,6 @@
 <div class="flex flex-row-reverse md:contents">
 	<div
-		class="backdrop-filter backdrop-blur-lg backdrop-saturate-150 bg-black bg-opacity-40 col-start-1 col-end-5 p-6 rounded-lg my-4 ml-auto shadow-md"
+		class="backdrop-filter backdrop-blur-lg backdrop-saturate-150 bg-black bg-opacity-40 col-start-1 col-end-5 p-6 rounded-lg my-4 ml-auto shadow-xl"
 	>
 		<slot />
 	</div>

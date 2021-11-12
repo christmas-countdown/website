@@ -163,7 +163,7 @@
 							src="https://images.discordapp.net/avatars/648134637654114309/6d6986c735dec65ba5e2e731db15909c.png?size=48"
 							alt="Logo"
 							class="rounded-3xl mr-4 inline"
-						/>Christmas Radio
+						/>Christmas Radio <i class="fas fa-external-link-alt" />
 					</h2>
 					<p>
 						Play Christmas music 24/7 in your Discord server with the <a

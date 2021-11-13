@@ -80,7 +80,7 @@
 	<meta name="og:url" content="https://www.christmascountdown.live" />
 </svelte:head>
 
-<div class="container mx-auto">
+<div>
 	<h1 class="select-none font-christmas text-7xl m-10 text-center">Christmas Countdown</h1>
 
 	<div

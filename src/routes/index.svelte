@@ -6,6 +6,7 @@
 	export const load = async () => {
 		return {
 			props: {
+				date: christmas.christmas(),
 				seconds: christmas.getSeconds(),
 				minutes: christmas.getMinutes(),
 				hours: christmas.getHours(),
@@ -24,6 +25,7 @@
 </script>
 
 <script>
+	export let date;
 	export let seconds;
 	export let minutes;
 	export let hours;
@@ -37,12 +39,17 @@
 	export let isToday;
 	export let isTomorrow;
 
+	import Button from '../components/Button.svelte';
+	import Box from '../components/Box.svelte';
 	import Countdown from '../components/LiveCountdown/Countdown.svelte';
 	import Card from '../components/Card.svelte';
+	import Link from '../components/Link.svelte';
+	import Item from '../components/TimeleftItem.svelte';
 	import { onMount } from 'svelte';
 
 	onMount(() => {
 		setInterval(() => {
+			date = christmas.christmas();
 			seconds = christmas.getSeconds();
 			minutes = christmas.getMinutes();
 			hours = christmas.getHours();
@@ -125,15 +132,53 @@
 		</a>
 	</div>
 
-	<div
-		class="select-none text-center mt-8 text-shadow-lg rounded-lg p-8"
-	>
-		<Countdown
-			days={total.days}
-			hours={total.hours}
-			minutes={total.minutes}
-			seconds={total.seconds}
-		/>
+	<div id="live" class="select-none text-center text-shadow-lg p-8 md:w-8/12 mx-auto">
+		<div class="my-8 mb-12">
+			<Countdown
+				days={total.days}
+				hours={total.hours}
+				minutes={total.minutes}
+				seconds={total.seconds}
+			/>
+		</div>
+		<div class="my-4">
+			<a href="/fullscreen"><Button colour="bg-primary" text="Fullscreen countdown" /></a>
+		</div>
 	</div>
-	
+
+	<div id="timeleft" class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+		<Box>
+			<div class="p-6 text-xl text-center">
+				<p class="p-2">Christmas Day is on a</p>
+				<p class="p-2"><span class="font-bold text-3xl">{weekday}</span></p>
+				<p class="p-2">in {date.getFullYear()}.</p>
+			</div>
+		</Box>
+		<div class="col-span-2">
+			<Box>
+				<div class="p-6 text-center">
+					<div
+						class="grid grid-cols-2 sm:grid-cols-3 gap-12 sm:gap-4 place-items-center place-content-center"
+					>
+						<Item name="months" value={Math.round(months * 10) / 10} />
+						<Item name="weeks" value={Math.round(weeks * 10) / 10} />
+						<Item name="sleeps" value={sleeps} />
+						<Item name="days" value={Math.round(days * 10) / 10} />
+						<Item name="hours" value={Math.floor(hours)} />
+						<Item name="minutes" value={Math.floor(minutes)} />
+						<Item name="seconds" value={Math.floor(seconds)} />
+						<div class="sm:col-span-2  w-full">
+							<div class="grid grid-cols-1 gap-0">
+								<p class="font-number text-3xl">{Math.round(percentage * 100) / 100}%</p>
+								<!-- <p class="text-xl">of the way there</p> -->
+								<div class="bg-primary-dark w-full h-2 rounded-lg shadow-xl mt-4">
+									<div class="bg-primary h-full rounded-lg shadow-xl" style="width: {Math.round(percentage * 100) / 100}%;" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</Box>
+		</div>
+	</div>
 </div>

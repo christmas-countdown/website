@@ -10,7 +10,6 @@
 </script>
 
 <script>
-	import '../app.css';
 	export let error;
 	export let status;
 </script>

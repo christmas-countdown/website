@@ -43,7 +43,7 @@ const getTotal = () => {
 };
 
 const getWeekday = () => new Intl.DateTimeFormat('en-GB', { weekday: 'long' }).format(christmas());
-const getPercentage = () => ((christmas() - now()) / one_year) * 100;
+const getPercentage = () => ((one_year - (christmas() - now())) / one_year) * 100;
 
 const isToday = () => isSame(now(), christmas());
 const isTomorrow = () => {
@@ -53,6 +53,7 @@ const isTomorrow = () => {
 };
 
 export default {
+	christmas,
 	getSeconds,
 	getMinutes,
 	getHours,

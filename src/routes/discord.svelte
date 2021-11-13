@@ -1,8 +1,9 @@
 <script>
-	import Button from '..//components/Button.svelte';
-	import Card from '..//components/Card.svelte';
-	import Feature from '..//components/Feature.svelte';
-	import Link from '..//components/Link.svelte';
+	import Box from '../components/Box.svelte';
+	import Button from '../components/Button.svelte';
+	import Card from '../components/Card.svelte';
+	import Feature from '../components/Feature.svelte';
+	import Link from '../components/Link.svelte';
 </script>
 
 <svelte:head>
@@ -33,10 +34,9 @@
 		<p class="text-2xl uppercase p-2">bot for Discord</p>
 	</h1>
 
-	<div
-		class="my-8 text-center backdrop-filter backdrop-blur-lg backdrop-saturate-150 bg-black bg-opacity-40 rounded-lg p-8 shadow-xl"
-	>
-		<div class="my-6">
+	<Box>
+		<div class="my-8 text-center p-8">
+			<div class="my-6">
 			<p>
 				Add the Christmas Countdown bot for Discord to your server to get the number of sleeps left
 				until Christmas sent to a selected channel every morning. The bot has been added to over
@@ -47,7 +47,8 @@
 		<a href="/invite">
 			<Button colour="bg-blurple" text="Add to Discord" />
 		</a>
-	</div>
+		</div>
+	</Box>
 	<h2 class="text-xl font-bold text-center mb-4">Features</h2>
 
 	<div id="features" class="container mx-auto w-full m-8 grid grid-cols-1 sm:grid-cols-2 gap-4">

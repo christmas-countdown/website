@@ -1,4 +1,5 @@
 <script>
+	import Box from '../components/Box.svelte';
 	import Left from '../components/Timeline/Left.svelte';
 	import Right from '../components/Timeline/Right.svelte';
 </script>
@@ -25,16 +26,16 @@
 </svelte:head>
 
 <div class="container mx-auto">
-	<div
-		class="mt-16 p-8 backdrop-filter backdrop-blur-lg backdrop-saturate-150 bg-black bg-opacity-40 rounded-lg shadow-xl"
-	>
-		<h1 class="text-2xl font-bold mb-2">About</h1>
-		<p>
-			This started as a single web page with smashed together code because I (eartharoid) wanted
-			something pretty to put on my 7" Rapsberry Pi touchscreen. The Christmas Countdown website now
-			has thousands of visitors and the bot has been added to over 8000 servers.
-		</p>
-	</div>
+	<Box>
+		<div class="mt-16 p-8">
+			<h1 class="text-2xl font-bold mb-2">About</h1>
+			<p>
+				This started as a single web page with smashed together code because I (eartharoid) wanted
+				something pretty to put on my 7" Rapsberry Pi touchscreen. The Christmas Countdown website
+				now has thousands of visitors and the bot has been added to over 8000 servers.
+			</p>
+		</div>
+	</Box>
 
 	<div class="2xl:m-16 mt-8">
 		<h2 class="text-xl font-bold text-center mb-4">History</h2>

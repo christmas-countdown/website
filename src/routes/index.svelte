@@ -94,7 +94,7 @@
 		</div>
 	</div>
 
-	<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
+	<div class="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8">
 		<a href="/discord" class="transform hover:scale-105 duration-300">
 			<!-- hover:-translate-y-2 -->
 			<Card background="bg-blurple" border="border-blurple">
@@ -111,7 +111,7 @@
 			</Card>
 		</a>
 		<a href="/options" class="transform hover:scale-105 duration-300">
-			<Card background="bg-primary" border="border-primary">
+			<Card background="bg-primary-dark" border="border-primary-dark">
 				<div class="p-6">
 					<h2 class="font-bold text-xl">
 						Customise your countdown <i class="fas fa-arrow-right" />
@@ -126,7 +126,7 @@
 	</div>
 
 	<div
-		class="select-none text-center mt-8 backdrop-filter backdrop-blur-lg backdrop-saturate-150 bg-black bg-opacity-40 rounded-lg p-8 shadow-xl"
+		class="select-none text-center mt-8 text-shadow-lg rounded-lg p-8"
 	>
 		<Countdown
 			days={total.days}
@@ -135,4 +135,5 @@
 			seconds={total.seconds}
 		/>
 	</div>
+	
 </div>

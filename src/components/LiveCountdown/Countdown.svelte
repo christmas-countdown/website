@@ -9,7 +9,7 @@
 
 <div>
 	<p class="font-christmas text-5xl mb-10">There {days === 1 ? 'is' : 'are'} only</p>
-	<div class="grid grid-cols-2 sm:grid-cols-4 gap-12 sm:gap-4">
+	<div class="grid grid-cols-2 sm:grid-cols-4 gap-12 sm:gap-1">
 		<Item name="days" value={Math.floor(days)} />
 		<Item name="hours" value={Math.floor(hours)} />
 		<Item name="minutes" value={Math.floor(minutes)} />

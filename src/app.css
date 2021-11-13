@@ -48,7 +48,6 @@ body:before {
 .card-bg {
 	position: relative;
 	padding: 5%;
-	margin: 0.7rem;
 	box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.8);
 }
 

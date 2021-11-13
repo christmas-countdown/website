@@ -95,7 +95,7 @@
 	</div>
 
 	<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
-		<a href="/discord" class="mx-2 transform hover:scale-105 duration-300">
+		<a href="/discord" class="transform hover:scale-105 duration-300">
 			<!-- hover:-translate-y-2 -->
 			<Card background="bg-blurple" border="border-blurple">
 				<div class="p-6">
@@ -110,7 +110,7 @@
 				</div>
 			</Card>
 		</a>
-		<a href="/options" class="mx-2 transform hover:scale-105 duration-300">
+		<a href="/options" class="transform hover:scale-105 duration-300">
 			<Card background="bg-primary" border="border-primary">
 				<div class="p-6">
 					<h2 class="font-bold text-xl">
@@ -126,7 +126,7 @@
 	</div>
 
 	<div
-		class="select-none text-center m-2 mt-8 backdrop-filter backdrop-blur-lg backdrop-saturate-150 bg-black bg-opacity-40 rounded-lg p-6 shadow-xl"
+		class="select-none text-center mt-8 backdrop-filter backdrop-blur-lg backdrop-saturate-150 bg-black bg-opacity-40 rounded-lg p-8 shadow-xl"
 	>
 		<Countdown
 			days={total.days}

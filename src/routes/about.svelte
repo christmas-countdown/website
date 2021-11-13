@@ -10,15 +10,15 @@
 	<meta name="twitter:title" content="About • Christmas Countdown" />
 	<meta
 		name="description"
-		content="Get the number of sleeps left until Christmas sent to a selected channel every morning - in your language and your timezone."
+		content="Get the time left to Christmas with the decorative live online countdown or with the original Christmas countdown bot for Discord."
 	/>
 	<meta
 		name="og:description"
-		content="Get the number of sleeps left until Christmas sent to a selected channel every morning - in your language and your timezone."
+		content="Get the time left to Christmas with the decorative live online countdown or with the original Christmas countdown bot for Discord."
 	/>
 	<meta
 		name="twitter:description"
-		content="Get the number of sleeps left until Christmas sent to a selected channel every morning - in your language and your timezone."
+		content="Get the time left to Christmas with the decorative live online countdown or with the original Christmas countdown bot for Discord."
 	/>
 	<meta name="url" content="https://www.christmascountdown.live/about" />
 	<meta name="og:url" content="https://www.christmascountdown.live/about" />

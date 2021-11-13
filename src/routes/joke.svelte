@@ -5,15 +5,15 @@
 	<meta name="twitter:title" content="Jokes • Christmas Countdown" />
 	<meta
 		name="description"
-		content="Get the number of sleeps left until Christmas sent to a selected channel every morning - in your language and your timezone."
+		content="Get a random joke from a collection of over 100 Christmas jokes."
 	/>
 	<meta
 		name="og:description"
-		content="Get the number of sleeps left until Christmas sent to a selected channel every morning - in your language and your timezone."
+		content="Get a random joke from a collection of over 100 Christmas jokes."
 	/>
 	<meta
 		name="twitter:description"
-		content="Get the number of sleeps left until Christmas sent to a selected channel every morning - in your language and your timezone."
+		content="Get a random joke from a collection of over 100 Christmas jokes."
 	/>
 	<meta name="url" content="https://www.christmascountdown.live/joke" />
 	<meta name="og:url" content="https://www.christmascountdown.live/joke" />

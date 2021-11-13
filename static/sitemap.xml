@@ -4,7 +4,7 @@
 
 	<url>
 		<loc>https://christmascountdown.live</loc>
-		<changefreq>daily</changefreq>
+		<changefreq>always</changefreq>
 		<priority>1.0</priority>
 	</url>
 
@@ -16,13 +16,13 @@
 
 	<url>
 		<loc>https://christmascountdown.live/fullscreen</loc>
-		<changefreq>daily</changefreq>
+		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 
 	<url>
 		<loc>https://christmascountdown.live/joke</loc>
-		<changefreq>daily</changefreq>
+		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
 

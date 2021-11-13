@@ -1,3 +1,33 @@
+<script context="module">
+	import christmas from '$lib/christmas.js';
+	/**
+	 * @type {import('@sveltejs/kit').Load}
+	 */
+	export const load = async () => {
+		return {
+			props: {
+				total: christmas.getTotal(),
+				isToday: christmas.isToday()
+			}
+		};
+	};
+</script>
+
+<script>
+	export let total;
+	export let isToday;
+
+	import Item from '../../components/LiveCountdown/Item.svelte';
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		setInterval(() => {
+			total = christmas.getTotal();
+			isToday = christmas.isToday();
+		}, 1000);
+	});
+</script>
+
 <svelte:head>
 	<title>Fullscreen countdown • Christmas Countdown</title>
 	<meta name="title" content="Fullscreen countdown • Christmas Countdown" />
@@ -18,3 +48,22 @@
 	<meta name="url" content="https://www.christmascountdown.live/fullscreen" />
 	<meta name="og:url" content="https://www.christmascountdown.live/fullscreen" />
 </svelte:head>
+
+<div class="container mx-auto text-center select-none flex justify-center items-center h-screen">
+	{#if isToday}
+		<p class="font-christmas text-7xl">Merry Christmas!</p>
+	{:else}
+		<div>
+			<p class="font-christmas text-7xl mb-12 sm:mb-16">There are only</p>
+			<div class="grid grid-cols-2 lg:grid-cols-4 gap-28">
+				{#each Object.keys(total) as t}
+					<div class="grid grid-cols-1 gap-6">
+						<p class="font-number text-7xl">{total[t]}</p>
+						<p class="font-christmas text-7xl">{total[t] === 1 ? t.slice(0, -1) : t}</p>
+					</div>
+				{/each}
+			</div>
+			<p class="font-christmas text-7xl mt-12 sm:mt-16">until Christmas!</p>
+		</div>
+	{/if}
+</div>

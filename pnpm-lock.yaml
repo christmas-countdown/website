@@ -1,7 +1,6 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@eartharoid/christmas': ^1.2.1
   '@sveltejs/adapter-netlify': ^1.0.0-next.35
   '@sveltejs/kit': next
   autoprefixer: ^10.4.0
@@ -11,18 +10,13 @@ specifiers:
   postcss-load-config: ^3.1.0
   prettier: ^2.4.1
   prettier-plugin-svelte: ^2.4.0
-  spacetime: ^6.16.3
   svelte: ^3.44.1
   svelte-preprocess: ^4.9.8
   tailwindcss: ^2.2.19
 
-dependencies:
-  '@eartharoid/christmas': 1.2.1
-  spacetime: 6.16.3
-
 devDependencies:
   '@sveltejs/adapter-netlify': 1.0.0-next.35
-  '@sveltejs/kit': 1.0.0-next.195_svelte@3.44.1
+  '@sveltejs/kit': 1.0.0-next.196_svelte@3.44.1
   autoprefixer: 10.4.0
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0_eslint@7.32.0
@@ -62,12 +56,6 @@ packages:
       chalk: 2.4.2
       js-tokens: 4.0.0
     dev: true
-
-  /@eartharoid/christmas/1.2.1:
-    resolution: {integrity: sha512-XQES6TlKDG4+YOPMT0f0isF5kpcPEf0mkBFNTr4q38VqBTojYIYiq0BbyemeDFVYKAfSyNeIdX5+D4h6x0MLag==}
-    dependencies:
-      spacetime: 6.16.3
-    dev: false
 
   /@eslint/eslintrc/0.4.3:
     resolution: {integrity: sha512-J6KFFz5QCYUJq3pf0mjEcCJVERbzv71PUIDczuh9JkwGEzced6CO5ADLHB1rbf/+oPBtoPfMYNOpGDzCANlbXw==}
@@ -141,8 +129,8 @@ packages:
       esbuild: 0.13.13
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.195_svelte@3.44.1:
-    resolution: {integrity: sha512-R2X4FgzXQhp63XOik6S1Flw91S2CEA7sTxdsnNFrq3O+bIN7pQhJhkm6zgH68MZANdDcq8oIiSRkxT4M3t1+jQ==}
+  /@sveltejs/kit/1.0.0-next.196_svelte@3.44.1:
+    resolution: {integrity: sha512-z7sA/2/3Il5biibjPXCYXJC11TyFhgCvMaJvvbtMnu2l3EmOmJBMS+r2djGptzfFsugSVNwGQFn8+ldWQWq3jA==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -1633,10 +1621,6 @@ packages:
   /sourcemap-codec/1.4.8:
     resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
     dev: true
-
-  /spacetime/6.16.3:
-    resolution: {integrity: sha512-JQEfj3VHT1gU1IMV5NvhgAP8P+2mDFd84ZCiHN//dp6hRKmuW0IizHissy62lO0nilfFjVhnoSaMC7te+Y5f4A==}
-    dev: false
 
   /sprintf-js/1.0.3:
     resolution: {integrity: sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=}

@@ -8,10 +8,6 @@
 		"lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
 		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
 	},
-	"dependencies": {
-		"@eartharoid/christmas": "^1.2.1",
-		"spacetime": "^6.16.3"
-	},
 	"devDependencies": {
 		"@sveltejs/adapter-netlify": "^1.0.0-next.35",
 		"@sveltejs/kit": "next",

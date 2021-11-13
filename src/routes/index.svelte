@@ -146,15 +146,17 @@
 		</div>
 	</div>
 
-	<div id="timeleft" class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-		<Box>
+	<div id="timeleft" class="grid grid-cols-1 sm:grid-cols-3 sm:gap-4 m-0">
+		<div class="col-span-1 m-2 sm:m-0">
+			<Box>
 			<div class="p-6 text-xl text-center h-full flex flex-col justify-center items-center">
 				<p class="p-2">Christmas Day is on a</p>
 				<p class="p-2"><span class="font-bold text-3xl">{weekday}</span></p>
 				<p class="p-2">in {date.getFullYear()}.</p>
 			</div>
 		</Box>
-		<div class="col-span-2">
+		</div>
+		<div class="col-span-2 m-2 sm:m-0">
 			<Box>
 				<div class="p-6 text-center">
 					<div

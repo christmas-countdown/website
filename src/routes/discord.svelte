@@ -2,6 +2,7 @@
 	import Button from '..//components/Button.svelte';
 	import Card from '..//components/Card.svelte';
 	import Feature from '..//components/Feature.svelte';
+	import Link from '..//components/Link.svelte';
 </script>
 
 <svelte:head>
@@ -61,10 +62,9 @@
 			</p>
 			<br />
 			<p class="text-right">
-				<a
-					href="https://docs.christmascountdown.live/discord/timezones"
-					class="font-semibold hover:underline">Learn more <i class="fas fa-arrow-right" /></a
-				>
+				<Link href="https://docs.christmascountdown.live/discord/timezones">
+					Learn more <i class="fas fa-arrow-right" />
+				</Link>
 			</p>
 		</Feature>
 		<Feature title="Server and user locales">
@@ -73,16 +73,14 @@
 				server's default.
 			</p>
 			<p>
-				If the bot hasn't been translated to your language yet, you can contribute on <a
-					href="https://github.com/christmas-countdown/bot"
-					class="font-semibold hover:underline">GitHub</a
+				If the bot hasn't been translated to your language yet, you can contribute on <Link
+					href="https://github.com/christmas-countdown/bot">GitHub</Link
 				>.
 			</p>
 			<br />
 			<p class="text-right">
-				<a
-					href="https://i18n.capestar.net/engage/christmas-countdown/"
-					class="font-semibold hover:underline">Translate <i class="fas fa-arrow-right" /></a
+				<Link href="https://i18n.capestar.net/engage/christmas-countdown/"
+					>Translate <i class="fas fa-arrow-right" /></Link
 				>
 			</p>
 		</Feature>
@@ -94,9 +92,8 @@
 				class="my-4"
 			/>
 			<p class="text-right">
-				<a
-					href="https://docs.christmascountdown.live/discord/commands"
-					class="font-semibold hover:underline">Learn more <i class="fas fa-arrow-right" /></a
+				<Link href="https://docs.christmascountdown.live/discord/commands"
+					>Learn more <i class="fas fa-arrow-right" /></Link
 				>
 			</p>
 		</Feature>
@@ -115,9 +112,8 @@
 		</Feature>
 		<Feature title="Daily countdown">
 			<p>
-				<a
-					href="https://docs.christmascountdown.live/discord/enable-the-countdown"
-					class="font-semibold hover:underline">Set the countdown channel</a
+				<Link href="https://docs.christmascountdown.live/discord/enable-the-countdown"
+					>Set the countdown channel</Link
 				> and get a countdown message ready for when you wake up every morning.
 			</p>
 			<img
@@ -126,17 +122,15 @@
 				class="my-4"
 			/>
 			<p class="text-right">
-				<a
-					href="https://docs.christmascountdown.live/discord/enable-the-countdown"
-					class="font-semibold hover:underline">Learn more <i class="fas fa-arrow-right" /></a
+				<Link href="https://docs.christmascountdown.live/discord/enable-the-countdown"
+					>Learn more <i class="fas fa-arrow-right" /></Link
 				>
 			</p>
 		</Feature>
 		<Feature title="Jokes">
 			<p>
-				Use the <a
-					href="https://docs.christmascountdown.live/discord/commands#joke"
-					class="font-semibold hover:underline text-primary"><code>/joke</code></a
+				Use the <Link href="https://docs.christmascountdown.live/discord/commands#joke"
+					><code class="text-primary">/joke</code></Link
 				> command to get a random Christmas joke.
 			</p>
 			<img
@@ -166,9 +160,8 @@
 						/>Christmas Radio <i class="fas fa-external-link-alt" />
 					</h2>
 					<p>
-						Play Christmas music 24/7 in your Discord server with the <a
-							href="https://top.gg/bot/648134637654114309"
-							class="font-semibold hover:underline">Christmas Radio bot.</a
+						Play Christmas music 24/7 in your Discord server with the <Link
+							href="https://top.gg/bot/648134637654114309">Christmas Radio bot.</Link
 						>
 					</p>
 				</div>

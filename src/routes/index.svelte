@@ -148,7 +148,7 @@
 
 	<div id="timeleft" class="grid grid-cols-1 sm:grid-cols-3 gap-4">
 		<Box>
-			<div class="p-6 text-xl text-center">
+			<div class="p-6 text-xl text-center h-full flex flex-col justify-center items-center">
 				<p class="p-2">Christmas Day is on a</p>
 				<p class="p-2"><span class="font-bold text-3xl">{weekday}</span></p>
 				<p class="p-2">in {date.getFullYear()}.</p>
@@ -158,7 +158,7 @@
 			<Box>
 				<div class="p-6 text-center">
 					<div
-						class="grid grid-cols-2 sm:grid-cols-3 gap-12 sm:gap-4 place-items-center place-content-center"
+						class="grid grid-cols-2 sm:grid-cols-3 gap-12 sm:gap-4"
 					>
 						<Item name="months" value={Math.round(months * 10) / 10} />
 						<Item name="weeks" value={Math.round(weeks * 10) / 10} />

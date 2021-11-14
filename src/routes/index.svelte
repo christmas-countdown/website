@@ -165,7 +165,7 @@
 						<Item name="months" value={Math.round(months * 10) / 10} />
 						<Item name="weeks" value={Math.round(weeks * 10) / 10} />
 						<Item name="sleeps" value={sleeps} />
-						<Item name="days" value={Math.round(days * 10) / 10} />
+						<Item name="days" value={Math.floor(days)} />
 						<Item name="hours" value={Math.floor(hours)} />
 						<Item name="minutes" value={Math.floor(minutes)} />
 						<Item name="seconds" value={Math.floor(seconds)} />

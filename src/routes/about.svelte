@@ -75,7 +75,12 @@
 			</Right>
 			<Left>
 				<h3 class="font-semibold text-lg mb-1">2021</h3>
-				<p class="leading-tight">Svelte!</p>
+				<p class="leading-tight">
+					In early October, the Discord bot was rewritten for the third time. The v4 Discord bot was
+					released in the week before Halloween, with Discord's slash commands, some new commands,
+					and general user improvements.
+					The new Svelte and TailwindCSS website was released less than 3 weeks later.
+				</p>
 			</Left>
 		</div>
 	</div>

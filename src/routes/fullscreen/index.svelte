@@ -17,7 +17,6 @@
 	export let total;
 	export let isToday;
 
-	import Item from '../../components/LiveCountdown/Item.svelte';
 	import { onMount } from 'svelte';
 
 	onMount(() => {

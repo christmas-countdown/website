@@ -101,86 +101,89 @@
 		</div>
 	</div>
 
-	<div class="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8">
-		<a href="/discord" class="transform hover:scale-105 duration-300">
-			<!-- hover:-translate-y-2 -->
-			<Card background="bg-blurple" border="border-blurple">
-				<div class="p-6">
-					<h2 class="font-bold text-xl">Get the Discord bot <i class="fas fa-arrow-right" /></h2>
-					<p>
-						Add the Christmas Countdown bot for Discord to your server to get the number of sleeps
-						left until Christmas sent to the text channel of your choice every morning.
-						<a href="/discord" class="font-semibold hover:underline"
-							>Learn more <i class="fas fa-arrow-right" /></a
-						>
-					</p>
-				</div>
-			</Card>
-		</a>
-		<a href="/options" class="transform hover:scale-105 duration-300">
-			<Card background="bg-primary-dark" border="border-primary-dark">
-				<div class="p-6">
-					<h2 class="font-bold text-xl">
-						Customise your countdown <i class="fas fa-arrow-right" />
-					</h2>
-					<p>
-						Manage your website preferences and configure options for snow, custom backgrounds, and
-						more.
-					</p>
-				</div>
-			</Card>
-		</a>
-	</div>
-
-	<div id="live" class="select-none text-center text-shadow-lg p-8 md:w-8/12 mx-auto">
-		<div class="my-8 mb-12">
-			<Countdown
-				days={total.days}
-				hours={total.hours}
-				minutes={total.minutes}
-				seconds={total.seconds}
-			/>
+	<div class="flex flex-col-reverse sm:flex-col justify-items-center">
+		<div class="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8">
+			<a href="/discord" class="transform hover:scale-105 duration-300">
+				<!-- hover:-translate-y-2 -->
+				<Card background="bg-blurple" border="border-blurple">
+					<div class="p-6">
+						<h2 class="font-bold text-xl">Get the Discord bot <i class="fas fa-arrow-right" /></h2>
+						<p>
+							Add the Christmas Countdown bot for Discord to your server to get the number of sleeps
+							left until Christmas sent to the text channel of your choice every morning.
+							<a href="/discord" class="font-semibold hover:underline"
+								>Learn more <i class="fas fa-arrow-right" /></a
+							>
+						</p>
+					</div>
+				</Card>
+			</a>
+			<a href="/options" class="transform hover:scale-105 duration-300">
+				<Card background="bg-primary-dark" border="border-primary-dark">
+					<div class="p-6">
+						<h2 class="font-bold text-xl">
+							Customise your countdown <i class="fas fa-arrow-right" />
+						</h2>
+						<p>
+							Manage your website preferences and configure options for snow, custom backgrounds,
+							and more.
+						</p>
+					</div>
+				</Card>
+			</a>
 		</div>
-		<div class="my-4">
-			<a href="/fullscreen"><Button colour="bg-primary" text="Fullscreen countdown" /></a>
-		</div>
-	</div>
 
-	<div id="timeleft" class="grid grid-cols-1 sm:grid-cols-3 sm:gap-4 m-0">
-		<div class="col-span-1 m-2 sm:m-0">
-			<Box>
-			<div class="p-6 text-xl text-center h-full flex flex-col justify-center items-center">
-				<p class="p-2">Christmas Day is on a</p>
-				<p class="p-2"><span class="font-bold text-3xl">{weekday}</span></p>
-				<p class="p-2">in {date.getFullYear()}.</p>
+		<div id="live" class="select-none text-center text-shadow-lg p-8 md:w-8/12 mx-auto">
+			<div class="my-8 mb-12">
+				<Countdown
+					days={total.days}
+					hours={total.hours}
+					minutes={total.minutes}
+					seconds={total.seconds}
+				/>
 			</div>
-		</Box>
+			<div class="my-4">
+				<a href="/fullscreen"><Button colour="bg-primary" text="Fullscreen countdown" /></a>
+			</div>
 		</div>
-		<div class="col-span-2 m-2 sm:m-0">
-			<Box>
-				<div class="p-6 text-center">
-					<div
-						class="grid grid-cols-2 sm:grid-cols-3 gap-12 sm:gap-4"
-					>
-						<Item name="months" value={Math.round(months * 10) / 10} />
-						<Item name="weeks" value={Math.round(weeks * 10) / 10} />
-						<Item name="sleeps" value={sleeps} />
-						<Item name="days" value={Math.floor(days)} />
-						<Item name="hours" value={Math.floor(hours)} />
-						<Item name="minutes" value={Math.floor(minutes)} />
-						<Item name="seconds" value={Math.floor(seconds)} />
-						<div class="sm:col-span-2  w-full">
-							<div class="grid grid-cols-1 gap-0">
-								<p class="font-number text-3xl">{Math.round(percentage * 100) / 100}%</p>
-								<!-- <p class="text-xl">of the way there</p> -->
-								<div class="bg-primary-dark w-full h-2 rounded-lg shadow-xl mt-4">
-									<div class="bg-primary h-full rounded-lg shadow-xl" style="width: {Math.round(percentage * 100) / 100}%;" />
+
+		<div id="timeleft" class="grid grid-cols-1 sm:grid-cols-3 sm:gap-4 my-4 sm:m-0">
+			<div class="col-span-1 m-2 sm:m-0">
+				<Box>
+					<div class="p-6 text-xl text-center h-full flex flex-col justify-center items-center">
+						<p class="p-2">Christmas Day is on a</p>
+						<p class="p-2"><span class="font-bold text-3xl">{weekday}</span></p>
+						<p class="p-2">in {date.getFullYear()}.</p>
+					</div>
+				</Box>
+			</div>
+			<div class="col-span-2 m-2 sm:m-0">
+				<Box>
+					<div class="p-6 text-center">
+						<div class="grid grid-cols-2 sm:grid-cols-3 gap-12 sm:gap-4">
+							<Item name="months" value={Math.round(months * 10) / 10} />
+							<Item name="weeks" value={Math.round(weeks * 10) / 10} />
+							<Item name="sleeps" value={sleeps} />
+							<Item name="days" value={Math.floor(days)} />
+							<Item name="hours" value={Math.floor(hours)} />
+							<Item name="minutes" value={Math.floor(minutes)} />
+							<Item name="seconds" value={Math.floor(seconds)} />
+							<div class="sm:col-span-2  w-full">
+								<div class="grid grid-cols-1 gap-0">
+									<p class="font-number text-3xl">{Math.round(percentage * 100) / 100}%</p>
+									<!-- <p class="text-xl">of the way there</p> -->
+									<div class="bg-primary-dark w-full h-2 rounded-lg shadow-xl mt-4">
+										<div
+											class="bg-primary h-full rounded-lg shadow-xl"
+											style="width: {Math.round(percentage * 100) / 100}%;"
+										/>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-			</Box>
+				</Box>
+			</div>
 		</div>
 	</div>
 </div>

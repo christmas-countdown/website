@@ -3,8 +3,8 @@
 	"short_name": "Christmas Countdown",
 	"start_url": "/",
 	"display": "standalone",
-	"background_color": "#D5002C",
-	"theme_color": "#D5002C",
+	"background_color": "#8F001D",
+	"theme_color": "#8F001D",
 	"description": "Get the time left to Christmas with the decorative live online countdown or with the original Christmas countdown bot for Discord.",
 	"icons": [
 		{

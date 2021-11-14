@@ -51,19 +51,19 @@
 
 <div class="container mx-auto text-center select-none flex justify-center items-center h-screen">
 	{#if isToday}
-		<p class="font-christmas text-7xl">Merry Christmas!</p>
+		<p class="font-christmas text-5xl lg:text-7xl 2xl:text-9xl">Merry Christmas!</p>
 	{:else}
 		<div>
-			<p class="font-christmas text-7xl mb-12 sm:mb-16">There are only</p>
-			<div class="grid grid-cols-2 lg:grid-cols-4 gap-28">
+			<p class="font-christmas text-5xl lg:text-7xl 2xl:text-9xl mb-12 sm:mb-16 xl:mb-24">There are only</p>
+			<div class="grid grid-cols-2 md:grid-cols-4 gap-8 sm:gap-28">
 				{#each Object.keys(total) as t}
-					<div class="grid grid-cols-1 gap-6">
-						<p class="font-number text-7xl">{total[t]}</p>
-						<p class="font-christmas text-7xl">{total[t] === 1 ? t.slice(0, -1) : t}</p>
+					<div class="grid grid-cols-1 sm:gap-6">
+						<p class="font-number text-5xl lg:text-7xl 2xl:text-9xl">{total[t]}</p>
+						<p class="font-christmas text-5xl lg:text-7xl 2xl:text-9xl">{total[t] === 1 ? t.slice(0, -1) : t}</p>
 					</div>
 				{/each}
 			</div>
-			<p class="font-christmas text-7xl mt-12 sm:mt-16">until Christmas!</p>
+			<p class="font-christmas text-5xl lg:text-7xl 2xl:text-9xl mt-12 sm:mt-16 xl:mt-24">until Christmas!</p>
 		</div>
 	{/if}
 </div>

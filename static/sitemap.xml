@@ -15,6 +15,30 @@
 	</url>
 
 	<url>
+		<loc>https://christmascountdown.live/discord/changelog</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<url>
+		<loc>https://christmascountdown.live/discord/commands</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<url>
+		<loc>https://christmascountdown.live/discord/enable-the-countdown</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<url>
+		<loc>https://christmascountdown.live/discord/timezones</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
+	<url>
 		<loc>https://christmascountdown.live/fullscreen</loc>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
@@ -33,13 +57,26 @@
 	</url>
 
 	<url>
-		<loc>https://christmascountdown.live/options</loc>
+		<loc>https://christmascountdown.live/api</loc>
 		<changefreq>monthly</changefreq>
 		<priority>0.6</priority>
 	</url>
 
 	<url>
+		<loc>https://christmascountdown.live/days-vs-sleeps</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.6</priority>
+	</url>
+
+
+	<url>
 		<loc>https://christmascountdown.live/donate</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.6</priority>
+	</url>
+
+	<url>
+		<loc>https://christmascountdown.live/options</loc>
 		<changefreq>monthly</changefreq>
 		<priority>0.6</priority>
 	</url>

@@ -2,6 +2,9 @@
 	import Box from '../components/Box.svelte';
 	import Left from '../components/Timeline/Left.svelte';
 	import Right from '../components/Timeline/Right.svelte';
+	import { getContext } from 'svelte';
+
+	let page = getContext('page');
 </script>
 
 <svelte:head>
@@ -21,8 +24,6 @@
 		name="twitter:description"
 		content="Get the time left to Christmas with the decorative live online countdown or with the original Christmas countdown bot for Discord."
 	/>
-	<meta name="url" content="https://www.christmascountdown.live/about" />
-	<meta name="og:url" content="https://www.christmascountdown.live/about" />
 </svelte:head>
 
 <div class="container mx-auto">

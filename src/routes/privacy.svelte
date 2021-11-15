@@ -15,6 +15,4 @@
 		name="twitter:description"
 		content="Learn how the Christmas Countdown projects respect and protect your privacy."
 	/>
-	<meta name="url" content="https://www.christmascountdown.live/privacy" />
-	<meta name="og:url" content="https://www.christmascountdown.live/privacy" />
 </svelte:head>

@@ -115,3 +115,11 @@ body:before {
 .text-shadow-none {
 	text-shadow: none;
 }
+
+.prose li::before {
+	color: white !important;
+}
+
+table {
+	overflow: scroll;
+}

@@ -12,12 +12,12 @@
 					<li><a href="/about" class="hover:underline">About</a></li>
 					<li>
 						<a
-							href="https://docs.christmascountdown.live/other/days-vs-sleeps"
+							href="/days-vs-sleeps"
 							class="hover:underline">Days vs sleeps</a
 						>
 					</li>
 					<li>
-						<a href="https://docs.christmascountdown.live" class="hover:underline">Documentation</a>
+						<a href="/api" class="hover:underline">API</a>
 					</li>
 				</ul>
 			</div>

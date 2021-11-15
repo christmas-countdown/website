@@ -45,7 +45,7 @@
 	import Card from '../components/Card.svelte';
 	import Link from '../components/Link.svelte';
 	import Item from '../components/TimeleftItem.svelte';
-	import { onMount } from 'svelte';
+	import { getContext, onMount } from 'svelte';
 
 	onMount(() => {
 		setInterval(() => {
@@ -64,6 +64,8 @@
 			isTomorrow = christmas.isTomorrow();
 		}, 1000);
 	});
+
+	let page = getContext('page');
 </script>
 
 <svelte:head>

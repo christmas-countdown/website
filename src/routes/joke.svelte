@@ -15,6 +15,4 @@
 		name="twitter:description"
 		content="Get a random joke from a collection of over 100 Christmas jokes."
 	/>
-	<meta name="url" content="https://www.christmascountdown.live/joke" />
-	<meta name="og:url" content="https://www.christmascountdown.live/joke" />
 </svelte:head>

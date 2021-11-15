@@ -15,6 +15,4 @@
 		name="twitter:description"
 		content="Read the terms and conditions of the Christmas Countdown projects."
 	/>
-	<meta name="url" content="https://www.christmascountdown.live/terms" />
-	<meta name="og:url" content="https://www.christmascountdown.live/terms" />
 </svelte:head>

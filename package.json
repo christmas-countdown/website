@@ -11,6 +11,7 @@
 	"devDependencies": {
 		"@sveltejs/adapter-netlify": "^1.0.0-next.35",
 		"@sveltejs/kit": "next",
+		"@tailwindcss/typography": "^0.4.1",
 		"autoprefixer": "^10.4.0",
 		"eslint": "^7.32.0",
 		"eslint-config-prettier": "^8.3.0",
@@ -20,6 +21,7 @@
 		"prettier-plugin-svelte": "^2.4.0",
 		"svelte": "^3.44.1",
 		"svelte-preprocess": "^4.9.8",
+		"svelte-preprocess-markdown": "^2.7.3",
 		"tailwindcss": "^2.2.19"
 	},
 	"type": "module"

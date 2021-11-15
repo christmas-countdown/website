@@ -1,9 +1,12 @@
 <script>
-	import Box from '../components/Box.svelte';
-	import Button from '../components/Button.svelte';
-	import Card from '../components/Card.svelte';
-	import Feature from '../components/Feature.svelte';
-	import Link from '../components/Link.svelte';
+	import Box from '../../components/Box.svelte';
+	import Button from '../../components/Button.svelte';
+	import Card from '../../components/Card.svelte';
+	import Feature from '../../components/Feature.svelte';
+	import Link from '../../components/Link.svelte';
+	import { getContext } from 'svelte';
+
+	let page = getContext('page');
 </script>
 
 <svelte:head>
@@ -23,12 +26,10 @@
 		name="twitter:description"
 		content="Get the number of sleeps left until Christmas sent to a selected channel every morning - in your language and your timezone."
 	/>
-	<meta name="url" content="https://www.christmascountdown.live/discord" />
-	<meta name="og:url" content="https://www.christmascountdown.live/discord" />
 </svelte:head>
 
-<div class="container mx-auto">
-	<h1 class="select-none text-center">
+<div>
+	<h1 class="select-none text-center my-8">
 		<p class="text-xl uppercase p-2">The original</p>
 		<p class="font-christmas text-7xl p-2">Christmas Countdown</p>
 		<p class="text-2xl uppercase p-2">bot for Discord</p>
@@ -37,16 +38,20 @@
 	<Box>
 		<div class="my-8 text-center p-8">
 			<div class="my-6">
-			<p>
-				Add the Christmas Countdown bot for Discord to your server to get the number of sleeps left
-				until Christmas sent to a selected channel every morning. The bot has been added to over
-				8000 Discord servers since 2018.
-			</p>
-		</div>
-
-		<a href="/invite">
-			<Button colour="bg-blurple" text="Add to Discord" />
-		</a>
+				<p>
+					Add the Christmas Countdown bot for Discord to your server to get the number of sleeps
+					left until Christmas sent to a selected channel every morning. The bot has been added to
+					over 8000 Discord servers since 2018.
+				</p>
+			</div>
+			<div>
+				<a href="/invite">
+					<Button colour="bg-blurple" text="Add to Discord" />
+				</a>
+				<a href="/discord/commands">
+					<Button colour="bg-primary" text="View documentation" />
+				</a>
+			</div>
 		</div>
 	</Box>
 	<h2 class="text-xl font-bold text-center mb-4">Features</h2>
@@ -63,7 +68,7 @@
 			</p>
 			<br />
 			<p class="text-right">
-				<Link href="https://docs.christmascountdown.live/discord/timezones">
+				<Link href="./timezones">
 					Learn more <i class="fas fa-arrow-right" />
 				</Link>
 			</p>
@@ -93,7 +98,7 @@
 				class="my-4"
 			/>
 			<p class="text-right">
-				<Link href="https://docs.christmascountdown.live/discord/commands"
+				<Link href="./commands"
 					>Learn more <i class="fas fa-arrow-right" /></Link
 				>
 			</p>
@@ -113,7 +118,7 @@
 		</Feature>
 		<Feature title="Daily countdown">
 			<p>
-				<Link href="https://docs.christmascountdown.live/discord/enable-the-countdown"
+				<Link href="./enable-the-countdown"
 					>Set the countdown channel</Link
 				> and get a countdown message ready for when you wake up every morning.
 			</p>
@@ -123,14 +128,14 @@
 				class="my-4"
 			/>
 			<p class="text-right">
-				<Link href="https://docs.christmascountdown.live/discord/enable-the-countdown"
+				<Link href="./enable-the-countdown"
 					>Learn more <i class="fas fa-arrow-right" /></Link
 				>
 			</p>
 		</Feature>
 		<Feature title="Jokes">
 			<p>
-				Use the <Link href="https://docs.christmascountdown.live/discord/commands#joke"
+				Use the <Link href="./commands#joke"
 					><code class="text-primary">/joke</code></Link
 				> command to get a random Christmas joke.
 			</p>

@@ -15,6 +15,4 @@
 		name="twitter:description"
 		content="Customise your Christmas Countdown with these website options."
 	/>
-	<meta name="url" content="https://www.christmascountdown.live/options" />
-	<meta name="og:url" content="https://www.christmascountdown.live/options" />
 </svelte:head>

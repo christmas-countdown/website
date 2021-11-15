@@ -68,7 +68,7 @@
 			</p>
 			<br />
 			<p class="text-right">
-				<Link href="./timezones">
+				<Link href="/discord/timezones">
 					Learn more <i class="fas fa-arrow-right" />
 				</Link>
 			</p>
@@ -98,7 +98,7 @@
 				class="my-4"
 			/>
 			<p class="text-right">
-				<Link href="./commands"
+				<Link href="/discord/commands"
 					>Learn more <i class="fas fa-arrow-right" /></Link
 				>
 			</p>
@@ -118,7 +118,7 @@
 		</Feature>
 		<Feature title="Daily countdown">
 			<p>
-				<Link href="./enable-the-countdown"
+				<Link href="/discord/enable-the-countdown"
 					>Set the countdown channel</Link
 				> and get a countdown message ready for when you wake up every morning.
 			</p>
@@ -128,14 +128,14 @@
 				class="my-4"
 			/>
 			<p class="text-right">
-				<Link href="./enable-the-countdown"
+				<Link href="/discord/enable-the-countdown"
 					>Learn more <i class="fas fa-arrow-right" /></Link
 				>
 			</p>
 		</Feature>
 		<Feature title="Jokes">
 			<p>
-				Use the <Link href="./commands#joke"
+				Use the <Link href="/discord/commands#joke"
 					><code class="text-primary">/joke</code></Link
 				> command to get a random Christmas joke.
 			</p>

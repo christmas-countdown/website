@@ -33,7 +33,7 @@ The available commands are shown in this screenshot of the `help` command.
 
 Click on the commands below to find out more about each one.
 
-<Accordion prefix="cmd:">
+<Accordion prefix="">
 
 ## Christmas
 

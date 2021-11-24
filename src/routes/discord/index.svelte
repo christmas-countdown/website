@@ -136,7 +136,7 @@
 		<Feature title="Jokes">
 			<p>
 				Use the <Link href="/discord/commands#joke"
-					><code class="text-primary">/joke</code></Link
+					><code class="text-primary">/jokes</code></Link
 				> command to get a random Christmas joke.
 			</p>
 			<img

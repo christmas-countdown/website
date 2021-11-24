@@ -45,7 +45,7 @@
 	</url>
 
 	<url>
-		<loc>https://christmascountdown.live/joke</loc>
+		<loc>https://christmascountdown.live/jokes</loc>
 		<changefreq>always</changefreq>
 		<priority>0.8</priority>
 	</url>
@@ -75,11 +75,6 @@
 		<priority>0.6</priority>
 	</url>
 
-	<url>
-		<loc>https://christmascountdown.live/options</loc>
-		<changefreq>monthly</changefreq>
-		<priority>0.6</priority>
-	</url>
 
 	<url>
 		<loc>https://christmascountdown.live/cookies</loc>

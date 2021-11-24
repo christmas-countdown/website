@@ -109,7 +109,7 @@
 				<!-- hover:-translate-y-2 -->
 				<Card background="bg-blurple" border="border-blurple">
 					<div class="p-6">
-						<h2 class="font-bold text-xl">Get the Discord bot <i class="fas fa-arrow-right" /></h2>
+						<h2 class="font-bold text-xl">Add the Discord bot <i class="fas fa-arrow-right" /></h2>
 						<p>
 							Add the Christmas Countdown bot for Discord to your server to get the number of sleeps
 							left until Christmas sent to the text channel of your choice every morning.
@@ -120,15 +120,14 @@
 					</div>
 				</Card>
 			</a>
-			<a href="/options" class="transform hover:scale-105 duration-300">
+			<a href="/jokes" class="transform hover:scale-105 duration-300">
 				<Card background="bg-primary-dark" border="border-primary-dark">
 					<div class="p-6">
 						<h2 class="font-bold text-xl">
-							Customise your countdown <i class="fas fa-arrow-right" />
+							Get Christmas jokes <i class="fas fa-arrow-right" />
 						</h2>
 						<p>
-							Manage your website preferences and configure options for snow, custom backgrounds,
-							and more.
+							Get a random joke from a collection of over 100 Christmas jokes, and avoid awkwardly trying to think of one yourself.
 						</p>
 					</div>
 				</Card>

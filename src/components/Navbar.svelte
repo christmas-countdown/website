@@ -20,7 +20,7 @@
 		},
 		{
 			name: 'Jokes',
-			url: '/joke'
+			url: '/jokes'
 		}
 	];
 </script>

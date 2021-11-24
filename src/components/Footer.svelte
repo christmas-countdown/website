@@ -5,7 +5,7 @@
 
 <Box>
 	<footer class="mt-16 p-8">
-		<div class="grid text-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-4">
+		<div class="grid text-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-4"> <!-- md:grid-cols-4 -->
 			<div>
 				<h5 class="font-bold text-gray-400">Information</h5>
 				<ul>
@@ -41,6 +41,12 @@
 					<li><a href="/cookies" class="hover:underline">Cookies policy</a></li>
 				</ul>
 			</div>
+			<!-- <div>
+				<h5 class="font-bold text-gray-400">Options</h5>
+				<ul>
+					<li>Snow</li>
+				</ul>
+			</div> -->
 		</div>
 		<p class="text-gray-400 text-center">
 			Christmas Countdown by eartharoid <br />

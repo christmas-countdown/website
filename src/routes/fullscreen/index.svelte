@@ -44,8 +44,8 @@
 		name="twitter:description"
 		content="Display a beautiful and distraction-free fullscreen live Christmas countdown on the big screen."
 	/>
-	<meta name="url" content="https://www.christmascountdown.live/fullscreen" />
-	<meta name="og:url" content="https://www.christmascountdown.live/fullscreen" />
+	<meta name="url" content="https://christmascountdown.live/fullscreen" />
+	<meta name="og:url" content="https://christmascountdown.live/fullscreen" />
 </svelte:head>
 
 <div class="container mx-auto text-center select-none flex justify-center items-center h-screen">

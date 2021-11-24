@@ -23,8 +23,8 @@
 </script>
 
 <svelte:head>
-	<meta name="url" content="https://www.christmascountdown.live{page}" />
-	<meta name="og:url" content="https://www.christmascountdown.live{page}" />
+	<meta name="url" content="https://christmascountdown.live{page}" />
+	<meta name="og:url" content="https://christmascountdown.live{page}" />
 </svelte:head>
 
 <div

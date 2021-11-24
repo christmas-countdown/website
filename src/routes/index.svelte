@@ -85,8 +85,8 @@
 		name="twitter:description"
 		content="Get the time left to Christmas with the decorative live online countdown or with the original Christmas countdown bot for Discord."
 	/>
-	<meta name="url" content="https://www.christmascountdown.live" />
-	<meta name="og:url" content="https://www.christmascountdown.live" />
+	<meta name="url" content="https://christmascountdown.live" />
+	<meta name="og:url" content="https://christmascountdown.live" />
 </svelte:head>
 
 <div>

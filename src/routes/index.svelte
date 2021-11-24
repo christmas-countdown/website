@@ -154,9 +154,9 @@
 				<div class="col-span-1 m-2 sm:m-0">
 					<Box>
 						<div class="p-6 text-xl text-center h-full flex flex-col justify-center items-center">
-							<p class="p-2">Christmas Day is on a</p>
-							<p class="p-2"><span class="font-bold text-3xl">{weekday}</span></p>
-							<p class="p-2">in {date.getFullYear()}.</p>
+							<span class="p-2">Christmas Day is on a</span>
+							<span class="p-2"><span class="font-bold text-3xl">{weekday}</span></span>
+							<span class="p-2">in {date.getFullYear()}.</span>
 						</div>
 					</Box>
 				</div>

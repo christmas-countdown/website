@@ -56,111 +56,114 @@
 	</Box>
 	<h2 class="text-xl font-bold text-center mb-4">Features</h2>
 
-	<div id="features" class="container mx-auto w-full m-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
-		<Feature title="Server and user timezones">
-			<p>
-				Make the commands more accurate by setting your user timezone. This will be used when you
-				use a Christmas command on any server.
-			</p>
-			<p>
-				The server's timezone is used for the automatic countdown in the morning, and will be used
-				as the default when a user who has not set a personal timezone uses a command.
-			</p>
-			<br />
-			<p class="text-right">
-				<Link href="/discord/timezones">
-					Learn more <i class="fas fa-arrow-right" />
-				</Link>
-			</p>
-		</Feature>
-		<Feature title="Server and user locales">
-			<p>
-				Similarly to the timezones, users can set their own language, and administrators can set the
-				server's default.
-			</p>
-			<p>
-				If the bot hasn't been translated to your language yet, you can contribute on <Link
-					href="https://github.com/christmas-countdown/bot">GitHub</Link
-				>.
-			</p>
-			<br />
-			<p class="text-right">
-				<Link href="https://i18n.capestar.net/engage/christmas-countdown/"
-					>Translate <i class="fas fa-arrow-right" /></Link
-				>
-			</p>
-		</Feature>
-		<Feature title="Logical commands">
-			<p>The bot is very easy to use and has over 20 well-documented commands.</p>
-			<img
-				src="https://static.eartharoid.me/sharex/21/10/bot-help-cmd.png"
-				alt="Commands"
-				class="my-4"
-			/>
-			<p class="text-right">
-				<Link href="/discord/commands">Learn more <i class="fas fa-arrow-right" /></Link>
-			</p>
-		</Feature>
-		<Feature title="Time left to Christmas in...">
-			<p>months, weeks, sleeps, days, hours, minutes, seconds, or the total time left.</p>
-			<img
-				src="https://static.eartharoid.me/sharex/21/10/bot-total-cmd.png"
-				alt="Total"
-				class="my-4"
-			/>
-			<img
-				src="https://static.eartharoid.me/sharex/21/10/bot-hours-cmd.png"
-				alt="Hours"
-				class="my-4"
-			/>
-		</Feature>
-		<Feature title="Daily countdown">
-			<p>
-				<Link href="/discord/enable-the-countdown">Set the countdown channel</Link> and get a countdown
-				message ready for when you wake up every morning.
-			</p>
-			<img
-				src="https://static.eartharoid.me/sharex/21/10/bot-countdown.png"
-				alt="Countdown"
-				class="my-4"
-			/>
-			<p class="text-right">
-				<Link href="/discord/enable-the-countdown">Learn more <i class="fas fa-arrow-right" /></Link
-				>
-			</p>
-		</Feature>
-		<Feature title="Jokes">
-			<p>
-				Use the <Link href="/discord/commands#joke"><code class="text-primary">/jokes</code></Link> command
-				to get a random Christmas joke.
-			</p>
-			<img
-				src="https://static.eartharoid.me/sharex/21/10/bot-joke-cmd.png"
-				alt="Joke"
-				class="my-4"
-			/>
-		</Feature>
-		<!-- <div class="col-span-2"> -->
-		<Box>
-			<div class="p-6">
-				<span class="uppercase font-bold p-1.5 text-sm rounded-lg bg-primary">
-					New & Experimental
-				</span>
-				<h3 class="font-bold text-xl mt-3 mb-2">Secret Santa</h3>
+	<div id="features" class="container mx-auto w-full m-8">
+		<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-4">
+			<Feature title="Daily countdown">
 				<p>
-					Whether it's for a small group of friends who are sharing physical presents, or a large
-					community exchanging virtual gifts (such as in-game items), this <span class="italic"
-						>experimental</span
-					> feature makes it easy to organise a Secret Santa event.
+					<Link href="/discord/enable-the-countdown">Set the countdown channel</Link> and get a countdown
+					message ready for when you wake up every morning.
 				</p>
+				<img
+					src="https://static.eartharoid.me/sharex/21/10/bot-countdown.png"
+					alt="Countdown"
+					class="my-4"
+				/>
 				<p class="text-right">
-					<Link href="/discord/secret-santa"
+					<Link href="/discord/enable-the-countdown"
 						>Learn more <i class="fas fa-arrow-right" /></Link
 					>
 				</p>
-			</div>
-		</Box>
-		<!-- </div> -->
+			</Feature>
+			<Feature title="Jokes">
+				<p>
+					Use the <Link href="/discord/commands#joke"><code class="text-primary">/jokes</code></Link
+					> command to get a random Christmas joke.
+				</p>
+				<img
+					src="https://static.eartharoid.me/sharex/21/10/bot-joke-cmd.png"
+					alt="Joke"
+					class="my-4"
+				/>
+			</Feature>
+		</div>
+		<div class="grid grid-cols-1 gap-4 my-4">
+			<Box>
+				<div class="p-6">
+					<span class="uppercase font-bold p-1.5 text-sm rounded-lg bg-primary">
+						New & Experimental
+					</span>
+					<h3 class="font-bold text-xl mt-3 mb-2">Secret Santa</h3>
+					<p>
+						Whether it's for a small group of friends who are sharing physical presents, or a large
+						community exchanging virtual gifts (such as in-game items), this <span class="italic"
+							>experimental</span
+						> feature makes it easy to organise a Secret Santa event.
+					</p>
+					<p class="text-right">
+						<Link href="/discord/secret-santa">Learn more <i class="fas fa-arrow-right" /></Link>
+					</p>
+				</div>
+			</Box>
+		</div>
+		<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-4">
+			<Feature title="Logical commands">
+				<p>The bot is very easy to use and has over 20 well-documented commands.</p>
+				<img
+					src="https://static.eartharoid.me/sharex/21/10/bot-help-cmd.png"
+					alt="Commands"
+					class="my-4"
+				/>
+				<p class="text-right">
+					<Link href="/discord/commands">Learn more <i class="fas fa-arrow-right" /></Link>
+				</p>
+			</Feature>
+			<Feature title="Time left to Christmas in...">
+				<p>months, weeks, sleeps, days, hours, minutes, seconds, or the total time left.</p>
+				<img
+					src="https://static.eartharoid.me/sharex/21/10/bot-total-cmd.png"
+					alt="Total"
+					class="my-4"
+				/>
+				<img
+					src="https://static.eartharoid.me/sharex/21/10/bot-hours-cmd.png"
+					alt="Hours"
+					class="my-4"
+				/>
+			</Feature>
+			<Feature title="Server and user timezones">
+				<p>
+					Make the commands more accurate by setting your user timezone. This will be used when you
+					use a Christmas command on any server.
+				</p>
+				<p>
+					The server's timezone is used for the automatic countdown in the morning, and will be used
+					as the default when a user who has not set a personal timezone uses a command.
+				</p>
+				<br />
+				<p class="text-right">
+					<Link href="/discord/timezones">
+						Learn more <i class="fas fa-arrow-right" />
+					</Link>
+				</p>
+			</Feature>
+			<Feature title="Server and user locales">
+				<p>
+					Similarly to the timezones, users can set their own language, and administrators can set
+					the server's default.
+				</p>
+				<p>
+					If the bot hasn't been translated to your language yet, you can contribute on <Link
+						href="https://github.com/christmas-countdown/bot">GitHub</Link
+					>.
+				</p>
+				<br />
+				<p class="text-right">
+					<Link href="https://i18n.capestar.net/engage/christmas-countdown/"
+						>Translate <i class="fas fa-arrow-right" /></Link
+					>
+				</p>
+			</Feature>
+		</div>
 	</div>
 	<div class="text-center">
 		<a href="/invite">

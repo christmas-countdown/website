@@ -11,6 +11,10 @@
 			url: '/discord/enable-the-countdown'
 		},
 		{
+			name: 'Secret Santa',
+			url: '/discord/secret-santa'
+		},
+		{
 			name: 'Timezones',
 			url: '/discord/timezones'
 		}

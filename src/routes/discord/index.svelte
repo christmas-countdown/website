@@ -98,9 +98,7 @@
 				class="my-4"
 			/>
 			<p class="text-right">
-				<Link href="/discord/commands"
-					>Learn more <i class="fas fa-arrow-right" /></Link
-				>
+				<Link href="/discord/commands">Learn more <i class="fas fa-arrow-right" /></Link>
 			</p>
 		</Feature>
 		<Feature title="Time left to Christmas in...">
@@ -118,9 +116,8 @@
 		</Feature>
 		<Feature title="Daily countdown">
 			<p>
-				<Link href="/discord/enable-the-countdown"
-					>Set the countdown channel</Link
-				> and get a countdown message ready for when you wake up every morning.
+				<Link href="/discord/enable-the-countdown">Set the countdown channel</Link> and get a countdown
+				message ready for when you wake up every morning.
 			</p>
 			<img
 				src="https://static.eartharoid.me/sharex/21/10/bot-countdown.png"
@@ -128,16 +125,14 @@
 				class="my-4"
 			/>
 			<p class="text-right">
-				<Link href="/discord/enable-the-countdown"
-					>Learn more <i class="fas fa-arrow-right" /></Link
+				<Link href="/discord/enable-the-countdown">Learn more <i class="fas fa-arrow-right" /></Link
 				>
 			</p>
 		</Feature>
 		<Feature title="Jokes">
 			<p>
-				Use the <Link href="/discord/commands#joke"
-					><code class="text-primary">/jokes</code></Link
-				> command to get a random Christmas joke.
+				Use the <Link href="/discord/commands#joke"><code class="text-primary">/jokes</code></Link> command
+				to get a random Christmas joke.
 			</p>
 			<img
 				src="https://static.eartharoid.me/sharex/21/10/bot-joke-cmd.png"
@@ -145,6 +140,27 @@
 				class="my-4"
 			/>
 		</Feature>
+		<!-- <div class="col-span-2"> -->
+		<Box>
+			<div class="p-6">
+				<span class="uppercase font-bold p-1.5 text-sm rounded-lg bg-primary">
+					New & Experimental
+				</span>
+				<h3 class="font-bold text-xl mt-3 mb-2">Secret Santa</h3>
+				<p>
+					Whether it's for a small group of friends who are sharing physical presents, or a large
+					community exchanging virtual gifts (such as in-game items), this <span class="italic"
+						>experimental</span
+					> feature makes it easy to organise a Secret Santa event.
+				</p>
+				<p class="text-right">
+					<Link href="/discord/secret-santa"
+						>Learn more <i class="fas fa-arrow-right" /></Link
+					>
+				</p>
+			</div>
+		</Box>
+		<!-- </div> -->
 	</div>
 	<div class="text-center">
 		<a href="/invite">

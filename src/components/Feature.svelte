@@ -6,7 +6,7 @@
 
 <Box>
 	<div class="p-6">
-		<h3 class="font-bold text-xl mb-2">{title}</h3>
+		<h3 class="font-bold text-xl mb-2">{@html title}</h3>
 		<div><slot /></div>
 	</div>
 </Box>

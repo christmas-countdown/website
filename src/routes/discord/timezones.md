@@ -8,10 +8,10 @@
 
 <svelte:head>
 
-<title>Timezones• Christmas Countdown</title>
-<meta name="title" content="Timezones• Christmas Countdown" />
-<meta name="og:title" content="Timezones• Christmas Countdown" />
-<meta name="twitter:title" content="Timezones• Christmas Countdown" />
+<title>Timezones • Christmas Countdown</title>
+<meta name="title" content="Timezones • Christmas Countdown" />
+<meta name="og:title" content="Timezones • Christmas Countdown" />
+<meta name="twitter:title" content="Timezones • Christmas Countdown" />
 <meta
 		name="description"
 		content="Change your server's or personal timezone to make the countdown more accurate."

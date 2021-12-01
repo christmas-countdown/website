@@ -32,7 +32,7 @@
 			<h1 class="text-2xl font-bold mb-2">About</h1>
 			<p>
 				This started as a single web page with smashed together code because I (eartharoid) wanted
-				something pretty to put on my 7" Rapsberry Pi touchscreen. The Christmas Countdown website
+				something pretty to put on my 7" Raspberry Pi touchscreen. The Christmas Countdown website
 				now has thousands of visitors and the bot has been added to over 8000 servers.
 			</p>
 		</div>

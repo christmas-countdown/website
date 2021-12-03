@@ -59,11 +59,11 @@ For example, a Minecraft server could organise a Secret Santa event for exchangi
 
 7. Depending on the nature of your Discord server, you may also want to schedule a second event (in a voice channel, on a Minecraft server etc) on or before Christmas Day to exchange gifts.
 
-## Finding out who you need to give a gift to
+## How members view who they are assigned to
 
 When the event starts, the bot will assign each member someone to give a gift to.
 
-Members can use [`/secret-santa show`](/discord/commands#secret-santa-show) to see their partner.
+Members can use [`/secret-santa show`](/discord/commands#secret-santa-show) to see who they are assigned to.
 
 ## Moderation
 

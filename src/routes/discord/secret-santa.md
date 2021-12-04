@@ -69,6 +69,6 @@ Members can use [`/secret-santa show`](/discord/commands#secret-santa-show) to s
 
 If a member doesn't receive their gift, an administrator can use [`/secret-santa list`](/discord/commands#secret-santa-list) to check who didn't give a gift.
 
-Members can also be [blacklisted](/discord/commands#secret-santa-blacklist-add). This won't prevent them from pressing the button to join, but the bot will simply ignore them from the list.
+Members can also be [blacklisted](/discord/commands#secret-santa-blacklist). This won't prevent them from pressing the button to join, but the bot will simply ignore them from the list.
 
 </Document>

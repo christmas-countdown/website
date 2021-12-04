@@ -101,6 +101,29 @@ No options.
 No options.
 </AccordionItem>
 
+<AccordionItem name="/secret-santa blacklist" description="Manage the naughty list">
+
+**Required permissions:** `MANAGE_GUILD`
+
+|Name|Type|Required?|Example|Description|
+|-|-|-|-|-|
+|`add`|String|Yes|`@GoodElf`|The member to add to the naughty list|
+|`remove`|String|Yes|`@BadElf`|The member to remove from the naughty list|
+
+</AccordionItem>
+
+<AccordionItem name="/secret-santa list" description="Check who each participant is assigned to">
+
+**Required permissions:** `MANAGE_GUILD`
+
+No options.
+
+</AccordionItem>
+
+<AccordionItem name="/secret-santa show" description="See who you need to give a gift to">
+No options.
+</AccordionItem>
+
 <AccordionItem name="/suggest" description="Submit a suggestion">
 
 #### Options

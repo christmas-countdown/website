@@ -47,7 +47,7 @@ This guide is for server administrators.
 
 3. Give the event a name such as the example below.
 
-4. Select a start date for the event. This is when members will no longer be able to join and the bot will start matching members. **You should give your members at least 20 days to prepare and deliver their gift**, and a few days to enter before the event date if possible.
+4. Select a start date for the event. This is when members will no longer be able to join and the bot will start matching members. **You should give your members at least 2 weeks to prepare and deliver their gift**, and a few days to enter before the event date if possible.
 
 5. Enter an event description. If you are doing Secret Santa on a small server with just your friends, use this space to set the spending limit.
 For large communities where only virtual gifts are being exchanged, describe what gifts are acceptable and where they are to be exchanged.

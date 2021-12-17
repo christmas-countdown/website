@@ -106,16 +106,13 @@
 			</Box>
 		</div>
 		<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-4">
-			<Feature title="Logical commands">
-				<p>The bot is very easy to use and has over 20 well-documented commands.</p>
+			<Feature title="Santa tracker">
+				<p>Check Santa's location with a message that updates every couple of minutes on Christmas Eve.</p>
 				<img
-					src="https://static.eartharoid.me/sharex/21/10/bot-help-cmd.png"
+					src="https://static.eartharoid.me/sharex/21/12/bot-tracker.png"
 					alt="Commands"
 					class="my-4"
 				/>
-				<p class="text-right">
-					<Link href="/discord/commands">Learn more <i class="fas fa-arrow-right" /></Link>
-				</p>
 			</Feature>
 			<Feature title="Time left to Christmas in...">
 				<p>months, weeks, sleeps, days, hours, minutes, seconds, or the total time left.</p>

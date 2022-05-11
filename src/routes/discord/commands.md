@@ -24,7 +24,7 @@
 # Commands
 
 <Question title="Help">
-Need help? [Join the Discord support server](https://go.eartharoid.me/discord).
+Need help? [Join the Discord support server](https://lnk.earth/discord).
 </Question>
 
 The available commands are shown in this screenshot of the `help` command.

@@ -25,7 +25,7 @@
 				<h5 class="font-bold text-gray-400">Useful links</h5>
 				<ul>
 					<li>
-						<a href="https://go.eartharoid.me/discord" class="hover:underline">Discord server</a>
+						<a href="https://lnk.earth/discord" class="hover:underline">Discord server</a>
 					</li>
 					<li><a href="/donate" class="hover:underline">Donate</a></li>
 					<li>

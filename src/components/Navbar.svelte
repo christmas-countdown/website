@@ -61,7 +61,7 @@
 				<!-- right -->
 				<div class="hidden md:flex items-center space-x-3 ">
 					<a
-						href="https://go.eartharoid.me/discord"
+						href="https://lnk.earth/discord"
 						class="py-2 px-2 font-medium text-gray-400 rounded hover:bg-primary hover:text-white transition duration-300"
 						title="Discord"><i class="fab fa-discord" /></a
 					>

@@ -2,10 +2,10 @@
 	/**
 	 * @type {import('@sveltejs/kit').Load}
 	 */
-	export const load = async ({ page }) => {
+	export const load = async ({ url }) => {
 		return {
 			props: {
-				page: page.path
+				page: url.pathname
 			}
 		};
 	};

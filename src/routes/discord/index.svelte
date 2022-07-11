@@ -45,7 +45,7 @@
 				</p>
 			</div>
 			<div>
-				<a href="/invite">
+				<a href="/discord/add">
 					<Button colour="bg-blurple" text="Add to Discord" />
 				</a>
 				<a href="/discord/commands">
@@ -163,7 +163,7 @@
 		</div>
 	</div>
 	<div class="text-center">
-		<a href="/invite">
+		<a href="/discord/add">
 			<Button colour="bg-blurple" text="Add to Discord" />
 		</a>
 	</div>

@@ -171,6 +171,7 @@
 		<a
 			href="https://top.gg/bot/648134637654114309"
 			class="mx-2 transform hover:scale-105 duration-300"
+			target="_blank"
 		>
 			<Card background="bg-blurple" border="border-blurple">
 				<div class="p-6">

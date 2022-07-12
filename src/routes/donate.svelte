@@ -27,11 +27,11 @@
 
 	<p>
 		Donators can enable premium features on their Discord servers. Please contact me on <Link
-			href="https://go.eartharoid.me/discord">Discord</Link
+			href="https://lnk.earth/discord">Discord</Link
 		> before donating and tell me which servers you want to enable premium on.
 	</p>
 	<p class="my-4">
-		<a href="https://go.eartharoid.me/xmas-premium">
+		<a href="https://lnk.earth/xmas-premium">
 			<Button colour="bg-yellow-500" text="Donate on Ko-fi" />
 		</a>
 	</p>

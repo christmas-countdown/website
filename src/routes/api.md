@@ -8,7 +8,7 @@
 <meta name="twitter:description" content="Use the Christmas Countdown REST API to get the time left to Christmas and Christmas jokes." />
 </svelte:head>
 
-<div class="sm:col-span-3 m-4 sm:m-8 prose mx-auto sm:prose-xl">
+<div class="sm:col-span-3 m-4 sm:m-8 prose mx-auto sm:prose-lg">
 
 # API
 

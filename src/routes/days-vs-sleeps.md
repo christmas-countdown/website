@@ -14,7 +14,7 @@
 <meta name="twitter:description" content="The Christmas Countdown projects give two values for the number of days left until Christmas; both numbers are correct but in different circumstances." />
 </svelte:head>
 
-<div class="sm:col-span-3 m-4 sm:m-8 prose mx-auto sm:prose-xl">
+<div class="sm:col-span-3 m-4 sm:m-8 prose mx-auto sm:prose-lg">
 
 # Days vs sleeps
 

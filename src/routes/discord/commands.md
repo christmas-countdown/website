@@ -3,7 +3,14 @@
 	import Question from '../../components/Admonitions/Question.svelte';
 	import Accordion from '../../components/Accordion/Accordion.svelte';
 	import AccordionItem from '../../components/Accordion/AccordionItem.svelte';
-	import { getContext } from 'svelte';
+	import { getContext, onMount } from 'svelte';
+	import { open } from '../../components/Accordion/stores';
+
+	onMount(() => {
+		console.log($open)
+		open.set(document.location.hash.slice(1) ?? null);
+		console.log($open)
+	});
 
 	let pages = getContext('pages');
 </script>
@@ -33,41 +40,41 @@ The available commands are shown in this screenshot of the `help` command.
 
 Click on the commands below to find out more about each one.
 
-<Accordion prefix="">
+<Accordion prefix="/">
 
 ## Christmas
 
-<AccordionItem name="/days" description="Get the number of days left until Christmas in your timezone">
+<AccordionItem name="days" description="Get the number of days left until Christmas in your timezone">
 No options.
 </AccordionItem>
 
-<AccordionItem name="/hours" description="Get the number of hours left until Christmas in your timezone">
+<AccordionItem name="hours" description="Get the number of hours left until Christmas in your timezone">
 No options.
 </AccordionItem>
 
-<AccordionItem name="/joke" description="Get a random one of over 100 Christmas jokes">
+<AccordionItem name="joke" description="Get a random one of over 100 Christmas jokes">
 No options.
 
 Jokes are currently English-only.
 </AccordionItem>
 
-<AccordionItem name="/minutes" description="Get the number of minutes left until Christmas in your timezone">
+<AccordionItem name="minutes" description="Get the number of minutes left until Christmas in your timezone">
 No options.
 </AccordionItem>
 
-<AccordionItem name="/months" description="Get the number of months left until Christmas in your timezone">
+<AccordionItem name="months" description="Get the number of months left until Christmas in your timezone">
 No options.
 </AccordionItem>
 
-<AccordionItem name="/radio" description="Get the link to add the Christmas Radio bot to your server">
+<AccordionItem name="radio" description="Get the link to add the Christmas Radio bot to your server">
 No options.
 </AccordionItem>
 
-<AccordionItem name="/seconds" description="Get the number of seconds left until Christmas in your timezone">
+<AccordionItem name="seconds" description="Get the number of seconds left until Christmas in your timezone">
 No options.
 </AccordionItem>
 
-<AccordionItem name="/secret-santa blacklist" description="Manage the naughty list">
+<AccordionItem name="secret-santa blacklist" description="Manage the naughty list">
 
 **Required permissions:** `MANAGE_GUILD`
 
@@ -78,7 +85,7 @@ No options.
 
 </AccordionItem>
 
-<AccordionItem name="/secret-santa list" description="Check who each participant is assigned to">
+<AccordionItem name="secret-santa list" description="Check who each participant is assigned to">
 
 **Required permissions:** `MANAGE_GUILD`
 
@@ -86,45 +93,45 @@ No options.
 
 </AccordionItem>
 
-<AccordionItem name="/secret-santa show" description="See who you need to give a gift to">
+<AccordionItem name="secret-santa show" description="See who you need to give a gift to">
 No options.
 </AccordionItem>
 
-<AccordionItem name="/total" description="Get the total time left until Christmas in your timezone">
+<AccordionItem name="total" description="Get the total time left until Christmas in your timezone">
 No options.
 </AccordionItem>
 
-<AccordionItem name="/weekday" description="Get the day of the week that Christmas Day is on">
+<AccordionItem name="weekday" description="Get the day of the week that Christmas Day is on">
 No options.
 </AccordionItem>
 
-<AccordionItem name="/weeks" description="Get the number of weeks left until Christmas in your timezone">
+<AccordionItem name="weeks" description="Get the number of weeks left until Christmas in your timezone">
 No options.
 </AccordionItem>
 
 ## General
 
-<AccordionItem name="/donate" description="Donate to unlock additional features">
+<AccordionItem name="donate" description="Donate to unlock additional features">
 No options.
 </AccordionItem>
 
-<AccordionItem name="/help" description="List the available commands">
+<AccordionItem name="help" description="List the available commands">
 No options.
 </AccordionItem>
 
-<AccordionItem name="/info" description="Get information and statistics about the bot (link the stats dashboard)">
+<AccordionItem name="info" description="Get information and statistics about the bot (link the stats dashboard)">
 No options.
 </AccordionItem>
 
-<AccordionItem name="/invite" description="Add the bot to your own Discord server">
+<AccordionItem name="invite" description="Add the bot to your own Discord server">
 No options.
 </AccordionItem>
 
-<AccordionItem name="/ping" description="Get connection information">
+<AccordionItem name="ping" description="Get connection information">
 No options.
 </AccordionItem>
 
-<AccordionItem name="/suggest" description="Submit a suggestion">
+<AccordionItem name="suggest" description="Submit a suggestion">
 
 #### Options
 
@@ -136,7 +143,7 @@ No options.
 
 ## Settings
 
-<AccordionItem name="/countdown" description="Create the countdown webhook">
+<AccordionItem name="countdown" description="Create the countdown webhook">
 
 **Required permissions:** `MANAGE_GUILD`
 
@@ -148,7 +155,7 @@ No options.
 
 </AccordionItem>
 
-<AccordionItem name="/server set" description="Update your server's settings (timezone, locale etc)">
+<AccordionItem name="server set" description="Update your server's settings (timezone, locale etc)">
 
 **Required permissions:** `MANAGE_GUILD`
 
@@ -164,28 +171,28 @@ No options.
 
 </AccordionItem>
 
-<AccordionItem name="/server reset" description="Reset your server's settings (timezone, locale etc)">
+<AccordionItem name="server reset" description="Reset your server's settings (timezone, locale etc)">
 
 **Required permissions:** `MANAGE_GUILD`
 
 No options.
 </AccordionItem>
 
-<AccordionItem name="/server view" description="View your server's settings (timezone, locale etc)">
+<AccordionItem name="server view" description="View your server's settings (timezone, locale etc)">
 
 **Required permissions:** `MANAGE_GUILD`
 
 No options.
 </AccordionItem>
 
-<AccordionItem name="/toggle" description="Toggle the countdown on/off (same as `enabled` server setting)">
+<AccordionItem name="toggle" description="Toggle the countdown on/off (same as `enabled` server setting)">
 
 **Required permissions:** `MANAGE_GUILD`
 
 No options.
 </AccordionItem>
 
-<AccordionItem name="/user set" description="View your personal settings (timezone, locale etc)">
+<AccordionItem name="user set" description="View your personal settings (timezone, locale etc)">
 
 #### Options
 
@@ -196,11 +203,11 @@ No options.
 
 </AccordionItem>
 
-<AccordionItem name="/user reset" description="Reset your personal settings (timezone, locale etc)">
+<AccordionItem name="user reset" description="Reset your personal settings (timezone, locale etc)">
 No options.
 </AccordionItem>
 
-<AccordionItem name="/user view" description="View your personal settings (timezone, locale etc)">
+<AccordionItem name="user view" description="View your personal settings (timezone, locale etc)">
 No options.
 </AccordionItem>
 

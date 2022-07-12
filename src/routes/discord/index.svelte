@@ -185,13 +185,18 @@
 			</Feature>
 		</div>
 	</div>
-	<div class="text-center">
-		<p>All of these features are available for free.</p>
-		<a href="/discord/add">
-			<Button colour="bg-blurple" text="Add to Discord" icon="fab fa-discord" />
-		</a>
+	<div class="text-center my-12">
+		<p class="my-4">All of these features are available for free.</p>
+		<p>
+			<a href="/discord/add">
+				<Button colour="bg-blurple" text="Add to Discord" icon="fab fa-discord" />
+			</a>
+			<a href="https://actiniumcloud.com" class="font-semibold text-sm hover:underline m-2">
+				<img src="/actinium.png" alt="ActiniumCloud" class="h-8 inline" />Powered by ActiniumCloud
+			</a>
+		</p>
 	</div>
-	<div class="grid grid-cols-1 gap-4 sm:w-1/2 mx-auto my-8">
+	<div class="grid grid-cols-1 gap-4 sm:w-1/2 mx-auto mt-12">
 		<a
 			href="https://top.gg/bot/648134637654114309"
 			class="mx-2 transform hover:scale-105 duration-300"
@@ -213,11 +218,6 @@
 					</p>
 				</div>
 			</Card>
-		</a>
-	</div>
-	<div class="text-center my-6">
-		<a href="https://actiniumcloud.com" class="font-semibold hover:underline m-2">
-			<img src="/actinium.png" alt="ActiniumCloud" class="h-12 inline" />Powered by ActiniumCloud
 		</a>
 	</div>
 </div>

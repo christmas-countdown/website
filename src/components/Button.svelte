@@ -1,9 +1,10 @@
 <script>
 	export let colour;
+	export let icon;
 	export let text;
 </script>
 
-<button
-	class="p-3 {colour} font-semibold rounded-lg transform hover:scale-105 hover:underline duration-300 m-2"
-	>{@html text}</button
->
+<button class="p-3 {colour} font-semibold rounded-lg transform hover:scale-105 hover:underline duration-300 m-2" title={text}>
+	{@html (icon && `<i class="${icon}" />`) ?? ''}
+	{text}
+</button>

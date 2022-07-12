@@ -46,14 +46,15 @@
 			</div>
 			<div>
 				<a href="/discord/add">
-					<Button colour="bg-blurple" text="Add to Discord" />
+					<Button colour="bg-blurple" text="Add to Discord" icon="fab fa-discord" />
 				</a>
 				<a href="/discord/commands">
-					<Button colour="bg-primary" text="View documentation" />
+					<Button colour="bg-gray-600" text="View documentation" />
 				</a>
 			</div>
 		</div>
 	</Box>
+
 	<h2 class="text-xl font-bold text-center mb-4">Features</h2>
 
 	<div id="features" class="container mx-auto w-full m-8">
@@ -74,23 +75,25 @@
 					>
 				</p>
 			</Feature>
-			<Feature title="Jokes">
-				<p>
-					Use the <Link href="/discord/commands#joke"><code class="text-primary">/joke</code></Link
-					> command to get a random Christmas joke.
-				</p>
+			<Feature title="Time left to Christmas in...">
+				<p>months, weeks, sleeps, days, hours, minutes, seconds, or the total time left.</p>
 				<img
-					src="https://static.eartharoid.me/sharex/21/10/bot-joke-cmd.png"
-					alt="Joke"
+					src="https://static.eartharoid.me/sharex/21/10/bot-total-cmd.png"
+					alt="Total"
 					class="my-4"
 				/>
+				<!-- <img
+					src="https://static.eartharoid.me/sharex/21/10/bot-hours-cmd.png"
+					alt="Hours"
+					class="my-4"
+				/> -->
 			</Feature>
 		</div>
-		<div class="grid grid-cols-1 gap-4 my-4">
+		<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-4">
 			<Box>
 				<div class="p-6">
 					<span class="uppercase font-bold p-1.5 text-sm rounded-lg bg-primary">
-						New & Experimental
+						Experimental
 					</span>
 					<h3 class="font-bold text-xl mt-3 mb-2">Secret Santa</h3>
 					<p>
@@ -104,26 +107,46 @@
 					</p>
 				</div>
 			</Box>
+			<a href="/discord/rpc" class="transform hover:scale-105 duration-300">
+				<!-- hover:-translate-y-2 -->
+				<Card background="bg-blurple" border="border-blurple">
+					<div class="p-6">
+						<h2 class="font-bold text-xl mb-2">Discord RPC <i class="fas fa-arrow-right" /></h2>
+						<p>
+							Add a Christmas Countdown to your Discord presence/status and unlock additional
+							features. <Link href="/discord/rpc">Learn more <i class="fas fa-arrow-right" /></Link>
+							<img src="https://static.eartharoid.me/k/22/06/30011959.png" alt="Screenshot" />
+						</p>
+					</div>
+				</Card>
+			</a>
 		</div>
 		<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-4">
-			<Feature title="Santa tracker">
-				<p>Check Santa's location with a message that updates every couple of minutes on Christmas Eve.</p>
+			<Box>
+				<div class="p-6">
+					<span class="uppercase font-bold p-1.5 text-sm rounded-lg bg-primary">
+						Experimental
+					</span>
+					<h3 class="font-bold text-xl mt-3 mb-2">Santa tracker</h3>
+					<p>
+						Check Santa's location with a message that updates every couple of minutes on Christmas
+						Eve.
+					</p>
+					<img
+						src="https://static.eartharoid.me/sharex/21/12/bot-tracker.png"
+						alt="Commands"
+						class="my-4"
+					/>
+				</div>
+			</Box>
+			<Feature title="Jokes">
+				<p>
+					Use the <Link href="/discord/commands#joke"><code class="text-primary">/joke</code></Link>
+					command to get a random Christmas joke.
+				</p>
 				<img
-					src="https://static.eartharoid.me/sharex/21/12/bot-tracker.png"
-					alt="Commands"
-					class="my-4"
-				/>
-			</Feature>
-			<Feature title="Time left to Christmas in...">
-				<p>months, weeks, sleeps, days, hours, minutes, seconds, or the total time left.</p>
-				<img
-					src="https://static.eartharoid.me/sharex/21/10/bot-total-cmd.png"
-					alt="Total"
-					class="my-4"
-				/>
-				<img
-					src="https://static.eartharoid.me/sharex/21/10/bot-hours-cmd.png"
-					alt="Hours"
+					src="https://static.eartharoid.me/sharex/21/10/bot-joke-cmd.png"
+					alt="Joke"
 					class="my-4"
 				/>
 			</Feature>
@@ -155,7 +178,7 @@
 				</p>
 				<br />
 				<p class="text-right">
-					<Link href="https://i18n.capestar.net/engage/christmas-countdown/"
+					<Link href="https://hosted.weblate.org/engage/christmas-countdown/"
 						>Translate <i class="fas fa-arrow-right" /></Link
 					>
 				</p>
@@ -163,11 +186,12 @@
 		</div>
 	</div>
 	<div class="text-center">
+		<p>All of these features are available for free.</p>
 		<a href="/discord/add">
-			<Button colour="bg-blurple" text="Add to Discord" />
+			<Button colour="bg-blurple" text="Add to Discord" icon="fab fa-discord" />
 		</a>
 	</div>
-	<div class="grid grid-cols-1 gap-4 sm:w-1/2 mx-auto mt-8">
+	<div class="grid grid-cols-1 gap-4 sm:w-1/2 mx-auto my-8">
 		<a
 			href="https://top.gg/bot/648134637654114309"
 			class="mx-2 transform hover:scale-105 duration-300"
@@ -189,6 +213,11 @@
 					</p>
 				</div>
 			</Card>
+		</a>
+	</div>
+	<div class="text-center my-6">
+		<a href="https://actiniumcloud.com" class="font-semibold hover:underline m-2">
+			<img src="/actinium.png" alt="ActiniumCloud" class="h-12 inline" />Powered by ActiniumCloud
 		</a>
 	</div>
 </div>

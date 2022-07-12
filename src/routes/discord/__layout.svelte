@@ -11,6 +11,10 @@
 			url: '/discord/enable-the-countdown'
 		},
 		{
+			name: 'RPC',
+			url: '/discord/rpc'
+		},
+		{
 			name: 'Secret Santa',
 			url: '/discord/secret-santa'
 		},

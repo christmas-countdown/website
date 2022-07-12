@@ -15,7 +15,7 @@
 >
 	<div on:click={toggle} class="cursor-pointer">
 		<div class="not-prose">
-			<a href="#{id}" class="flex w-full">
+			<a href="#{id}" class="flex w-full no-underline">
 				<span class="flex w-full font-mono text-primary font-semibold hover:underline"
 					>{prefix + name}</span
 				>
@@ -23,7 +23,7 @@
 		</div>
 		<span class="block text-gray-400 font-semibold">{description || ''}</span>
 	</div>
-	<div class={$open === id ? '' : 'hidden'}>
+	<div class="{$open === id ? '' : 'hidden'} scroll-auto overflow-x-scroll">
 		<slot />
 	</div>
 </div>

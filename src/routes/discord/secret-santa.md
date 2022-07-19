@@ -43,7 +43,7 @@ This guide is for server administrators.
 1. First, [navigate to the event creation screen](https://static.eartharoid.me/sharex/21/11/DiscordPTB_22S13DlCJS.png).
 
 2. Then select "Somewhere Else" and enter `Christmas Countdown` as the location. **This is required for the bot to recognise the event.**
-![Image](https://static.eartharoid.me/sharex/21/11/qRjD13f1xx.png)
+![](https://static.eartharoid.me/sharex/21/11/qRjD13f1xx.png)
 
 3. Give the event a name such as the example below.
 
@@ -52,10 +52,10 @@ This guide is for server administrators.
 5. Enter an event description. If you are doing Secret Santa on a small server with just your friends, use this space to set the spending limit.
 For large communities where only virtual gifts are being exchanged, describe what gifts are acceptable and where they are to be exchanged.
 For example, a Minecraft server could organise a Secret Santa event for exchanging precious items or building something for each other.
-![Image](https://static.eartharoid.me/sharex/21/11/DiscordPTB_7tLCMzy5ho.png)
+![](https://static.eartharoid.me/sharex/21/11/DiscordPTB_7tLCMzy5ho.png)
 
 6. Optionally, copy the event link given by Discord and make an announcement in your Discord server so everyone knows about it.
-![Image](https://static.eartharoid.me/sharex/21/11/DiscordPTB_2yiQDHklZH.png)
+![](https://static.eartharoid.me/sharex/21/11/DiscordPTB_2yiQDHklZH.png)
 
 7. Depending on the nature of your Discord server, you may also want to schedule a second event (in a voice channel, on a Minecraft server etc) on or before Christmas Day to exchange gifts.
 

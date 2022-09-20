@@ -1,8 +1,3 @@
 [build]
   command = "npm run build"
   publish = "build"
-
-[[redirects]]
-  from = "/callback"
-  to = "https://christmascountdown.live/discord/enable-the-countdown"
-  status = 302

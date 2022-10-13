@@ -42,10 +42,10 @@
 				</p>
 			</div>
 			<div>
-				<a href="/discord/add">
+				<a href="/discord/add" class="umami--click--add1">
 					<Button colour="bg-blurple" text="Add to Discord" icon="fab fa-discord" />
 				</a>
-				<a href="/discord/commands">
+				<a href="/discord/commands" class="umami--click--commands">
 					<Button colour="bg-gray-600" text="View documentation" />
 				</a>
 			</div>
@@ -104,14 +104,19 @@
 					</p>
 				</div>
 			</Box>
-			<a href="/discord/rpc" class="transform hover:scale-105 duration-300">
+			<a href="/discord/rpc" class="transform hover:scale-105 duration-300 umami--click--rpc">
 				<!-- hover:-translate-y-2 -->
 				<Card background="bg-blurple" border="border-blurple">
 					<div class="p-6">
 						<h2 class="font-bold text-xl mb-2">Discord RPC <i class="fas fa-arrow-right" /></h2>
 						<p>
 							Add a Christmas Countdown to your Discord presence/status and unlock additional
-							features. <Link href="/discord/rpc">Learn more <i class="fas fa-arrow-right" /></Link>
+							features.
+							<Link href="/discord/rpc">
+								<span class="umami--click--rpc">
+									Learn more <i class="fas fa-arrow-right" />
+								</span>
+							</Link>
 							<img src="https://static.eartharoid.me/k/22/06/30011959.png" alt="Screenshot" />
 						</p>
 					</div>
@@ -185,7 +190,7 @@
 	<div class="text-center my-12">
 		<p class="my-4">All of these features are available for free.</p>
 		<p>
-			<a href="/discord/add">
+			<a href="/discord/add" class="umami--click--add2">
 				<Button colour="bg-blurple" text="Add to Discord" icon="fab fa-discord" />
 			</a>
 			<a href="https://actiniumcloud.com" class="font-semibold text-sm hover:underline m-2">
@@ -196,7 +201,7 @@
 	<div class="grid grid-cols-1 gap-4 sm:w-1/2 mx-auto mt-12">
 		<a
 			href="https://top.gg/bot/648134637654114309"
-			class="mx-2 transform hover:scale-105 duration-300"
+			class="mx-2 transform hover:scale-105 duration-300 umami--click--radio"
 			target="_blank"
 		>
 			<Card background="bg-blurple" border="border-blurple">
@@ -209,9 +214,10 @@
 						/>Christmas Radio <i class="fas fa-external-link-alt" />
 					</h2>
 					<p>
-						Play Christmas music 24/7 in your Discord server with the <Link
-							href="https://top.gg/bot/648134637654114309">Christmas Radio bot.</Link
-						>
+						Play Christmas music 24/7 in your Discord server with the
+						<Link href="https://top.gg/bot/648134637654114309">
+							<span class="umami--click--radio">Christmas Radio bot.</span>
+						</Link>
 					</p>
 				</div>
 			</Card>

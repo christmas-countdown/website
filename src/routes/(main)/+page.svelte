@@ -68,7 +68,7 @@
 
 	<div class="flex flex-col-reverse sm:flex-col justify-items-center">
 		<div class="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8">
-			<a href="/discord" class="transform hover:scale-105 duration-300">
+			<a href="/discord" class="transform hover:scale-105 duration-300 umami--click--discord">
 				<!-- hover:-translate-y-2 -->
 				<Card background="bg-blurple" border="border-blurple">
 					<div class="p-6">
@@ -76,14 +76,14 @@
 						<p>
 							Add the Christmas Countdown bot for Discord to your server to get the number of sleeps
 							left until Christmas sent to the text channel of your choice every morning.
-							<a href="/discord" class="font-semibold hover:underline"
+							<a href="/discord" class="font-semibold hover:underline umami--click--discord"
 								>Learn more <i class="fas fa-arrow-right" /></a
 							>
 						</p>
 					</div>
 				</Card>
 			</a>
-			<a href="/jokes" class="transform hover:scale-105 duration-300">
+			<a href="/jokes" class="transform hover:scale-105 duration-300 umami--click--jokes">
 				<Card background="bg-primary-dark" border="border-primary-dark">
 					<div class="p-6">
 						<h2 class="font-bold text-xl">

@@ -1,18 +1,17 @@
 <script>
-	import Document from '../../components/Document.svelte';
-	import Question from '../../components/Admonitions/Question.svelte';
-	import Accordion from '../../components/Accordion/Accordion.svelte';
-	import AccordionItem from '../../components/Accordion/AccordionItem.svelte';
-	import { getContext, onMount } from 'svelte';
-	import { open } from '../../components/Accordion/stores';
+	import Document from '$components/Document.svelte';
+	import Question from '$components/Admonitions/Question.svelte';
+	import Accordion from '$components/Accordion/Accordion.svelte';
+	import AccordionItem from '$components/Accordion/AccordionItem.svelte';
+	import { open } from '$components/Accordion/stores';
+	import { onMount } from 'svelte';
+	import pages from '../pages.json'
 
 	onMount(() => {
 		console.log($open)
 		open.set(document.location.hash.slice(1) ?? null);
 		console.log($open)
 	});
-
-	let pages = getContext('pages');
 </script>
 
 <svelte:head>

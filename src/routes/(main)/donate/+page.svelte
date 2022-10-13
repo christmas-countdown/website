@@ -1,6 +1,6 @@
 <script>
-	import Button from '../components/Button.svelte';
-	import Link from '../components/Link.svelte';
+	import Button from '$components/Button.svelte';
+	import Link from '$components/Link.svelte';
 </script>
 
 <svelte:head>

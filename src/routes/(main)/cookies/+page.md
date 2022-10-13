@@ -21,6 +21,8 @@
 
 # Cookie use
 
-This website may use [web cookies](https://en.wikipedia.org/wiki/HTTP_cookie) for functional purposes such as storing user preferences. Furthermore, our service providers, such as [Cloudflare](https://www.cloudflare.com/), may save cookies on your device for security, functional, or performance purposes. This website does **not** use cookies for analytical or advertising purposes. Read the [privacy policy](/privacy).
+This website may use [web cookies](https://en.wikipedia.org/wiki/HTTP_cookie) for functional purposes such as storing user preferences.
+Furthermore, our service providers, such as [Cloudflare](https://www.cloudflare.com), may save cookies on your device for security, functional, or performance purposes.
+This website does **not** use cookies for analytical or advertising purposes. Read the [privacy policy](/privacy).
 
 </div>

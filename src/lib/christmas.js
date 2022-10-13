@@ -45,7 +45,7 @@ const getTotal = () => {
 const getWeekday = () => new Intl.DateTimeFormat('en-GB', { weekday: 'long' }).format(christmas());
 const getPercentage = () => ((one_year - (christmas() - now())) / one_year) * 100;
 
-const isToday = () => isSame(now(), christmas());
+const isToday = () => isSame(now(), new Date(`December 25, ${now().getFullYear()} 00:00:00`)); // don't use `christmas()` which would be next year
 const isTomorrow = () => {
 	const xmas = christmas();
 	xmas.setDate(xmas.date - 1);

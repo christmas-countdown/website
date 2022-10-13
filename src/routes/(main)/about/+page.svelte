@@ -1,10 +1,8 @@
 <script>
-	import Box from '../components/Box.svelte';
-	import Left from '../components/Timeline/Left.svelte';
-	import Right from '../components/Timeline/Right.svelte';
+	import Box from '$components/Box.svelte';
+	import Left from '$components/Timeline/Left.svelte';
+	import Right from '$components/Timeline/Right.svelte';
 	import { getContext } from 'svelte';
-
-	let page = getContext('page');
 </script>
 
 <svelte:head>
@@ -83,6 +81,12 @@
 					The new Svelte and TailwindCSS website was released less than 3 weeks later.
 				</p>
 			</Left>
+			<Right>
+				<h3 class="font-semibold text-lg mb-1">2022</h3>
+				<p class="leading-tight">
+					Not much yet.
+				</p>
+			</Right>
 		</div>
 	</div>
 </div>

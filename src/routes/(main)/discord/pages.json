@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Commands",
+		"url": "/discord/commands"
+	},
+	{
+		"name": "Enable the countdown",
+		"url": "/discord/enable-the-countdown"
+	},
+	{
+		"name": "RPC",
+		"url": "/discord/rpc"
+	},
+	{
+		"name": "Secret Santa",
+		"url": "/discord/secret-santa"
+	},
+	{
+		"name": "Timezones",
+		"url": "/discord/timezones"
+	}
+]

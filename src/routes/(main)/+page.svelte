@@ -1,67 +1,30 @@
-<script context="module">
-	import christmas from '$lib/christmas.js';
-	/**
-	 * @type {import('@sveltejs/kit').Load}
-	 */
-	export const load = async () => {
-		return {
-			props: {
-				date: christmas.christmas(),
-				seconds: christmas.getSeconds(),
-				minutes: christmas.getMinutes(),
-				hours: christmas.getHours(),
-				days: christmas.getDays(),
-				sleeps: christmas.getSleeps(),
-				weeks: christmas.getWeeks(),
-				months: christmas.getMonths(),
-				total: christmas.getTotal(),
-				weekday: christmas.getWeekday(),
-				percentage: christmas.getPercentage(),
-				isToday: christmas.isToday(),
-				isTomorrow: christmas.isTomorrow()
-			}
-		};
-	};
-</script>
-
 <script>
-	export let date;
-	export let seconds;
-	export let minutes;
-	export let hours;
-	export let days;
-	export let sleeps;
-	export let weeks;
-	export let months;
-	export let total;
-	export let weekday;
-	export let percentage;
-	export let isToday;
-	export let isTomorrow;
+	export let data;
 
-	import Button from '../components/Button.svelte';
-	import Box from '../components/Box.svelte';
-	import Countdown from '../components/LiveCountdown/Countdown.svelte';
-	import Card from '../components/Card.svelte';
-	import Link from '../components/Link.svelte';
-	import Item from '../components/TimeleftItem.svelte';
+	import Button from '$components/Button.svelte';
+	import Box from '$components/Box.svelte';
+	import Countdown from '$components/LiveCountdown/Countdown.svelte';
+	import Card from '$components/Card.svelte';
+	import Link from '$components/Link.svelte';
+	import Item from '$components/TimeleftItem.svelte';
+	import christmas from '$lib/christmas.js';
 	import { getContext, onMount } from 'svelte';
 
 	onMount(() => {
 		setInterval(() => {
-			date = christmas.christmas();
-			seconds = christmas.getSeconds();
-			minutes = christmas.getMinutes();
-			hours = christmas.getHours();
-			days = christmas.getDays();
-			sleeps = christmas.getSleeps();
-			weeks = christmas.getWeeks();
-			months = christmas.getMonths();
-			total = christmas.getTotal();
-			weekday = christmas.getWeekday();
-			percentage = christmas.getPercentage();
-			isToday = christmas.isToday();
-			isTomorrow = christmas.isTomorrow();
+			data.date = christmas.christmas();
+			data.seconds = christmas.getSeconds();
+			data.minutes = christmas.getMinutes();
+			data.hours = christmas.getHours();
+			data.days = christmas.getDays();
+			data.sleeps = christmas.getSleeps();
+			data.weeks = christmas.getWeeks();
+			data.months = christmas.getMonths();
+			data.total = christmas.getTotal();
+			data.weekday = christmas.getWeekday();
+			data.percentage = christmas.getPercentage();
+			data.isToday = christmas.isToday();
+			data.isTomorrow = christmas.isTomorrow();
 		}, 1000);
 	});
 
@@ -98,7 +61,7 @@
 	>
 		<div class="inner p-2 sm:p-0">
 			<p class="text-3xl mb-4">Christmas is in</p>
-			<p class="font-number text-6xl font-bold mb-4">{sleeps}</p>
+			<p class="font-number text-6xl font-bold mb-4">{data.sleeps}</p>
 			<p class="text-3xl">sleeps</p>
 		</div>
 	</div>
@@ -138,10 +101,10 @@
 			<div id="live" class="select-none text-center text-shadow-lg p-8 md:w-8/12 mx-auto">
 				<div class="my-8 mb-12">
 					<Countdown
-						days={total.days}
-						hours={total.hours}
-						minutes={total.minutes}
-						seconds={total.seconds}
+						days={data.total.days}
+						hours={data.total.hours}
+						minutes={data.total.minutes}
+						seconds={data.total.seconds}
 					/>
 				</div>
 				<div class="my-4">
@@ -154,8 +117,8 @@
 					<Box>
 						<div class="p-6 text-xl text-center h-full flex flex-col justify-center items-center">
 							<span class="p-2">Christmas Day is on a</span>
-							<span class="p-2"><span class="font-bold text-3xl">{weekday}</span></span>
-							<span class="p-2">in {date.getFullYear()}.</span>
+							<span class="p-2"><span class="font-bold text-3xl">{data.weekday}</span></span>
+							<span class="p-2">in {data.date.getFullYear()}.</span>
 						</div>
 					</Box>
 				</div>
@@ -163,21 +126,21 @@
 					<Box>
 						<div class="p-6 text-center">
 							<div class="grid grid-cols-2 sm:grid-cols-3 gap-12 sm:gap-4">
-								<Item name="months" value={Math.round(months * 10) / 10} />
-								<Item name="weeks" value={Math.round(weeks * 10) / 10} />
-								<Item name="sleeps" value={sleeps} />
-								<Item name="days" value={Math.floor(days)} />
-								<Item name="hours" value={Math.floor(hours)} />
-								<Item name="minutes" value={Math.floor(minutes)} />
-								<Item name="seconds" value={Math.floor(seconds)} />
+								<Item name="months" value={Math.round(data.months * 10) / 10} />
+								<Item name="weeks" value={Math.round(data.weeks * 10) / 10} />
+								<Item name="sleeps" value={data.sleeps} />
+								<Item name="days" value={Math.floor(data.days)} />
+								<Item name="hours" value={Math.floor(data.hours)} />
+								<Item name="minutes" value={Math.floor(data.minutes)} />
+								<Item name="seconds" value={Math.floor(data.seconds)} />
 								<div class="sm:col-span-2  w-full">
 									<div class="grid grid-cols-1 gap-0">
-										<p class="font-number text-3xl">{Math.round(percentage * 100) / 100}%</p>
+										<p class="font-number text-3xl">{Math.round(data.percentage * 100) / 100}%</p>
 										<!-- <p class="text-xl">of the way there</p> -->
 										<div class="bg-primary-dark w-full h-2 rounded-lg shadow-xl mt-4">
 											<div
 												class="bg-primary h-full rounded-lg shadow-xl"
-												style="width: {Math.round(percentage * 100) / 100}%;"
+												style="width: {Math.round(data.percentage * 100) / 100}%;"
 											/>
 										</div>
 									</div>

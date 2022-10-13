@@ -1,9 +1,7 @@
 <script>
-	import Document from '../../components/Document.svelte';
-	import Note from '../../components/Admonitions/Note.svelte';
-	import { getContext } from 'svelte';
-
-	let pages = getContext('pages');
+	import Document from '$components/Document.svelte';
+	import Note from '$components/Admonitions/Note.svelte';
+	import pages from '../pages.json'
 </script>
 
 <svelte:head>

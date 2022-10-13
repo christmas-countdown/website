@@ -14,10 +14,20 @@
 
 Please read the [terms of service](/terms) before using the API. 
 
-## Specification
+<!-- ## Specification
 
 |Release date |Version name|Documentation|
 |-------------|------------|-------------|
-|November 2021|`pine`|[SwaggerHub](https://app.swaggerhub.com/apis-docs/eartharoid/christmas-countdown/pine)|
+|November 2021|`pine`|[SwaggerHub](https://app.swaggerhub.com/apis-docs/eartharoid/christmas-countdown/pine)| -->
+
+## Endpoints
+
+### `/api/joke`
+
+Returns a JSON object with a `question` and `answer` property.
+You may optionally specify the joke language with `?language=`.
+The language defaults to `en`, and can be one of:
+
+- `en`
 
 </div>

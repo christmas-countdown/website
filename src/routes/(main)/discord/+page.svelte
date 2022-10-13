@@ -1,12 +1,9 @@
 <script>
-	import Box from '../../components/Box.svelte';
-	import Button from '../../components/Button.svelte';
-	import Card from '../../components/Card.svelte';
-	import Feature from '../../components/Feature.svelte';
-	import Link from '../../components/Link.svelte';
-	import { getContext } from 'svelte';
-
-	let page = getContext('page');
+	import Box from '$components/Box.svelte';
+	import Button from '$components/Button.svelte';
+	import Card from '$components/Card.svelte';
+	import Feature from '$components/Feature.svelte';
+	import Link from '$components/Link.svelte';
 </script>
 
 <svelte:head>

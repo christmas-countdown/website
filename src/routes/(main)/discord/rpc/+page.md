@@ -1,12 +1,9 @@
 <script>
-	import Document from '../../components/Document.svelte';
-	import Button from '../../components/Button.svelte';
-	import Warning from '../..//components/Admonitions/Warning.svelte';
-	import Question from '../..//components/Admonitions/Question.svelte';
-	
-	import { getContext } from 'svelte';
-
-	let pages = getContext('pages');
+	import Document from '$components/Document.svelte';
+	import Button from '$components/Button.svelte';
+	import Warning from '$components/Admonitions/Warning.svelte';
+	import Question from '$components/Admonitions/Question.svelte';
+	import pages from '../pages.json'
 </script>
 
 <svelte:head>

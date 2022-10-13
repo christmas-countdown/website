@@ -1,7 +1,7 @@
 <script>
 	export let title;
 
-	import Box from '../components/Box.svelte';
+	import Box from './Box.svelte';
 </script>
 
 <Box>

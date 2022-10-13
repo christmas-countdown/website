@@ -1,30 +1,9 @@
-<script context="module">
-	const api = 'https://api.christmascountdown.live/pine/joke';
-
-	/** @type {import('@sveltejs/kit').Load} */
-	export async function load({ fetch }) {
-		const res = await fetch(api);
-
-		if (res.ok) {
-			return {
-				props: {
-					joke: await res.json()
-				}
-			};
-		}
-
-		return {
-			status: res.status,
-			error: new Error('API failiure')
-		};
-	}
-</script>
-
 <script>
-	export let joke;
-	import Box from '../components/Box.svelte';
-	import Button from '../components/Button.svelte';
+	export let data;
+	import Box from '$components/Box.svelte';
+	import Button from '$components/Button.svelte';
 
+	let { joke } = data;
 	let flipped = false;
 
 	function flip() {
@@ -33,8 +12,9 @@
 
 	async function getJoke() {
 		flipped = false;
-		const res = await fetch(api);
+		const res = await fetch('/api/joke');
 		joke = await res.json();
+		console.log(joke);
 	}
 </script>
 

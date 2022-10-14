@@ -76,7 +76,7 @@
 						<p>
 							Add the Christmas Countdown bot for Discord to your server to get the number of sleeps
 							left until Christmas sent to the text channel of your choice every morning.
-							<a href="/discord" class="font-semibold hover:underline umami--click--discord"
+							<a href="/discord" class="font-semibold hover:underline"
 								>Learn more <i class="fas fa-arrow-right" /></a
 							>
 						</p>

@@ -112,11 +112,7 @@
 						<p>
 							Add a Christmas Countdown to your Discord presence/status and unlock additional
 							features.
-							<Link href="/discord/rpc">
-								<span class="umami--click--rpc">
-									Learn more <i class="fas fa-arrow-right" />
-								</span>
-							</Link>
+							<Link href="/discord/rpc">Learn more <i class="fas fa-arrow-right" /></Link>
 							<img src="https://static.eartharoid.me/k/22/06/30011959.png" alt="Screenshot" />
 						</p>
 					</div>
@@ -215,9 +211,7 @@
 					</h2>
 					<p>
 						Play Christmas music 24/7 in your Discord server with the
-						<Link href="https://top.gg/bot/648134637654114309">
-							<span class="umami--click--radio">Christmas Radio bot.</span>
-						</Link>
+						<Link href="https://top.gg/bot/648134637654114309">Christmas Radio bot.</Link>
 					</p>
 				</div>
 			</Card>

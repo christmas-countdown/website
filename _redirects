@@ -1,3 +1,3 @@
 /callback https://christmascountdown.live/discord/enable-the-countdown?from=callback
-/discord/add https://discord.com/api/oauth2/authorize?client_id=509851616216875019&permissions=537150464&scope=bot+applications.commands&response_type=code&redirect_uri=https%3A%2F%2Fchristmascountdown.live%2Fcallback
+/discord/add https://discord.com/api/oauth2/authorize?client_id=509851616216875019&permissions=537150480&scope=bot+applications.commands&response_type=code&redirect_uri=https%3A%2F%2Fchristmascountdown.live%2Fcallback
 /invite /discord/add

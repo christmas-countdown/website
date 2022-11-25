@@ -80,7 +80,7 @@
 			</nav>
 		</div>
 	</div>
-	<div class="sm:col-span-3 m-4 sm:m-8 prose">
+	<div class="sm:col-span-3 m-4 sm:m-8 prose sm:prose-lg">
 		<slot />
 	</div>
 </div>

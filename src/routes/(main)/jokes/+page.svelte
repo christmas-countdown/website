@@ -40,7 +40,7 @@
 <div class="my-2 sm:my-4 sm:mx-12 md:mx-32 lg:mx-48 2xl:mx-72 text-center">
 	<div
 		id="joke-card"
-		class="transform transition duration-700 ease-in-out sm:p-8 {flipped ? 'rotate-180' : ''}"
+		class="sm:m-8 transform transition duration-700 ease-in-out cursor-pointer hover:rotate-180 {flipped ? 'rotate-180' : ''}"
 	>
 		<Box>
 			<div class="text-center text-lg font-semibold p-8">

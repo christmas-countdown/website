@@ -35,7 +35,7 @@ Need help? [Join the Discord support server](https://lnk.earth/discord).
 
 The available commands are shown in this screenshot of the `help` command.
 
-![`help` command output](https://static.eartharoid.me/sharex/21/10/bot-help-cmd.png)
+![`help` command output](/help.png)
 
 Click on the commands below to find out more about each one.
 
@@ -77,10 +77,10 @@ No options.
 
 **Required permissions:** `MANAGE_GUILD`
 
-|Name|Type|Required?|Example|Description|
-|-|-|-|-|-|
-|`add`|String|Yes|`@GoodElf`|The member to add to the naughty list|
-|`remove`|String|Yes|`@BadElf`|The member to remove from the naughty list|
+| Name     | Type   | Required? | Example    | Description                                |
+| -------- | ------ | --------- | ---------- | ------------------------------------------ |
+| `add`    | String | Yes       | `@GoodElf` | The member to add to the naughty list      |
+| `remove` | String | Yes       | `@BadElf`  | The member to remove from the naughty list |
 
 </AccordionItem>
 
@@ -132,27 +132,24 @@ No options.
 
 <AccordionItem name="suggest" description="Submit a suggestion">
 
+This command opens a modal form.
+
+No options.
+</AccordionItem>
+
+<AccordionItem name="suggest-joke" description="Submit a new joke">
+
+This command opens a modal form.
+
 #### Options
 
-|Name|Type|Required?|Example|Description|
-|-|-|-|-|-|
-|`suggestion`|String|Yes|`Add a command that ...`|Your suggestion|
+| Name     | Type   | Required? | Example | Description                       |
+| -------- | ------ | --------- | ------- | --------------------------------- |
+| `locale` | String | Yes       | `en-GB` | The locale (language) of the joke |
 
 </AccordionItem>
 
 ## Settings
-
-<AccordionItem name="countdown" description="Create the countdown webhook">
-
-**Required permissions:** `MANAGE_GUILD`
-
-#### Options
-
-|Name|Type|Required?|Example|Description|
-|-|-|-|-|-|
-|`channel`|Channel|No|`#countdown`|The channel to create the webhook in - defaults to current channel|
-
-</AccordionItem>
 
 <AccordionItem name="server set" description="Update your server's settings (timezone, locale etc)">
 
@@ -160,13 +157,13 @@ No options.
 
 #### Options
 
-|Name|Type|Required?|Example|Description|
-|-|-|-|-|-|
-|`auto_toggle`|Boolean|No|`False`|**Premium only** - Automatically toggle the countdown on/off at the start and end of December?|
-|`enabled`|Boolean|No|`True`|Enable the countdown? (Use [`/toggle`](#toggle) shortcut)|
-|`locale`|String|No|`es-ES`|The locale (language) for the server|
-|`mention`|Role|No|`@Christmas`|**Premium only** - The role to mention with the countdown message every morning|
-|`timezone`|String|No|`EST`|The [timezone](./timezones) for the server|
+| Name          | Type    | Required? | Example      | Description                                                                 |
+| ------------- | ------- | --------- | ------------ | --------------------------------------------------------------------------- |
+| `auto_toggle` | Boolean | No        | `False`      | Automatically toggle the countdown on/off at the start and end of December? |
+| `enabled`     | Boolean | No        | `True`       | Enable the countdown? (Use [`/toggle`](#toggle) shortcut)                   |
+| `locale`      | String  | No        | `es-ES`      | The locale (language) for the server                                        |
+| `mention`     | Role    | No        | `@Christmas` | The role to mention with the countdown message every morning                |
+| `timezone`    | String  | No        | `EST`        | The [timezone](./timezones) for the server                                  |
 
 </AccordionItem>
 
@@ -184,6 +181,18 @@ No options.
 No options.
 </AccordionItem>
 
+<AccordionItem name="setup" description="Set up the countdown webhook or widget">
+
+**Required permissions:** `MANAGE_GUILD`
+
+#### Options
+
+| Name        | Type   | Required? | Example   | Description                                             |
+| ----------- | ------ | --------- | --------- | ------------------------------------------------------- |
+| `countdown` | String | Yes       | `Webhook` | `Webhook` or `Widget` - the type of countdown to set up |
+
+</AccordionItem>
+
 <AccordionItem name="toggle" description="Toggle the countdown on/off (same as `enabled` server setting)">
 
 **Required permissions:** `MANAGE_GUILD`
@@ -195,10 +204,10 @@ No options.
 
 #### Options
 
-|Name|Type|Required?|Example|Description|
-|-|-|-|-|-|
-|`locale`|String|No|`es-ES`|Your locale (language)|
-|`timezone`|String|No|`EST`|Your [timezone](./timezones)|
+| Name       | Type   | Required? | Example | Description                  |
+| ---------- | ------ | --------- | ------- | ---------------------------- |
+| `locale`   | String | No        | `es-ES` | Your locale (language)       |
+| `timezone` | String | No        | `EST`   | Your [timezone](./timezones) |
 
 </AccordionItem>
 

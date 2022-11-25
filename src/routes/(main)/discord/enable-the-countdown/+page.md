@@ -11,15 +11,15 @@
 <meta name="twitter:title" content="Enable the countdown • Christmas Countdown" />
 <meta
 		name="description"
-		content="Enable the Discord bot's countdown feature to get the number of sleeps left until Christmas send to a selected channel every morning."
+		content="Enable the Discord bot's countdown feature to get the number of sleeps left until Christmas sent to a selected channel every morning."
 	/>
 <meta
 		name="og:description"
-		content="Enable the Discord bot's countdown feature to get the number of sleeps left until Christmas send to a selected channel every morning."
+		content="Enable the Discord bot's countdown feature to get the number of sleeps left until Christmas sent to a selected channel every morning."
 	/>
 <meta
 		name="twitter:description"
-		content="Enable the Discord bot's countdown feature to get the number of sleeps left until Christmas send to a selected channel every morning."
+		content="Enable the Discord bot's countdown feature to get the number of sleeps left until Christmas sent to a selected channel every morning."
 	/>
 </svelte:head>
 
@@ -27,11 +27,27 @@
 
 # Enable the countdown
 
-1. Create a new text channel which @everyone can read but not write (e.g. `#countdown`)
-2. Type **`/countdown`** in the new channel
-3. Type **`/toggle`** to enable the countdown
+There are currently two types of countdown:
 
-To disable the countdown after Christmas, simply type **`/toggle`** again.
+- **Webhook**: the original countdown, where a message is sent to the countdown channel every morning
+- **Widget**: where the name of a voice channel is updated every hour
+
+## Webhook countdown
+
+To enable the webhook countdown:
+
+1. Create a new text channel in which @everyone can read but not write (e.g. "#countdown")
+2. **Type `/setup countdown: webhook` in the new channel.**
+    This will create a webhook *in the channel you use it in*.
+
+The bot will keep sending messages to this channel until you use `/toggle`.
+If you want it to stop automatically on th 26th December (and start again on the 1st December next year),
+type `/server set auto_toggle: true`.
+
+## Widget countdown
+
+To enable the widget countdown, **type `/setup countdown: widget`.**
+This will create a new (locked) voice channel at the top of your server's channel list.
 
 <Info>
 If the majority of your server members are from the same place, you should **[change the server timezone](./timezones)**.

@@ -30,7 +30,14 @@ module.exports = {
 						'a code': { color: '#D5002C' },
 						'a:hover': { textDecorationStyle: 'solid' },
 						blockquote: { color: 'white' },
-						code: { color: '#D5002C' },
+						code: {
+							backgroundColor: 'rgba(213, 0, 44, 0.4)',
+							borderRadius: '5px',
+							color: 'white',
+							fontWeight: '600',
+							padding: '1px',
+							userSelect: 'all'
+						},
 						color: 'white',
 						h1: { color: 'white' },
 						h2: { color: 'white' },

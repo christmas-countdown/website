@@ -2,8 +2,8 @@ lockfileVersion: 5.4
 
 specifiers:
   '@fortawesome/fontawesome-free': ^6.2.0
-  '@sveltejs/adapter-netlify': ^1.0.0-next.81
-  '@sveltejs/kit': next
+  '@sveltejs/adapter-netlify': 1.0.0-next.81
+  '@sveltejs/kit': 1.0.0-next.515
   '@tailwindcss/typography': ^0.4.1
   autoprefixer: ^10.4.12
   eslint: ^7.32.0

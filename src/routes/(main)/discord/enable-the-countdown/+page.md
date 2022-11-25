@@ -1,6 +1,7 @@
 <script>
 	import Document from '$components/Document.svelte';
 	import Info from '$components/Admonitions/Info.svelte';
+	import Tip from '$components/Admonitions/Tip.svelte';
 	import pages from '../pages.json'
 </script>
 
@@ -27,10 +28,20 @@
 
 # Enable the countdown
 
+<Tip title="TL;DR">
+**Use the [`/setup`](./commands#setup) command**:
+`/setup countdown: webhook`, or
+`/setup countdown: widget`
+</Tip>
+
 There are currently two types of countdown:
 
-- **Webhook**: the original countdown, where a message is sent to the countdown channel every morning
-- **Widget**: where the name of a voice channel is updated every hour
+- [Webhook](#webhook-countdown): the original countdown, where a message is sent to the countdown channel every morning
+- [Widget](#widget-countdown): where the name of a voice channel is updated every hour
+
+Both countdowns can be used simultaneously.
+You may want to set up both at the same time but <abbr title="/server set enabled: false auto_toggle: true">disable the countdown and set it to automatically toggle</abbr>.
+If you do this, you'll have a widget all-year round, and the more prominent webhook will only be enabled between 1st-26th December.
 
 ## Webhook countdown
 

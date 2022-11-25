@@ -52,16 +52,15 @@ This guide is for server administrators.
 
 3. Give the event a name such as the example below.
 
-4. Select a start date for the event. 
-**This is when members will no longer be able to join and the bot will start matching members.**
+4. Select a start date for the event. **This is when members will no longer be able to join and the bot will start matching members.**
 You should give your members at least 2 weeks to prepare and deliver their gift, and a few days to enter before the event date if possible.
 
-5. Enter an event description. If you are doing Secret Santa on a small server with just your friends, use this space to set the spending limit.
+1. Enter an event description. If you are doing Secret Santa on a small server with just your friends, use this space to set the spending limit.
 For large communities where only virtual gifts are being exchanged, describe what gifts are acceptable and where they are to be exchanged.
 For example, a Minecraft server could organise a Secret Santa event for exchanging precious items or building something for each other.
 ![](https://static.eartharoid.me/sharex/21/11/DiscordPTB_7tLCMzy5ho.png)
 
-6. Optionally, copy the event link given by Discord and make an announcement in your Discord server so everyone knows about it.
+1. Optionally, copy the event link given by Discord and make an announcement in your Discord server so everyone knows about it.
 ![](https://static.eartharoid.me/sharex/21/11/DiscordPTB_2yiQDHklZH.png)
 
 

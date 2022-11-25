@@ -38,7 +38,7 @@
 					<hr class="mx-4 my-2 border-gray-700" />
 					<a
 						href="https://lnk.earth/discord"
-						class="px-2 my-1 text-green-400 hover:text-primary transition duration-300 border-transparent text-center"
+						class="px-2 my-1 font-semibold text-green-400 hover:text-primary transition duration-300 border-transparent text-center"
 						title="Discord"
 					>
 						<i class="fas fa-circle-question" />

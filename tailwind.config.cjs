@@ -31,7 +31,7 @@ module.exports = {
 						'a:hover': { textDecorationStyle: 'solid' },
 						blockquote: { color: 'white' },
 						code: {
-							backgroundColor: 'rgba(213, 0, 44, 0.4)',
+							backgroundColor: 'rgba(213, 0, 44, 0.3)',
 							borderRadius: '5px',
 							color: 'white',
 							fontWeight: '600',

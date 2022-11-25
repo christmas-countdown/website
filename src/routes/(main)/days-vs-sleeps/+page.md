@@ -27,7 +27,9 @@
 <meta name="twitter:description" content="The Christmas Countdown projects give two values for the number of days left until Christmas; both numbers are correct but in different circumstances." />
 </svelte:head>
 
-<div class="sm:col-span-3 m-4 sm:m-8 prose mx-auto sm:prose-lg">
+<div class="max-w-2xl mx-auto">
+
+<div class="m-4 sm:m-8 prose sm:prose-lg">
 
 # Days vs sleeps
 
@@ -76,5 +78,7 @@ Rounded up: <span style='color:greenyellow;'>"{sleeps} sleeps"</span>
 <br>Rounded down: <span style='color:greenyellow;'>"{days} days"</span>
 </p>
 </Box>
+
+</div>
 
 </div>

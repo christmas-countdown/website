@@ -17,7 +17,9 @@
 	/>
 </svelte:head>
 
-<div class="sm:col-span-3 m-4 sm:m-8 prose mx-auto sm:prose-lg">
+<div class="max-w-2xl mx-auto">
+
+<div class="m-4 sm:m-8 prose sm:prose-lg">
 
 # Terms of service
 
@@ -33,3 +35,4 @@ The software is provided without warranty and I am not liable for any damages ca
 
 </div>
 
+</div>

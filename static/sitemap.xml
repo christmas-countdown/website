@@ -74,14 +74,6 @@
 		<priority>0.6</priority>
 	</url>
 
-
-	<url>
-		<loc>https://christmascountdown.live/donate</loc>
-		<changefreq>monthly</changefreq>
-		<priority>0.6</priority>
-	</url>
-
-
 	<url>
 		<loc>https://christmascountdown.live/cookies</loc>
 		<changefreq>monthly</changefreq>

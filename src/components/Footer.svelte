@@ -27,7 +27,7 @@
 					<li>
 						<a href="https://lnk.earth/discord" class="hover:underline">Discord server</a>
 					</li>
-					<li><a href="/donate" class="hover:underline">Donate</a></li>
+					<li><a href="https://lnk.earth/donate" class="hover:underline">Donate</a></li>
 					<li>
 						<a href="https://github.com/christmas-countdown" class="hover:underline">GitHub</a>
 					</li>

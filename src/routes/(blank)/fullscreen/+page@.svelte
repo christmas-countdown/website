@@ -41,7 +41,7 @@
 			<p class="font-christmas text-5xl lg:text-7xl 2xl:text-9xl mb-12 sm:mb-16 xl:mb-24">There are only</p>
 			<div class="grid grid-cols-2 md:grid-cols-4 gap-8 sm:gap-28">
 				{#each Object.keys(data.total) as t}
-					<div class="grid grid-cols-1 sm:gap-6">
+					<div class="grid grid-cols-1 sm:gap-2">
 						<p class="font-number text-5xl lg:text-7xl 2xl:text-9xl">{data.total[t]}</p>
 						<p class="font-christmas text-5xl lg:text-7xl 2xl:text-9xl">{@html data.total[t] === 1 ? t.slice(0, -1) + '&nbsp;' : t}</p>
 					</div>

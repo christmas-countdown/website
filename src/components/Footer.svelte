@@ -5,7 +5,14 @@
 
 <Box>
 	<footer class="mt-16 p-8">
-		<div class="grid text-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-4"> <!-- md:grid-cols-4 -->
+		<p class="text-gray-400 text-center text-sm">
+			<a class="font-semibold hover:underline" href="https://unsplash.com/photos/zh7GEuORbUw">Background</a>
+			by
+			<a class="font-semibold hover:underline" href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Annie Spratt</a>
+			on
+			<a class="font-semibold hover:underline" href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+		</p>
+		<div class="grid text-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 my-4"> <!-- md:grid-cols-4 -->
 			<div>
 				<h5 class="font-bold text-gray-400">Information</h5>
 				<ul>

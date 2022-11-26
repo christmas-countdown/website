@@ -5,12 +5,19 @@
 
 <Box>
 	<footer class="mt-16 p-8">
-		<p class="text-gray-400 text-center text-sm">
+		<p class="text-gray-400 text-center text-xs">
+			<a class="font-semibold hover:underline" href="https://www.flaticon.com/free-icon/santa-claus_621873">Logo</a>
+			by
+			<a class="font-semibold hover:underline" href="https://www.flaticon.com/authors/freepik">Freepik</a>
+			on
+			<a class="font-semibold hover:underline" href="https://www.flaticon.com/">Flaticon</a>,
+		</p>
+		<p class="text-gray-400 text-center text-xs">
 			<a class="font-semibold hover:underline" href="https://unsplash.com/photos/zh7GEuORbUw">Background</a>
 			by
 			<a class="font-semibold hover:underline" href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Annie Spratt</a>
 			on
-			<a class="font-semibold hover:underline" href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+			<a class="font-semibold hover:underline" href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>.
 		</p>
 		<div class="grid text-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 my-4"> <!-- md:grid-cols-4 -->
 			<div>

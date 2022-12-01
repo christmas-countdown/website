@@ -1,18 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-:root {
-	--background-color: #0E1518;
-	--background-image: url('https://img.eartharoid.me/insecure/pr:1080p/plain/s3://eartharoid/christmas-countdown/bg/default.jpg@webp');
+@font-face {
+	font-family: 'MerryChristmas';
+	src: url('/fonts/MerryChristmasFlake.woff2');
+	font-weight: bold;
 }
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-	font-family: 'MerryChristmas';
-	src: url('/fonts/MerryChristmasFlake.woff2');
-	font-weight: bold;
+.wavy {
+	text-decoration-line: underline;
+	text-decoration-style: double;
+	text-decoration-color: #D5002C;
+}
+
+:root {
+	--background-color: #0E1518;
+	--background-image: url('https://img.eartharoid.me/insecure/pr:1080p/plain/s3://eartharoid/christmas-countdown/bg/default.jpg@webp');
 }
 
 body {

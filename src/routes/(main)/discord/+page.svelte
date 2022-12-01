@@ -33,12 +33,14 @@
 	</h1>
 
 	<Box>
-		<div class="my-8 text-center p-8">
+		<div class="my-8 p-8 text-center max-w-2xl mx-auto">
 			<div class="my-6">
 				<p>
-					Add the Christmas Countdown bot for Discord to your server to get the number of sleeps
-					left until Christmas sent to a selected channel every morning. The bot has been added to
-					over 8000 Discord servers since 2018.
+					Added to over 8000 Discord servers since 2018, the Christmas Countdown bot for Discord has
+					several core features to help you prepare for and enjoy the festive season, including:
+					<b class="wavy">two types of countdown</b>, a <b class="wavy">Santa Tracker</b>,
+					<b class="wavy">Secret Santa</b> event organisation, Christmas <b class="wavy">jokes</b>,
+					and commands to tell you exactly how long is left until Christmas in your timezone.
 				</p>
 			</div>
 			<div>
@@ -58,34 +60,64 @@
 		<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-4">
 			<Feature title="Daily countdown">
 				<p>
-					Use the <Link href="/discord/enable-the-countdown#webhook-countdown">webhook countdown</Link>
-					to get the number of sleeps left until Christmas sent to the selected channel every morning. 
+					<i>The original feature -</i> use the <Link href="/discord/enable-the-countdown#webhook-countdown"
+						>webhook countdown</Link
+					>
+					to get the number of sleeps left until Christmas sent to the selected channel every morning.
 				</p>
-				<img
-					src="https://static.eartharoid.me/sharex/21/10/bot-countdown.png"
-					alt="Countdown"
-					class="my-4"
-				/>
+				<img src="/daily-countdown.png" alt="Countdown" class="my-4" />
 				<p class="text-right">
-					<Link href="/discord/enable-the-countdown#webhook-countdown"
-						>Learn more <i class="fas fa-arrow-right" /></Link
+					<a
+						href="/discord/enable-the-countdown#webhook-countdown"
+						class="font-bold hover:underline">Learn more <i class="fas fa-arrow-right" /></a
 					>
 				</p>
 			</Feature>
-			<Feature title="Countdown widget">
-				<p>
-					If you want a more subtle countdown, you can use the
-					<Link href="/discord/enable-the-countdown#widget-countdown">widget countdown</Link>
-					to display the number of sleeps or hours left until Christmas at the top of your server's channel list.
-				</p>
-				<img src="https://static.eartharoid.me/x/2022/11/DiscordPTB_B1tbcBraex.png" alt="Widget" class="my-4" />
-				<img src="https://static.eartharoid.me/x/2022/11/puQNAIq8rp.png" alt="Widget" class="my-4" />
-				<p class="text-right">
-					<Link href="/discord/enable-the-countdown#widget-countdown"
-						>Learn more <i class="fas fa-arrow-right" /></Link
-					>
-				</p>
-			</Feature>
+			<Box>
+				<div class="p-6">
+					<h3 class="font-bold text-xl mb-2">
+						Santa tracker
+						<span class="uppercase font-bold p-1 px-2 text-xs rounded-xl bg-primary">
+							Experimental
+						</span>
+					</h3>
+					<p>
+						Check Santa's location with a message that updates every few minutes on Christmas Eve.
+						<i>Requires the webhook countdown to be enabled.</i>
+					</p>
+					<img src="/santa-tracker.png" alt="Commands" class="my-4" />
+				</div>
+			</Box>
+			<Box>
+				<div class="p-6">
+					<h3 class="font-bold text-xl mb-2">
+						Countdown widget
+						<span class="uppercase font-bold p-1 px-2 text-xs rounded-xl bg-primary"> New </span>
+					</h3>
+					<p>
+						If you want a more subtle countdown, you can use the
+						<Link href="/discord/enable-the-countdown#widget-countdown">widget countdown</Link>
+						to display the number of sleeps or hours left until Christmas at the top of your server's
+						channel list.
+					</p>
+					<img
+						src="https://static.eartharoid.me/x/2022/11/DiscordPTB_B1tbcBraex.png"
+						alt="Widget"
+						class="my-4"
+					/>
+					<img
+						src="https://static.eartharoid.me/x/2022/11/puQNAIq8rp.png"
+						alt="Widget"
+						class="my-4"
+					/>
+					<p class="text-right">
+						<a
+							href="/discord/enable-the-countdown#widget-countdown"
+							class="font-bold hover:underline">Learn more <i class="fas fa-arrow-right" /></a
+						>
+					</p>
+				</div>
+			</Box>
 			<Feature title="Time left to Christmas in...">
 				<p>months, weeks, sleeps, days, hours, minutes, seconds, or the total time left.</p>
 				<img
@@ -101,10 +133,12 @@
 			</Feature>
 			<Box>
 				<div class="p-6">
-					<span class="uppercase font-bold p-1.5 text-sm rounded-lg bg-primary">
-						Experimental
-					</span>
-					<h3 class="font-bold text-xl mt-3 mb-2">Secret Santa</h3>
+					<h3 class="font-bold text-xl mb-2">
+						Secret Santa
+						<span class="uppercase font-bold p-1 px-2 text-xs rounded-xl bg-primary">
+							Experimental
+						</span>
+					</h3>
 					<p>
 						Whether it's for a small group of friends who are sharing physical presents, or a large
 						community exchanging virtual gifts (such as in-game items), this <span class="italic"
@@ -112,7 +146,9 @@
 						> feature makes it easy to organise a Secret Santa event.
 					</p>
 					<p class="text-right">
-						<Link href="/discord/secret-santa">Learn more <i class="fas fa-arrow-right" /></Link>
+						<a href="/discord/secret-santa" class="font-bold hover:underline"
+							>Learn more <i class="fas fa-arrow-right" /></a
+						>
 					</p>
 				</div>
 			</Box>
@@ -124,7 +160,9 @@
 						<p>
 							Add a Christmas Countdown to your Discord presence/status and unlock additional
 							features.
-							<Link href="/discord/rpc">Learn more <i class="fas fa-arrow-right" /></Link>
+							<a href="/discord/rpc" class="font-bold hover:underline"
+								>Learn more <i class="fas fa-arrow-right" /></a
+							>
 							<img src="https://static.eartharoid.me/k/22/06/30011959.png" alt="Screenshot" />
 						</p>
 					</div>
@@ -137,7 +175,7 @@
 					command to get a random Christmas joke.
 				</p>
 				<img
-					src="https://static.eartharoid.me/sharex/21/10/bot-joke-cmd.png"
+					src="/joke.png"
 					alt="Joke"
 					class="my-4"
 				/>
@@ -147,13 +185,10 @@
 					Set your server's and your personal timezone to make the countdown and commands more
 					accurate.
 				</p>
-				<p>
-					You can also customise the bot by changing your server's and personal language.
-				</p>
+				<p>You can also customise the bot by changing your server's and personal language.</p>
 				<br />
 				<p>
-					All timezones are supported, and there are currently 9 supported languages.
-					You can
+					All timezones are supported, and there are currently 9 supported languages. You can
 					<Link href="https://hosted.weblate.org/engage/christmas-countdown/">
 						contribute on Weblate
 					</Link>
@@ -161,28 +196,11 @@
 				</p>
 				<br />
 				<p class="text-right">
-					<Link href="/discord/timezones">
+					<a href="/discord/timezones" class="font-bold hover:underline">
 						Learn more <i class="fas fa-arrow-right" />
-					</Link>
+					</a>
 				</p>
 			</Feature>
-			<Box>
-				<div class="p-6">
-					<span class="uppercase font-bold p-1.5 text-sm rounded-lg bg-primary">
-						Experimental
-					</span>
-					<h3 class="font-bold text-xl mt-3 mb-2">Santa tracker</h3>
-					<p>
-						Check Santa's location with a message that updates every few minutes on Christmas Eve.
-						<i>Requires the webhook countdown to be enabled.</i>
-					</p>
-					<img
-						src="https://static.eartharoid.me/sharex/21/12/bot-tracker.png"
-						alt="Commands"
-						class="my-4"
-					/>
-				</div>
-			</Box>
 		</div>
 	</div>
 	<div class="text-center my-12">

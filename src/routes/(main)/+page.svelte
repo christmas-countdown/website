@@ -62,7 +62,7 @@
 		<div class="inner p-2 sm:p-0">
 			<p class="text-3xl mb-4">Christmas is in</p>
 			<p class="font-number text-6xl font-bold mb-4">{data.sleeps}</p>
-			<p class="text-3xl">sleeps</p>
+			<p class="text-3xl">{data.sleeps === 1 ? 'sleep' : 'sleeps'}</p>
 		</div>
 	</div>
 

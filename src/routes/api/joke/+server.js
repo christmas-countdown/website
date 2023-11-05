@@ -1,4 +1,7 @@
-import { error } from '@sveltejs/kit';
+import {
+	error,
+	json
+} from '@sveltejs/kit';
 import en from './en.json';
 
 const jokes = { en };
@@ -9,6 +12,6 @@ export function GET({ url }) {
 	if (lang && !Object.keys(jokes).includes(lang)) throw error(400, `Error: "${lang}" is not a supported language. Must be one of: ${Object.keys(jokes).join()}`);
 	else lang = 'en';
 	const random = jokes[lang][Math.floor(Math.random() * jokes[lang].length)];
-	return new Response(JSON.stringify(random), { headers: { 'content-type': 'application/json' } });
+	return json(JSON.stringify(random));
 }
 

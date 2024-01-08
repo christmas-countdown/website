@@ -29,9 +29,11 @@
 # Enable the countdown
 
 <Tip title="TL;DR">
+
 **Use the [`/setup`](./commands#setup) command**:
 `/setup countdown: webhook`, or
 `/setup countdown: widget`
+
 </Tip>
 
 There are currently two types of countdown:
@@ -61,7 +63,10 @@ To enable the widget countdown, **type `/setup countdown: widget`.**
 This will create a new (locked) voice channel at the top of your server's channel list.
 
 <Info>
-If the majority of your server members are from the same place, you should **[change the server timezone](./timezones)**.
+
+If the majority of your server members are from the same place,
+you should **[change the server timezone](./timezones)**.
+
 </Info>
 
 </Document>

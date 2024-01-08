@@ -31,7 +31,9 @@
 ## Server timezones
 
 <Note>
+
 If you have an international community it is better to leave the timezone as the default (`UTC`).
+
 </Note>
 
 The server timezone will be used for the automatic countdown, and as a default for commands if a user does not have a personal timezone set.

@@ -57,7 +57,9 @@ To get started, download the appropriate file for your system from [the GitHub r
 You can find installation instructions, a troubleshooting guide, and more information on [GitHub](https://github.com/christmas-countdown/rpc#readme).
 
 <Question title="Help">
+
 Need help? [Join the Discord support server](https://lnk.earth/discord).
+
 </Question>
 
 </Document>

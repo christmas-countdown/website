@@ -30,12 +30,14 @@
 # Commands
 
 <Question title="Help">
+
 Need help? [Join the Discord support server](https://lnk.earth/discord).
+
 </Question>
 
 The available commands are shown in this screenshot of the `help` command.
 
-![`help` command output](/help.png)
+![help command output](/help.png)
 
 Click on the commands below to find out more about each one.
 

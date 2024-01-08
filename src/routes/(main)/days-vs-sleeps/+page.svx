@@ -34,7 +34,9 @@
 # Days vs sleeps
 
 <Note title="TL;DR">
+
 **The number of sleeps left is always one more than the number of days** as it is rounded up instead of down.
+
 </Note>
 
 The Christmas Countdown projects give two values for the number of days left until Christmas:
@@ -50,8 +52,10 @@ However, if you just want the number of days left until Christmas, it makes more
 This way there will be 1 sleep left on Christmas Eve, instead of saying 0 days.
 
 <Tip>
+
 **The number of sleeps left _is_ the number of days left, but rounded up.**
 It is just a different name to avoid confusion between the two numbers.
+
 </Tip>
 
 The [_Christmas Countdown bot for Discord_](/discord)'s countdown feature gives the number of **sleeps** left as the message is sent early in the morning at the start of each day.

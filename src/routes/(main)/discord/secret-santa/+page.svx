@@ -36,9 +36,11 @@ An administrator creates a scheduled event and server members can use the "Inter
 At the scheduled time, the bot will take all of the members who have registered interest and assign each another member to give a gift to.
 
 <Warning>
+
 Make sure you read the guide carefully.
 The location **must** be `Christmas Countdown`,
 and **the event start time is when users will be paired** by the bot, not when users will give or open their gifts.  
+
 </Warning>
 
 ## Setting it up
@@ -65,8 +67,10 @@ For example, a Minecraft server could organise a Secret Santa event for exchangi
 
 
 <Tip>
+
 Depending on the nature of your Discord server,
 you may also want to **schedule a second event** (in a voice channel, on a Minecraft server etc) on or before Christmas Day **to exchange gifts**.
+
 </Tip>
 
 ## How members view who they are assigned to

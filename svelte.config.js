@@ -10,7 +10,11 @@ const config = {
 	kit: {
 		// https://kit.svelte.dev/docs/adapter-cloudflare#notes
 		// _redirects doesn't work for SvelteKit/function-handled routes
-		adapter: adapter(),
+		adapter: adapter({
+			routes: {
+				exclude: ["<all>", "/callback", "/discord/add", "/invite"]
+			}
+		}),
 		alias: {
 			$components: './src/components',
 			$lib: './src/lib'

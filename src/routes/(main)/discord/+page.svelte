@@ -209,8 +209,8 @@
 			<a href="/discord/add" class="umami--click--add2">
 				<Button colour="bg-blurple" text="Add to Discord" icon="fab fa-discord" />
 			</a>
-			<a href="https://actiniumcloud.com" class="font-semibold text-sm hover:underline m-2">
-				<img src="/actinium.png" alt="ActiniumCloud" class="h-8 inline" />Powered by ActiniumCloud
+			<a href="https://www.bytebaked.com" class="font-semibold text-sm hover:underline m-2">
+				<img src="/bytebaked-white-nobg.png" alt="Bytebaked" class="h-8 inline" />Powered by Bytebaked
 			</a>
 		</p>
 	</div>

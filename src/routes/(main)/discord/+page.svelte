@@ -36,7 +36,7 @@
 		<div class="my-8 p-8 text-center max-w-2xl mx-auto">
 			<div class="my-6">
 				<p>
-					Added to over 8000 Discord servers since 2018, the Christmas Countdown bot for Discord has
+					Added to over 10,000 Discord servers since 2018, the Christmas Countdown bot for Discord has
 					several core features to help you prepare for and enjoy the festive season, including:
 					<b class="wavy">two types of countdown</b>, a <b class="wavy">Santa Tracker</b>,
 					<b class="wavy">Secret Santa</b> event organisation, Christmas <b class="wavy">jokes</b>,
@@ -44,7 +44,7 @@
 				</p>
 			</div>
 			<div>
-				<a href="/discord/add" class="umami--click--add1">
+				<a href="/discord/add" class="umami--click--add1" rel="external" data-sveltekit-reload>
 					<Button colour="bg-blurple" text="Add to Discord" icon="fab fa-discord" />
 				</a>
 				<a href="/discord/commands" class="umami--click--commands">
@@ -206,7 +206,7 @@
 	<div class="text-center my-12">
 		<p class="my-4">All of these features are available for free.</p>
 		<p>
-			<a href="/discord/add" class="umami--click--add2">
+			<a href="/discord/add" class="umami--click--add2" rel="external" data-sveltekit-reload>
 				<Button colour="bg-blurple" text="Add to Discord" icon="fab fa-discord" />
 			</a>
 			<a href="https://www.bytebaked.com" class="font-semibold text-sm hover:underline m-2">

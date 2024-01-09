@@ -31,7 +31,7 @@
 			<p>
 				This started as a single web page with smashed together code because I (eartharoid) wanted
 				something pretty to put on my 7" Raspberry Pi touchscreen. The Christmas Countdown website
-				now has thousands of visitors and the bot has been added to over 8000 servers.
+				now has thousands of visitors and the bot has been added to over 10,000 servers.
 			</p>
 		</div>
 	</Box>
@@ -76,17 +76,30 @@
 				<h3 class="font-semibold text-lg mb-1">2021</h3>
 				<p class="leading-tight">
 					In early October, the Discord bot was rewritten for the third time. The v4 Discord bot was
-					released in the week before Halloween, with Discord's slash commands, some new commands,
-					and general user improvements.
-					The new Svelte and TailwindCSS website was released less than 3 weeks later.
+					released in the week before Halloween, with Discord's slash commands, some new features
+					(including Secret Santa, Santa Tracker, and jokes), and general user improvements. The new
+					Svelte and TailwindCSS website was released less than 3 weeks later.
 				</p>
 			</Left>
 			<Right>
 				<h3 class="font-semibold text-lg mb-1">2022</h3>
 				<p class="leading-tight">
-					Not much yet.
+					Minor improvements to the Discord bot, and a new voice channel countdown widget.
+					<a class="font-bold hover:underline" href="https://github.com/christmas-countdown/rpc"
+						>Christmas Countdown RPC</a
+					> is released in June.
 				</p>
 			</Right>
+			<Left>
+				<h3 class="font-semibold text-lg mb-1">2023</h3>
+				<p class="leading-tight">
+					On 6th December, the Discord bot finally passed 10,000 servers for the first time (<a
+						class="font-bold hover:underline"
+						href="https://static.eartharoid.me/x/2024/01/firefox_W6HEFb8Gex.png"
+						>or maybe the second?</a
+					>), and very nearly reached 11,000 (10,980).
+				</p>
+			</Left>
 		</div>
 	</div>
 </div>

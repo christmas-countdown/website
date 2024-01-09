@@ -1,4 +1,5 @@
 import { error } from '@sveltejs/kit';
+
 /**
  * @type {import('@sveltejs/kit').Load}
  */

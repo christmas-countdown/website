@@ -1,4 +1,5 @@
 <script>
+	import Note from '$components/Admonitions/Note.svelte';
 	import Warning from '$components/Admonitions/Warning.svelte';
 	import Accordion from '$components/Accordion/Accordion.svelte';
 	import AccordionItem from '$components/Accordion/AccordionItem.svelte';
@@ -41,6 +42,16 @@ Please read the [terms of service](/terms) before using the API.
 ## Endpoints
 
 Click on the cards to view more information about each endpoint.
+
+<Note>
+
+Except for [`/joke`](#/joke), all endpoints have an IP-based rate limit of **2 requests per 10 seconds.**
+If you exceed this limit, you will be blocked for 10 seconds.
+To make your own live countdown, use [christmas.js](https://github.com/christmas-countdown/christmas.js).
+Jokes are not rate-limited.
+
+
+</Note>
 
 <Accordion prefix="/api">
 

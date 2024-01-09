@@ -1,5 +1,8 @@
 /* eslint-disable sort-keys */
 import christmas from '$lib/christmas.js';
+
+export const prerender = true;
+
 /**
  * @type {import('@sveltejs/kit').Load}
  */

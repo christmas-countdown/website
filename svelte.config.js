@@ -18,7 +18,15 @@ const config = {
 		alias: {
 			$components: './src/components',
 			$lib: './src/lib'
-		}
+		},
+		prerender: {
+			crawl: false,
+			handleMissingId: 'warn',
+			origin: 'https://christmascountdown.live',
+		},
+		serviceWorker: {
+			register: true,
+		},
 		// hydrate the <div id="svelte"> element in src/app.html
 		// target: '#svelte'
 	},

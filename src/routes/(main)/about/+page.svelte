@@ -85,7 +85,7 @@
 				<h3 class="font-semibold text-lg mb-1">2022</h3>
 				<p class="leading-tight">
 					Minor improvements to the Discord bot, and a new voice channel countdown widget.
-					<a class="font-bold hover:underline" href="https://github.com/christmas-countdown/rpc"
+					<a class="font-bold hover:underline" href="/discord/rpc"
 						>Christmas Countdown RPC</a
 					> is released in June.
 				</p>

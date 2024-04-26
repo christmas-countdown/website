@@ -209,8 +209,8 @@
 			<a href="/discord/add" class="umami--click--add2" rel="external" data-sveltekit-reload>
 				<Button colour="bg-blurple" text="Add to Discord" icon="fab fa-discord" />
 			</a>
-			<a href="https://www.bytebaked.com" class="font-semibold text-sm hover:underline m-2">
-				<img src="/bytebaked-white-nobg.png" alt="Bytebaked" class="h-8 inline" />Powered by Bytebaked
+			<a href="https://fourseasonshosting.com/?ref=eartharoid" class="font-semibold text-sm hover:underline m-2">
+				<img src="/four-seasons-hosting.png" alt="" class="h-12 p-2 inline" />Sponsored by Four Seasons Hosting
 			</a>
 		</p>
 	</div>
